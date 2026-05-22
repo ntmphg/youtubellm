@@ -1,6 +1,6 @@
 # LLM YouTube Channel Tracker
 
-> **Live site:** https://ntmphg-youtube-tracker.up.railway.app/_
+> **Live site:** https://ntmphg-youtube-tracker.up.railway.app/
 > **Repository:** https://github.com/ntmphg/youtubellm 
 
 A self-updating dashboard that watches eight popular LLM-focused YouTube channels,
@@ -331,9 +331,6 @@ trending topics, contrasts, cross-references) is inspected manually:
 
 
 ## 6. Experimental Results
-
-> **The candidate fills in their actual numbers here after running the eval.
-> Template values below show the expected shape.**
 
 ### 6.1 `is_llm_related` agreement
 
