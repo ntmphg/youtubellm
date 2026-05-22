@@ -27,7 +27,7 @@
 </head>
 <body>
   <h1>LLM YouTube Channel Tracker</h1>
-  <p class="meta">Last updated: {{ last_updated }} · {{ videos|length }} videos indexed</p>
+  <p class="meta">Last updated: {{ last_updated | hkt_full }} · {{ videos|length }} videos indexed</p>
 
   {% if relationships %}
   <div class="relationships">
@@ -77,7 +77,7 @@
       <tr>
         <td>{{ v.channel }}</td>
         <td><a href="{{ v.url }}" target="_blank">{{ v.title }}</a></td>
-        <td>{{ v.published[:10] }}</td>
+        <td>{{ v.published | hkt_date }}</td>
         <td>
           <div class="topics">
             {% for t in v.summary.topics %}
