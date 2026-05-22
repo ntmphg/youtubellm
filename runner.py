@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import datetime
 import re
 import subprocess
@@ -20,8 +21,11 @@ OUTPUT_PATH = ROOT / "data" / "videos.json"
 SKIPPED_PATH = ROOT / "data" / "skipped.json"
 RELATIONSHIPS_PATH = ROOT / "data" / "relationships.json"
 
-# OpenClaw youtube-watcher skill — installed via `openclaw skills install youtube-watcher`
-SKILL_SCRIPT = Path.home() / ".openclaw" / "workspace" / "skills" / "youtube-watcher" / "scripts" / "get_transcript.py"
+# Transcript script: prefer the OpenClaw skill if installed (local dev),
+# otherwise fall back to the vendored copy in this repo (Railway / fresh clones).
+_OPENCLAW_SCRIPT = Path.home() / ".openclaw" / "workspace" / "skills" / "youtube-watcher" / "scripts" / "get_transcript.py"
+_LOCAL_SCRIPT = ROOT / "scripts" / "get_transcript.py"
+SKILL_SCRIPT = _OPENCLAW_SCRIPT if _OPENCLAW_SCRIPT.exists() else _LOCAL_SCRIPT
 
 RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 MAX_TRANSCRIPT_CHARS = 30000
@@ -90,7 +94,7 @@ def fetch_transcript(video_url):
     """Invokes the OpenClaw youtube-watcher skill's get_transcript.py."""
     try:
         result = subprocess.run(
-            ["python", str(SKILL_SCRIPT), video_url],
+            [sys.executable, str(SKILL_SCRIPT), video_url],
             capture_output=True, text=True, timeout=120
         )
         if result.returncode != 0:
