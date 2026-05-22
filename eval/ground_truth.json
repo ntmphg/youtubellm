@@ -1,0 +1,95 @@
+{
+  "_description": "Hand-labelled subset for evaluating Gemini's output. Watch each video, then fill in is_llm_related, topics, and narrator_view (1-2 sentences in your own words: what does the creator actually argue?).",
+  "labels": [
+    {
+      "video_id": "3FzB0x8-PqE",
+      "channel": "AI Engineering Topics",
+      "title": "The Machine That Teaches Itself Is This the End of Programming",
+      "url": "https://youtube.com/watch?v=3FzB0x8-PqE",
+      "is_llm_related": true,
+      "topics": ["machine learning", "classification", "machine learning vs traditional programming", "algorithms"],
+      "narrator_view": "the narrator expresses a positive view about the evolution of machine learning regarding its adaptibility, expansion, as a new way of thinking, yet brings critical challanges of machine learning such as algorithm bias, black box models, accountability.",
+      "notes": ""
+    },
+    {
+      "video_id": "B_RrXwDupIg",
+      "channel": "IBM Technology",
+      "title": "CAG vs Long Context: How AI Models Use and Remember Information",
+      "url": "https://youtube.com/watch?v=B_RrXwDupIg",
+      "is_llm_related": true,
+      "topics": ["llm", "RAG", "long context", "CAG", "prompt caching"],
+      "narrator_view": "The narrator shows that while context window size raising with time, the cost to fit the whole context window must be high and time consuming, causing lost in the middle effect. Then positively shift to the caches augmented generation, how the model understood and encoded everything it reads, as it keeps stable knowledge base. ",
+      "notes": ""
+    },
+    {
+      "video_id": "Fl6QT86n1P4",
+      "channel": "Better Stack",
+      "title": "Why Anthropic Banned Every Third-Party Claude Tool",
+      "url": "https://youtube.com/watch?v=Fl6QT86n1P4",
+      "is_llm_related": true,
+      "topics": ["claude code", "anthropic", "billing", "cost", "API", "agents"],
+      "narrator_view": "the narrator gives a negatve view regarding Anthropic's new programmatic credit sytem, suggesting in that way, users costs more while previously the third-party tools are included. that would also expand the Anthropic's eco system.'",
+      "notes": ""
+    },
+    {
+      "video_id": "kEZfwKerT8g",
+      "channel": "Will Francis",
+      "title": "Build AI Agents With Claude in 10 Minutes #ai #claude #aiagents",
+      "url": "https://youtube.com/watch?v=kEZfwKerT8g",
+      "is_llm_related": true,
+      "topics": ["AI agent", "Claude", "Cowork", "Sonnet"],
+      "narrator_view": "The narrator presents a structural list of steps to build AI agent on each own device, and some tips for efficient and token-saving.",
+      "notes": ""
+    },
+    {
+      "video_id": "BedAaB1RKgE",
+      "channel": "IBM Technology",
+      "title": "MCP vs ADK: How Modern AI Agents Connect and Work Together",
+      "url": "https://youtube.com/watch?v=BedAaB1RKgE",
+      "is_llm_related": true,
+      "topics": ["MCP", "ADK", "agent", "API", "database", "orchestration", "connectivity"],
+      "narrator_view": "the narrators give positive view about how MCP from Anthropic give LLM access, how agent communicate with outside world and ADK from Google actually structure agents together, the framework of agent itself",
+      "notes": ""
+    },
+    {
+      "video_id": "mQOVClrY-_s",
+      "channel": "Will Francis",
+      "title": "Why most people use AI wrong for research #shorts #ai",
+      "url": "https://youtube.com/watch?v=mQOVClrY-_s",
+      "is_llm_related": false,
+      "topics": [],
+      "narrator_view": "",
+      "notes": ""
+    },
+    {
+      "video_id": "ZHXt0-_gSj4",
+      "channel": "3Blue1Brown",
+      "title": "Tie random ends: How many loops?",
+      "url": "https://youtube.com/watch?v=ZHXt0-_gSj4",
+      "is_llm_related": false,
+      "topics": [],
+      "narrator_view": "",
+      "notes": "Skipped by model — only fill is_llm_related + narrator_view."
+    },
+    {
+      "video_id": "CoxZ_txaRDE",
+      "channel": "AI Engineering Topics",
+      "title": "The Alchemists Secret - Can Data Really Predict the Future? (And Why Youre Already Using It)",
+      "url": "https://youtube.com/watch?v=CoxZ_txaRDE",
+      "is_llm_related": false,
+      "topics": [],
+      "narrator_view": "",
+      "notes": "Skipped by model — only fill is_llm_related + narrator_view."
+    },
+    {
+      "video_id": "dfDgh-q6HYk",
+      "channel": "AI Engineering Topics",
+      "title": "MLOps in Action Monitoring Maintenance Lifecycle Management for AI",
+      "url": "https://youtube.com/watch?v=dfDgh-q6HYk",
+      "is_llm_related": false,
+      "topics": [],
+      "narrator_view": "",
+      "notes": "Skipped by model — only fill is_llm_related + narrator_view."
+    }
+  ]
+}
