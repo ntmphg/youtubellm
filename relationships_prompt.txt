@@ -1,0 +1,49 @@
+You are analysing a collection of summaries from recent LLM-focused YouTube videos.
+
+Each summary has: video_id, channel, title, and a structured summary (topics, stance, key_claims, related_to, novelty).
+
+Your job is to identify how these videos RELATE TO EACH OTHER. Look for shared themes, implicit responses, contrasts in stance, and recurring topics across channels.
+
+Return ONLY a JSON object with these fields:
+
+{
+  "topic_clusters": [
+    {
+      "theme": "short label, e.g. 'AI agent frameworks' or 'Model Context Protocol'",
+      "video_ids": ["id1", "id2", ...],
+      "channels": ["channel name", ...],
+      "synthesis": "one or two sentences describing what these videos collectively argue about this theme"
+    }
+  ],
+  "trending_topics": [
+    {
+      "topic": "short topic name",
+      "video_count": 3,
+      "channels": ["channel name", ...]
+    }
+  ],
+  "contrasts": [
+    {
+      "video_ids": ["id1", "id2"],
+      "disagreement": "one sentence describing the contrast in stance or claims"
+    }
+  ],
+  "cross_references": [
+    {
+      "from_video_id": "id",
+      "from_channel": "channel name",
+      "references": "name of the channel/creator/company being referenced",
+      "context": "what is said about them"
+    }
+  ]
+}
+
+Rules:
+- Only include clusters with 2+ videos. Skip singletons.
+- Only include trending topics that appear in 2+ different channels.
+- Only include contrasts where the disagreement is substantive, not stylistic.
+- Skip any section that has no real entries — return an empty array `[]`.
+- Return only the JSON object, no preamble, no markdown fences.
+
+SUMMARIES:
+{summaries}

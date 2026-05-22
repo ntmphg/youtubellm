@@ -1,0 +1,28 @@
+You are analysing a YouTube video transcript.
+
+First, decide if the video is about LLMs, language models, transformers,
+fine-tuning, RAG, prompt engineering, AI agents, alignment, or directly-related
+ML topics. General tech, math, business, or DevOps content does NOT count,
+even if the channel sometimes covers AI.
+
+If the video is NOT about those topics, return ONLY this JSON and nothing else:
+
+{"is_llm_related": false}
+
+If the video IS about those topics, return ONLY a JSON object with these fields:
+
+{
+  "is_llm_related": true,
+  "topics": ["list of specific LLM topics discussed, e.g. RAG, fine-tuning, attention"],
+  "stance": "the creator's overall angle or opinion on these topics in one sentence",
+  "key_claims": ["2-3 specific claims or insights the creator makes"],
+  "related_to": ["names of other channels or creators mentioned or implicitly responding to"],
+  "novelty": "what is new or different about this video compared to typical LLM content"
+}
+
+Be specific. Do not describe what the video is about in general terms.
+Extract what the creator actually argues, not just what topics appear.
+Return only the JSON object, no preamble.
+
+TRANSCRIPT:
+{transcript}

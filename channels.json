@@ -1,0 +1,14 @@
+{
+  "channels": [
+    { "name": "AI Engineering Topics", "id": "UC1fCeT_gj668AGPNCGi_19Q" },
+    { "name": "Matthew Berman", "id": "UCawZsQWqfGSbCI5yjkdVkTA" },
+    { "name": "IBM Technology", "id": "UCKWaEZ-_VweaEx1j62do_vQ" },
+    { "name": "Yannic Kilcher", "id": "UCZHmQk67mSJgfCCTn7xBfew" },
+    { "name": "Nicholas Renotte", "id": "UCHXa4OpASJEwrHrLeIzw7Yg" },
+    { "name": "Will Francis", "id": "UCkPZZakcxSgc-Jg1xBCum3A" },
+    { "name": "3Blue1Brown", "id": "UCYO_jab_esuFRV4b17AJtAw" },
+    { "name": "Better Stack", "id": "UCkVfrGwV-iG9bSsgCbrNPxQ" }
+  ],
+  "lookback_days": 30,
+  "max_videos_per_channel": 3
+}
