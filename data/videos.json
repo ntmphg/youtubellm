@@ -1,6 +1,195 @@
 {
   "items": [
     {
+      "channel": "AI Engineering Topics",
+      "video_id": "jtHXi2ANgMY",
+      "title": "Cracking Categorical Data The Power of Chi-Squared Tests",
+      "url": "https://www.youtube.com/watch?v=jtHXi2ANgMY",
+      "published": "2026-05-26T00:12:44+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "categorical data analysis",
+          "chi-squared test",
+          "goodness-of-fit",
+          "test of independence",
+          "AI bias"
+        ],
+        "stance": "The creator argues that traditional numerical analysis is insufficient and that chi-squared tests are crucial for uncovering hidden patterns and relationships in categorical data, especially for understanding AI bias and complex societal dynamics.",
+        "key_claims": [
+          "Traditional statistical methods focused on numerical data often overlook critical insights hidden in categorical distinctions, leading to incomplete conclusions.",
+          "The chi-squared test (goodness-of-fit and test of independence) is an indispensable tool for uncovering patterns and associations in categorical data, with significant implications for fields like AI bias detection and understanding social media trends.",
+          "Failing to leverage categorical analysis is a critical strategic blunder in an era defined by data-driven insights."
+        ],
+        "related_to": [],
+        "novelty": "The video frames a fundamental statistical concept (chi-squared tests) as a critical, underutilized tool for addressing contemporary issues like AI bias and disinformation, arguing against the prevailing \"numerical obsession\" in data analysis."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "bwvcWI6WOJE",
+      "title": "Beyond Neurons - What Makes Deep Learning Deep?",
+      "url": "https://www.youtube.com/watch?v=bwvcWI6WOJE",
+      "published": "2026-05-25T23:53:40+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "deep learning",
+          "neural networks",
+          "feature extraction",
+          "hierarchical representations"
+        ],
+        "stance": "The creator's angle is to demystify deep learning by explaining that its 'depth' refers to its layered architecture and hierarchical feature extraction capabilities.",
+        "key_claims": [
+          "Deep learning's effectiveness stems from its multi-layered organization, where each layer progressively extracts more meaningful features.",
+          "The 'depth' in deep learning signifies the number of layers, enabling more intricate and hierarchical representations of data.",
+          "Deep learning models autonomously discover relevant features at multiple levels of abstraction, unlike traditional machine learning where features are hand-crafted."
+        ],
+        "related_to": [],
+        "novelty": "The video's novelty lies in its clear and simplified analogy of a cat recognition task to illustrate the concept of hierarchical feature extraction across multiple layers."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "eGoszzMkGfU",
+      "title": "Graph Neural Networks Explained: A Clear Guide to GNN Basics & Models",
+      "url": "https://www.youtube.com/watch?v=eGoszzMkGfU",
+      "published": "2026-05-25T11:00:43+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "graph neural networks",
+          "message passing",
+          "graph convolutional networks (GCNs)",
+          "GraphSAGE",
+          "graph attention networks (GATs)",
+          "graph isomorphism networks (GINs)",
+          "graph transformers",
+          "embeddings",
+          "adjacency matrix",
+          "heterogeneous graphs",
+          "homogeneous graphs"
+        ],
+        "stance": "The creator aims to provide a comprehensive and accessible introduction to various Graph Neural Network (GNN) architectures, explaining their core mechanisms and unique strengths.",
+        "key_claims": [
+          "GNNs are essential for understanding and modeling network-structured data, overcoming limitations of traditional ML models that expect tabular data.",
+          "Different GNN architectures like GCNs, GraphSAGE, GATs, GINs, and Graph Transformers offer distinct approaches to message passing and information aggregation, each suited for different types of graph data and tasks.",
+          "Graph Isomorphism Networks (GINs) are particularly expressive and can distinguish graph structures that simpler GNNs struggle with, matching the power of the Weisfeiler-Lehman test."
+        ],
+        "related_to": [],
+        "novelty": "The video offers a comparative overview of multiple GNN architectures, including a detailed explanation of how graph transformers adapt the attention mechanism for graph data, and highlights the expressivity advantage of GINs in distinguishing graph structures."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "mYhHzGOKU0s",
+      "title": "NVIDIA is Giving Away Free* AI Tokens (*With a Catch) #nvidia #ai #aimodel",
+      "url": "https://www.youtube.com/shorts/mYhHzGOKU0s",
+      "published": "2026-05-25T01:19:23+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLM APIs",
+          "AI model providers",
+          "Nvidia NIM platform",
+          "data privacy"
+        ],
+        "stance": "Nvidia is offering free access to top-tier AI models via their NIM platform, but users should be aware of the data privacy implications as inputs and outputs are used for model training.",
+        "key_claims": [
+          "Nvidia's NIM platform offers free API access to over 70 top AI models, including popular ones like DeepSeek and GLM.",
+          "The platform offers an OpenAI-compatible interface, allowing seamless integration with existing developer tools and frameworks.",
+          "The 'free' aspect comes with a privacy trade-off, as user inputs and outputs are recorded for Nvidia's model training, and data may also be shared with third-party model providers."
+        ],
+        "related_to": [
+          "OpenAI"
+        ],
+        "novelty": "The video highlights a new free offering from Nvidia for accessing numerous LLMs, contrasting it with the rising costs from other providers and drawing attention to the associated data privacy concerns and potential use of user data for training by both Nvidia and third-party model providers."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "9X8GRGcl5oA",
+      "title": "MCP Apps Are Changing the Internet. Here\u2019s How to Build One! (Skybridge)",
+      "url": "https://www.youtube.com/watch?v=9X8GRGcl5oA",
+      "published": "2026-05-24T17:00:05+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "MCP apps",
+          "AI agents",
+          "LLM integration",
+          "frameworks"
+        ],
+        "stance": "The creator is enthusiastic about Skybridge, a new framework that simplifies the development of interactive MCP apps for chatbots, highlighting its ease of use and potential for the future of web applications.",
+        "key_claims": [
+          "Skybridge makes creating custom MCP apps for chatbots significantly easier by handling complex plumbing, protocol bridging, state sync, and security rules.",
+          "Skybridge's redesigned dev tools, including a local sandbox, integrated tunneling, and an audit tool, dramatically improve the local testing loop for MCP app development.",
+          "MCP apps represent a paradigm shift where applications are built for both human and AI users, sharing a common interface, and frameworks like Skybridge are essential for this transition."
+        ],
+        "related_to": [
+          "ChatGPT",
+          "Claude"
+        ],
+        "novelty": "The video introduces and demonstrates Skybridge, a specific framework, and its integrated development tools for building MCP apps, which it frames as a novel and easier approach compared to previous methods for integrating applications with LLM-based chatbots."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "1m55T8xST9s",
+      "title": "Five AI Risks That Can Get You Fired\u2014And How to Avoid Them",
+      "url": "https://www.youtube.com/watch?v=1m55T8xST9s",
+      "published": "2026-05-24T11:00:01+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "shadow AI",
+          "data leakage",
+          "hallucination laundering",
+          "prompt injection",
+          "AI agents"
+        ],
+        "stance": "The creator warns about the severe career-ending risks of using AI tools without proper governance, verification, and security protocols.",
+        "key_claims": [
+          "Employees using unvetted AI tools (shadow AI) can lead to data breaches and data leakage.",
+          "Submitting unverified AI-generated content as one's own work ('hallucination laundering') can result in significant credibility loss and career damage.",
+          "Prompt injection and unauthorized AI agents pose serious security risks and can lead to unintended consequences, making individuals accountable."
+        ],
+        "related_to": [],
+        "novelty": "The video frames common LLM usage risks (data leakage, hallucinations, prompt injection, AI agents) through the lens of 'ways to get fired,' providing a strong motivational angle for adhering to AI governance and security best practices, rather than just explaining the technical concepts."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "1h6e5MFg9I0",
+      "title": "AI at college graduations and why Claude blackmails",
+      "url": "https://www.youtube.com/watch?v=1h6e5MFg9I0",
+      "published": "2026-05-22T10:00:03+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "AI agents",
+          "hallucinations",
+          "document corruption",
+          "delegated workflows",
+          "prompt engineering",
+          "AI adoption",
+          "AI ethics",
+          "AI impact on jobs",
+          "AI for creative work",
+          "AI for coding"
+        ],
+        "stance": "The creator's stance is that while AI presents significant challenges and potential job displacement, a measured and experimental approach to understanding and utilizing these tools is crucial, emphasizing human ownership and verification over blind delegation.",
+        "key_claims": [
+          "Young people's skepticism towards AI is a valid emotional reaction to economic uncertainty and the rapid, unresolved changes AI brings.",
+          "AI models can corrupt documents in delegated workflows, highlighting the need for careful usage, deterministic tools for deterministic tasks, and fault-tolerant systems.",
+          "The future of AI integration, particularly in creative and professional fields, will require structured workflows, human ownership, and verification processes rather than pure delegation to AI."
+        ],
+        "related_to": [],
+        "novelty": "The video delves into the nuanced, sometimes counterintuitive, emotional and economic responses of young people to AI, contrasting with a more optimistic yet cautionary perspective on AI's practical application in workflows, particularly regarding document integrity and the importance of structured human oversight, rather than just focusing on the technical aspects of LLMs."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "tk9lt-9x8mE",
       "title": "Composer 2.5 and I INTERVIEWED THE CEO OF ALPHABET",
@@ -627,6 +816,40 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "ak6fQ2Yjwy0",
+      "title": "We only have 2 years...",
+      "url": "https://www.youtube.com/watch?v=ak6fQ2Yjwy0",
+      "published": "2026-05-15T01:10:31+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI geopolitical competition",
+          "US vs China AI race",
+          "AI export controls",
+          "AI safety",
+          "AI model capabilities",
+          "AI chip supply chain",
+          "AI acceleration",
+          "self-improving AI",
+          "open-source AI models",
+          "AI arms race"
+        ],
+        "stance": "The creator believes Anthropic's analysis of the US-China AI competition is mostly accurate but disagrees with their proposed solutions and their emphasis on intelligence as the sole driver of AI dominance.",
+        "key_claims": [
+          "The critical factor in the US-China AI competition is compute (chips), not just talent or data, and maintaining a lead in compute is paramount for US dominance.",
+          "While Anthropic highlights distillation attacks as a key enabler of China's progress, the creator believes China's algorithmic innovation and raw talent are more significant factors.",
+          "The creator disagrees with Anthropic's framing of the AI competition as not a race with a finish line, arguing that self-improving AI will indeed be a decisive 'finish line' that creates an insurmountable lead."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Nvidia (Jensen Huang)",
+          "Deepseek"
+        ],
+        "novelty": "The video critically analyzes Anthropic's essay on AI geopolitical competition, offering a counter-perspective on the importance of intelligence vs. cost-effective AI adoption and the concept of a 'finish line' in AI development, particularly self-improving AI."
+      }
+    },
+    {
       "channel": "Will Francis",
       "video_id": "mQOVClrY-_s",
       "title": "Why most people use AI wrong for research #shorts #ai",
@@ -653,6 +876,42 @@
           "Consensus"
         ],
         "novelty": "The video proposes a structured, multi-level framework for conducting research using LLMs, emphasizing critical evaluation and self-reflection rather than passively accepting AI-generated summaries."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "hAzhVloGkOw",
+      "title": "Everyone's getting hacked",
+      "url": "https://www.youtube.com/watch?v=hAzhVloGkOw",
+      "published": "2026-05-13T18:50:08+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI-powered cyber threats",
+          "zero-day exploits",
+          "supply chain attacks",
+          "AI-assisted vulnerability discovery",
+          "AI for defense evasion",
+          "autonomous malware",
+          "AI in cybersecurity",
+          "large language models for cybersecurity"
+        ],
+        "stance": "The creator argues that AI is significantly amplifying cyber threats, making attacks easier, more sophisticated, and more voluminous, while also suggesting that the best AI models developed by well-resourced entities will eventually lead to superior cyber defenses.",
+        "key_claims": [
+          "AI is making it easier and more profitable to commit cybercrimes, with the first instance of an AI-discovered zero-day exploit already detected in the wild.",
+          "AI-driven coding accelerates the development of hacking tools and malware, making defense evasion and obfuscation more efficient for attackers.",
+          "The \"bigger model wins\" argument suggests that well-funded entities, like countries, will develop superior AI for cyber defense that can counter attacks from less-resourced malicious actors."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI",
+          "Google",
+          "Nvidia",
+          "Jensen Huang",
+          "Marc Andreessen",
+          "Guillermo Rauch"
+        ],
+        "novelty": "The video synthesizes current trends in AI-driven cyberattacks and defenses, presenting a future scenario where the arms race between offensive and defensive AI is increasingly dictated by economic factors and the scale of model development, a perspective not always deeply explored in typical AI discussions."
       }
     },
     {
@@ -718,6 +977,34 @@
     },
     {
       "channel": "Will Francis",
+      "video_id": "gMD1GBGA_1s",
+      "title": "What Claude routines can actually do for you #aitools #claude #automation",
+      "url": "https://www.youtube.com/shorts/gMD1GBGA_1s",
+      "published": "2026-04-26T20:04:22+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "automation",
+          "API integration"
+        ],
+        "stance": "The creator believes Claude's new routines feature is a powerful tool for automating tasks, potentially disrupting existing automation platforms.",
+        "key_claims": [
+          "Claude's routines can be scheduled or triggered by API calls, making them highly flexible.",
+          "Routines can run in the cloud, meaning they don't require a local device to be active.",
+          "The routines feature can act like a personal sales assistant by researching prospects, drafting proposals, and checking calendars."
+        ],
+        "related_to": [
+          "Zapier",
+          "Make",
+          "n8n",
+          "Apple Shortcuts"
+        ],
+        "novelty": "The video highlights Claude's specific 'routines' feature, which offers cloud-based, API-triggerable automation with access to user-defined tools, distinguishing it from general scheduled tasks or simpler prompt execution."
+      }
+    },
+    {
+      "channel": "Will Francis",
       "video_id": "1GJwXtnYYNQ",
       "title": "ChatGPT Images 2.0 vs Gemini \u2013 Which Actually Wins #ai #comparison",
       "url": "https://www.youtube.com/shorts/1GJwXtnYYNQ",
@@ -742,5 +1029,5 @@
       }
     }
   ],
-  "last_updated": "2026-05-26T04:48:30.267459"
+  "last_updated": "2026-05-26T07:43:10.960543"
 }
