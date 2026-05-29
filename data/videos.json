@@ -63,6 +63,31 @@
       }
     },
     {
+      "channel": "AI Engineering Topics",
+      "video_id": "iQU4iw0th2I",
+      "title": "The Future of Deep Learning Beyond Imagination",
+      "url": "https://www.youtube.com/watch?v=iQU4iw0th2I",
+      "published": "2026-05-28T15:01:55+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "deep learning",
+          "artificial general intelligence (AGI)",
+          "quantum deep learning",
+          "neurosymbolic AI",
+          "self-evolving AI agents"
+        ],
+        "stance": "The creator views deep learning's evolution as a profound societal transformation with immense potential, but also acknowledges inherent limitations and the critical need for ethical guidance and adaptability.",
+        "key_claims": [
+          "Deep learning currently faces limitations such as requiring vast labeled data, high energy consumption, and struggling with true reasoning and abstraction.",
+          "The future of deep learning may involve integrating quantum computing, neurosymbolic AI, and self-evolving AI agents to achieve more robust, interpretable, and general-purpose AI.",
+          "As AI becomes more sophisticated, ethical considerations, governance, and a potential human-AI symbiosis become paramount for managing its profound societal impact."
+        ],
+        "related_to": [],
+        "novelty": "The video explores speculative future directions for deep learning beyond current LLM trends, including quantum deep learning, neurosymbolic AI, and self-evolving AI agents, positioning these as potential pathways to AGI."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "kYkZI3oj2W4",
       "title": "Multi AI Agent Systems: When One AI Brain Isn\u2019t Enough",
@@ -152,6 +177,40 @@
           "X-Force"
         ],
         "novelty": "The video's novelty lies in its framing of cutting-edge AI security tools (like Mythos) not as entirely new inventions, but as applications of long-standing cybersecurity and software engineering principles, highlighting the cyclical nature of technological advancement and learning in the industry."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "GBISeUYMzoU",
+      "title": "Cursor just beat EVERYONE.",
+      "url": "https://www.youtube.com/watch?v=GBISeUYMzoU",
+      "published": "2026-05-26T16:40:27+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "coding models",
+          "workhorse models",
+          "price-performance ratio",
+          "frontier models",
+          "model acquisition",
+          "compute capacity",
+          "synthetic data"
+        ],
+        "stance": "The creator argues that 'workhorse' class coding models like Cursor's Composer 2.5 offer superior price-performance and are more practical for the vast majority of users and companies than expensive 'frontier' models.",
+        "key_claims": [
+          "Cursor's Composer 2.5 is the best coding model on the planet in terms of price-to-performance ratio.",
+          "The vast majority of AI use cases, including coding, do not require the absolute frontier models and can be effectively served by less expensive, faster models.",
+          "Elon Musk's acquisition of Cursor and his compute-sharing deal with Anthropic demonstrate a strategic move to leverage excess compute capacity and acquire valuable coding models and talent."
+        ],
+        "related_to": [
+          "Google (IO, Gemini 3.5 Flash)",
+          "OpenAI",
+          "Anthropic",
+          "Elon Musk",
+          "XAI",
+          "SpaceX AI"
+        ],
+        "novelty": "The video introduces the concept of 'workhorse' models as a crucial, often overlooked category in LLM development, focusing heavily on the practical implications of price-performance for widespread adoption, and contextualizes recent industry moves (like Elon Musk's Cursor acquisition and Anthropic compute deal) through this lens."
       }
     },
     {
@@ -879,6 +938,37 @@
       }
     },
     {
+      "channel": "IBM Technology",
+      "video_id": "SbrEk_tXZaE",
+      "title": "Why AI Agents Break Zero Trust at the Last Mile",
+      "url": "https://www.youtube.com/watch?v=SbrEk_tXZaE",
+      "published": "2026-05-17T11:00:40+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "last mile problem",
+          "identity verification",
+          "context",
+          "delegation",
+          "zero trust",
+          "attribute-based access control (ABAC)",
+          "policy-based access control (PBAC)",
+          "vaults",
+          "credential management",
+          "telemetry"
+        ],
+        "stance": "The creator argues that the 'last mile identity problem' is a significant security risk for AI agentic systems integrating with legacy systems and proposes solutions involving enhanced identity verification, context, delegation, and secure credential management via vaults.",
+        "key_claims": [
+          "AI agents lose critical user identity, intent, and context when interacting with legacy systems through traditional API connections, creating security vulnerabilities.",
+          "Integrating AI agents with legacy systems requires addressing the 'last mile identity problem' by implementing attribute-based and policy-based access controls and utilizing a vault for secure credential management.",
+          "Telemetry is crucial for continuously refining access policies and further securing agentic systems by identifying and mitigating risky behaviors."
+        ],
+        "related_to": [],
+        "novelty": "The video frames the integration of AI agents with legacy systems as a 'last mile problem,' drawing an analogy to telecommunications infrastructure, and proposes a comprehensive solution involving access control policies, a secure vault for credential management, and telemetry for continuous improvement, which is a specific and structured approach to agent security in enterprise environments."
+      }
+    },
+    {
       "channel": "Will Francis",
       "video_id": "jKL2JJUiOHk",
       "title": "The Scaffolding That Actually Powers AI #aiexplained #technology #shorts",
@@ -1059,6 +1149,35 @@
       }
     },
     {
+      "channel": "IBM Technology",
+      "video_id": "D37Ijn2o5U0",
+      "title": "Why Agentic AI Fails: Infinite Loops, Planning Errors, and More",
+      "url": "https://www.youtube.com/watch?v=D37Ijn2o5U0",
+      "published": "2026-05-14T11:00:31+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "failure modes",
+          "infinite loop",
+          "hallucinated planning",
+          "unsafe tool use",
+          "tool capabilities",
+          "constraints",
+          "approval workflows",
+          "least privilege"
+        ],
+        "stance": "The creator argues that failures in agentic AI systems are primarily due to flawed system design rather than LLM hallucinations or poor prompts, and outlines common failure modes with mitigation strategies.",
+        "key_claims": [
+          "Agentic AI failures are more likely due to system design flaws than LLM hallucinations or prompt quality.",
+          "The three most common failure modes of agentic AI systems are infinite loops, hallucinated planning, and unsafe tool use.",
+          "Mitigating agentic AI failures requires careful system design, clear tool definition, proper constraint setting, and principle of least privilege."
+        ],
+        "related_to": [],
+        "novelty": "The video offers a structured breakdown of common failure modes in agentic AI systems beyond the typical 'hallucination' explanation, providing specific technical reasons and actionable mitigation strategies for each."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "hAzhVloGkOw",
       "title": "Everyone's getting hacked",
@@ -1092,6 +1211,64 @@
           "Guillermo Rauch"
         ],
         "novelty": "The video synthesizes current trends in AI-driven cyberattacks and defenses, presenting a future scenario where the arms race between offensive and defensive AI is increasingly dictated by economic factors and the scale of model development, a perspective not always deeply explored in typical AI discussions."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "mR2Rh9RtyR4",
+      "title": "Turns out, HTML is King",
+      "url": "https://www.youtube.com/shorts/mR2Rh9RtyR4",
+      "published": "2026-05-13T13:46:49+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "prompt engineering",
+          "LLMs"
+        ],
+        "stance": "The creator argues that HTML is a superior format for AI agent inputs compared to Markdown, offering better human readability and information density.",
+        "key_claims": [
+          "HTML is infinitely more readable by humans and allows for more condensed information compared to Markdown for AI agents.",
+          "HTML enables richer formatting, visuals, and interactivity, improving human comprehension of agent outputs.",
+          "The shift to HTML could lead to significantly higher token usage, potentially benefiting companies like Anthropic."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Andre Carpathy"
+        ],
+        "novelty": "The video proposes HTML as a superior alternative to the commonly recommended Markdown for AI agent interaction, highlighting its benefits for human readability and information density while also raising a potential conflict of interest regarding token usage."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "5H3LGJSyaHM",
+      "title": "this is really bad...",
+      "url": "https://www.youtube.com/watch?v=5H3LGJSyaHM",
+      "published": "2026-05-12T19:45:08+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI-assisted cyberattacks",
+          "zero-day exploits",
+          "supply chain attacks",
+          "malware development",
+          "deepfakes",
+          "open-source vs. closed-source AI models"
+        ],
+        "stance": "The creator argues that AI is significantly accelerating and amplifying cyberattacks, making the threat landscape worse and necessitating proactive defense strategies.",
+        "key_claims": [
+          "AI is enabling malicious actors to discover zero-day exploits and develop sophisticated malware at an unprecedented rate.",
+          "Supply chain attacks are increasingly targeting AI environments and dependencies, posing a significant risk.",
+          "The arms race between AI-powered offense and defense is escalating, with the effectiveness of AI tools for both attack and counter-attack being a critical factor."
+        ],
+        "related_to": [
+          "Google Threat Intelligence Group",
+          "Anthropic",
+          "OpenAI",
+          "Versel",
+          "Pinrop Security"
+        ],
+        "novelty": "The video connects various recent, high-profile cyberattacks (like the Versel hack and the Shy Halud worm) directly to the accelerating capabilities of AI, presenting a comprehensive overview of the evolving threat landscape. It also discusses the dual-use nature of AI in both offensive and defensive cyber operations, and the implications of open-source AI models for cybersecurity."
       }
     },
     {
@@ -1209,5 +1386,5 @@
       }
     }
   ],
-  "last_updated": "2026-05-29T07:43:08.791322"
+  "last_updated": "2026-05-29T13:41:50.705126"
 }
