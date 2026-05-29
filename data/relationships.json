@@ -2,7 +2,7 @@
   "data": {
     "topic_clusters": [
       {
-        "theme": "AI Agents and Automation",
+        "theme": "AI Agent Frameworks and Orchestration",
         "video_ids": [
           "9X8GRGcl5oA",
           "1m55T8xST9s",
@@ -13,87 +13,65 @@
           "KVFrBtkLg4I",
           "ydWiRybmkiU",
           "BedAaB1RKgE",
-          "gMD1GBGA_1s",
-          "tCA-Rr4UwXM",
-          "5-7PJLCw8JA"
+          "gMD1GBGA_1s"
         ],
         "channels": [
           "Better Stack",
           "IBM Technology",
-          "Matthew Berman",
           "Will Francis"
         ],
-        "synthesis": "These videos collectively explore the burgeoning field of AI agents, detailing their capabilities from building interactive applications and performing complex tasks to their role in cybersecurity and asset management. They highlight the importance of frameworks, orchestration, and practical implementation for enabling these agents to 'think for themselves' and automate workflows."
+        "synthesis": "A significant portion of recent LLM content focuses on the development and capabilities of AI agents, exploring how they can autonomously plan, execute tasks, and interact with tools and data. Key themes include the frameworks and protocols (like MCP and ADK) that enable agent connectivity and orchestration, and the practical applications of agents in areas like coding, maintenance, and personal assistance."
       },
       {
         "theme": "LLM Model Performance and Cost-Effectiveness",
         "video_ids": [
-          "mYhHzGOKU0s",
           "tk9lt-9x8mE",
           "JegffwBtXJ0",
-          "NksViNo3n08",
-          "ak6fQ2Yjwy0"
+          "ak6fQ2Yjwy0",
+          "NksViNo3n08"
         ],
         "channels": [
-          "Better Stack",
           "Matthew Berman",
-          "IBM Technology"
+          "Will Francis"
         ],
-        "synthesis": "This cluster discusses the competitive landscape of LLM providers, focusing on the trade-offs between model performance, cost, and accessibility. Videos highlight the rise of 'workhorse' models that offer a better cost-performance ratio, the increasing enterprise adoption of specific providers like Anthropic, and the geopolitical race for AI dominance, emphasizing compute power."
+        "synthesis": "Several videos discuss the trade-offs between model performance, cost, and adoption. There's a strong argument for the value of 'workhorse' models that offer a good cost-performance ratio for common tasks, and critical analysis of new model releases like Gemini 3.5 Flash to evaluate their real-world benefits against advertised claims. The competition between major AI providers like OpenAI and Anthropic is also framed through the lens of revenue growth and enterprise penetration."
       },
       {
-        "theme": "AI Security and Risks",
+        "theme": "AI's Role in Cybersecurity",
         "video_ids": [
-          "jtHXi2ANgMY",
           "1m55T8xST9s",
           "u2MFautDjuM",
           "YCWwh70FZtQ",
           "hAzhVloGkOw"
         ],
         "channels": [
-          "AI Engineering Topics",
           "IBM Technology",
           "Will Francis",
           "Matthew Berman"
         ],
-        "synthesis": "These videos address the critical security implications and potential risks associated with AI. Topics range from identifying AI bias in data using statistical methods to career-ending risks like data leakage and prompt injection, and the escalating use of AI in cyber warfare for both offense and defense, including the discovery of AI-generated zero-day exploits."
+        "synthesis": "AI's impact on cybersecurity is a recurring theme, highlighting both the advancements in AI-powered offensive capabilities (like vulnerability discovery and exploitation) and the development of AI for defensive strategies and threat intelligence. The arms race between AI-driven attacks and AI-powered defenses is emphasized, with the potential for well-resourced entities to gain a significant advantage."
       },
       {
-        "theme": "Multimodal AI: Image Generation and Context Handling",
-        "video_ids": [
-          "B_RrXwDupIg",
-          "kPpxBdc3mOE",
-          "1GJwXtnYYNQ"
-        ],
-        "channels": [
-          "IBM Technology",
-          "Will Francis"
-        ],
-        "synthesis": "This group of videos explores the advancements in multimodal AI, specifically focusing on image generation capabilities and how LLMs handle extensive context. Comparisons are drawn between leading models like ChatGPT and Gemini for image creation, highlighting their strengths in text rendering and factual accuracy, while also discussing techniques like Cache Augmented Generation (CAG) for managing long context windows."
-      },
-      {
-        "theme": "LLM Context and Memory Management",
+        "theme": "LLM Context Handling and Data Access",
         "video_ids": [
           "9X8GRGcl5oA",
           "B_RrXwDupIg",
-          "kEZfwKerT8g",
           "VmIUXVlt7_I"
         ],
         "channels": [
           "Better Stack",
-          "IBM Technology",
-          "Will Francis"
+          "IBM Technology"
         ],
-        "synthesis": "These videos delve into how LLMs and AI agents manage and utilize information over time. Topics include the development of MCP apps and frameworks for LLM integration, the mechanisms behind long context and cache augmented generation (CAG) for providing external knowledge, and how AI agents use memory files to learn and retain project-specific information."
+        "synthesis": "Videos explore different methods for LLMs to access and utilize external information. This includes the benefits and limitations of long context windows, the efficiency of Cache Augmented Generation (CAG) and prompt caching, and the innovative use of LLMs to create interactive knowledge graphs for understanding complex codebases."
       },
       {
-        "theme": "AI Ethics, Adoption, and Societal Impact",
+        "theme": "AI Ethics and Risks",
         "video_ids": [
           "jtHXi2ANgMY",
+          "1m55T8xST9s",
           "1h6e5MFg9I0",
           "Td2TaMWNUtA",
           "wTG8-t8Fs8k",
-          "IMHqGNLLoxo",
           "vVcH96qq3bA"
         ],
         "channels": [
@@ -102,28 +80,39 @@
           "Matthew Berman",
           "Will Francis"
         ],
-        "synthesis": "This cluster examines the broader implications of AI on society, including its environmental impact, the ethical considerations of AI adoption, and the potential for cognitive biases like 'LLMorphism.' Videos discuss how AI adoption is progressing in businesses, the environmental costs of training and data centers, and the emotional responses to AI's rapid advancement."
+        "synthesis": "Several videos address the ethical considerations and potential risks associated with AI. Topics include the importance of categorical data analysis for understanding AI bias, the career-ending risks of unvetted AI use (data leakage, hallucination laundering), the environmental impact of AI, and the concerning phenomenon of 'LLMorphism,' where human cognition is viewed through the lens of LLMs."
       },
       {
-        "theme": "AI Agent Frameworks and Protocols",
+        "theme": "LLM Applications in Image Generation",
         "video_ids": [
-          "9X8GRGcl5oA",
-          "BedAaB1RKgE",
-          "jKL2JJUiOHk",
-          "ydWiRybmkiU"
+          "kPpxBdc3mOE",
+          "1GJwXtnYYNQ"
+        ],
+        "channels": [
+          "Will Francis"
+        ],
+        "synthesis": "A direct comparison of leading AI image generation tools like ChatGPT and Gemini highlights their specific strengths and weaknesses in areas such as text rendering within images, factual accuracy, consistency, and the ability to generate vector files."
+      },
+      {
+        "theme": "LLM Business Models and Market Competition",
+        "video_ids": [
+          "mYhHzGOKU0s",
+          "Fl6QT86n1P4",
+          "IMHqGNLLoxo",
+          "NksViNo3n08"
         ],
         "channels": [
           "Better Stack",
-          "IBM Technology",
+          "Matthew Berman",
           "Will Francis"
         ],
-        "synthesis": "These videos focus on the foundational technologies and protocols that enable AI agents. They explain how Model Context Protocol (MCP) and Agent Development Kits (ADK) facilitate connectivity and orchestration, introduce frameworks for building AI applications, and emphasize the concept of an 'AI harness' that empowers LLMs to perform actions beyond simple text generation."
+        "synthesis": "Discussions around the business strategies of major AI players like Nvidia, Anthropic, and OpenAI reveal a competitive landscape driven by API access, pricing models, and enterprise adoption. Concerns are raised about potential vendor lock-in and the strategic shifts towards offering services beyond just the core models."
       }
     ],
     "trending_topics": [
       {
         "topic": "AI agents",
-        "video_count": 12,
+        "video_count": 13,
         "channels": [
           "Better Stack",
           "IBM Technology",
@@ -133,7 +122,7 @@
       },
       {
         "topic": "LLMs",
-        "video_count": 16,
+        "video_count": 17,
         "channels": [
           "AI Engineering Topics",
           "Better Stack",
@@ -146,39 +135,22 @@
         "topic": "prompt engineering",
         "video_count": 6,
         "channels": [
-          "AI Engineering Topics",
           "IBM Technology",
           "Will Francis"
         ]
       },
       {
-        "topic": "open source AI",
+        "topic": "AI security",
         "video_count": 4,
         "channels": [
           "IBM Technology",
-          "Matthew Berman"
-        ]
-      },
-      {
-        "topic": "cybersecurity",
-        "video_count": 5,
-        "channels": [
-          "IBM Technology",
-          "Will Francis",
-          "Matthew Berman"
-        ]
-      },
-      {
-        "topic": "Claude",
-        "video_count": 7,
-        "channels": [
-          "Better Stack",
+          "Matthew Berman",
           "Will Francis"
         ]
       },
       {
         "topic": "OpenAI",
-        "video_count": 6,
+        "video_count": 8,
         "channels": [
           "Better Stack",
           "IBM Technology",
@@ -188,7 +160,7 @@
       },
       {
         "topic": "Anthropic",
-        "video_count": 7,
+        "video_count": 9,
         "channels": [
           "Better Stack",
           "IBM Technology",
@@ -197,10 +169,648 @@
         ]
       },
       {
+        "topic": "Claude",
+        "video_count": 7,
+        "channels": [
+          "Better Stack",
+          "IBM Technology",
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "ChatGPT",
+        "video_count": 7,
+        "channels": [
+          "Better Stack",
+          "IBM Technology",
+          "Will Francis"
+        ]
+      },
+      {
         "topic": "Gemini",
-        "video_count": 5,
+        "video_count": 7,
+        "channels": [
+          "Better Stack",
+          "IBM Technology",
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "data privacy",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "AI adoption",
+        "video_count": 2,
         "channels": [
           "IBM Technology",
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "deep learning",
+        "video_count": 1,
+        "channels": [
+          "AI Engineering Topics"
+        ]
+      },
+      {
+        "topic": "graph neural networks",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI bias",
+        "video_count": 1,
+        "channels": [
+          "AI Engineering Topics"
+        ]
+      },
+      {
+        "topic": "AI model providers",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "hallucinations",
+        "video_count": 2,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI ethics",
+        "video_count": 3,
+        "channels": [
+          "IBM Technology",
+          "Matthew Berman",
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "open source AI",
+        "video_count": 3,
+        "channels": [
+          "Matthew Berman",
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI impact on jobs",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI for coding",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "coding models",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "cost-performance ratio",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "synthetic data",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "reinforcement learning",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI alignment",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI race",
+        "video_count": 3,
+        "channels": [
+          "Matthew Berman",
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI regulation",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "unsupervised learning",
+        "video_count": 1,
+        "channels": [
+          "AI Engineering Topics"
+        ]
+      },
+      {
+        "topic": "pattern recognition",
+        "video_count": 1,
+        "channels": [
+          "AI Engineering Topics"
+        ]
+      },
+      {
+        "topic": "data analysis",
+        "video_count": 1,
+        "channels": [
+          "AI Engineering Topics"
+        ]
+      },
+      {
+        "topic": "co-work",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "AI model strategy",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "compute infrastructure",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "RAG",
+        "video_count": 2,
+        "channels": [
+          "IBM Technology",
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "codebase understanding",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "knowledge graphs",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "AI defensive tools",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI for cybersecurity",
+        "video_count": 2,
+        "channels": [
+          "IBM Technology",
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI model specialization",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "multimodal models",
+        "video_count": 2,
+        "channels": [
+          "Better Stack",
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "coding performance",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "speed",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "cost",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "context window",
+        "video_count": 1,
+        "channels": [
+          "Better Stack"
+        ]
+      },
+      {
+        "topic": "intelligent systems of action",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "LLM morphism",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "anthropomorphism",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "cognitive bias",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "human cognition",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "Autonomous AI",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "Agent orchestration",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "Practical LLM applications",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "enterprise LLM usage",
+        "video_count": 2,
+        "channels": [
+          "Better Stack",
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "LLM adoption trends",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI spend analysis",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "LLM costs",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI market competition",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "Model Context Protocol (MCP)",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "Agent Development Kit (ADK)",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "tool use",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "connectivity",
+        "video_count": 1,
+        "channels": [
+          "IBM Technology"
+        ]
+      },
+      {
+        "topic": "AI environmental impact",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "energy consumption of LLMs",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "water usage of data centers",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "training AI models",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "data center construction",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "AI applications",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "AI harnesses",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "LLM revenue growth",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "enterprise LLM penetration",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI geopolitical competition",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "US vs China AI race",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI export controls",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI model capabilities",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI chip supply chain",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI acceleration",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "self-improving AI",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI arms race",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI research methodology",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "AI-powered cyber threats",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "zero-day exploits",
+        "video_count": 2,
+        "channels": [
+          "IBM Technology",
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "supply chain attacks",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI-assisted vulnerability discovery",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI for defense evasion",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "autonomous malware",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "large language models for cybersecurity",
+        "video_count": 1,
+        "channels": [
+          "Matthew Berman"
+        ]
+      },
+      {
+        "topic": "AI image generation",
+        "video_count": 2,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "text rendering in images",
+        "video_count": 2,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "character consistency",
+        "video_count": 2,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "product consistency",
+        "video_count": 2,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "vector file generation",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "typography",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "automation",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "API integration",
+        "video_count": 1,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "image generation",
+        "video_count": 2,
+        "channels": [
+          "Will Francis"
+        ]
+      },
+      {
+        "topic": "multimodal AI",
+        "video_count": 2,
+        "channels": [
           "Will Francis"
         ]
       }
@@ -208,38 +818,31 @@
     "contrasts": [
       {
         "video_ids": [
-          "mYhHzGOKU0s",
-          "Fl6QT86n1P4"
-        ],
-        "disagreement": "One video highlights Nvidia's free AI tokens as a valuable offering with a noted data privacy trade-off, while another strongly criticizes Anthropic's programmatic credit system as a deceptive cost increase and a move towards vendor lock-in, contrasting its restrictive approach with OpenAI's more open access."
-      },
-      {
-        "video_ids": [
           "tk9lt-9x8mE",
           "JegffwBtXJ0"
         ],
-        "disagreement": "While one video champions 'workhorse' models like Composer 2.5 for their superior cost-performance ratio in coding, another video argues that Gemini 3.5 Flash, despite its advertised benefits, does not live up to claims of cost-effectiveness and performance in real-world coding benchmarks."
+        "disagreement": "While Matthew Berman champions models like Composer 2.5 for their cost-performance ratio, particularly for coding, the review of Gemini 3.5 Flash suggests its claimed cost and performance benefits do not hold up in real-world benchmarks, questioning the value proposition of new model releases."
       },
       {
         "video_ids": [
           "Td2TaMWNUtA",
           "ak6fQ2Yjwy0"
         ],
-        "disagreement": "One video criticizes the dominant, pessimistic narrative around AI development driven by fear and sensationalism, while another argues that the US-China AI competition is indeed a race with a decisive 'finish line' and that compute power is the paramount factor, disagreeing with Anthropic's framing of the competition."
+        "disagreement": "Matthew Berman argues that the dominant narrative around AI is overly pessimistic and risks hindering beneficial development, while also critically analyzing Anthropic's view on the US-China AI competition and emphasizing compute as the primary factor, disagreeing with Anthropic's proposed solutions and their emphasis on intelligence alone."
       },
       {
         "video_ids": [
-          "NksViNo3n08",
+          "Fl6QT86n1P4",
           "IMHqGNLLoxo"
         ],
-        "disagreement": "While one video reports on Anthropic surpassing OpenAI in enterprise LLM usage with unprecedented revenue growth, another analyzes broader AI spend trends, suggesting a potential future shift towards cheaper, more efficient models as companies optimize costs, indicating a different perspective on market dynamics beyond just market share."
+        "disagreement": "The Better Stack video criticizes Anthropic's new programmatic credit system as a disguised cost increase and a move towards vendor lock-in, contrasting it with OpenAI's more open approach, while Matthew Berman's analysis of enterprise LLM usage shows Anthropic surpassing OpenAI in customer subscriptions, suggesting Anthropic's strategy is proving effective in the market."
       },
       {
         "video_ids": [
-          "hAzhVloGkOw",
-          "u2MFautDjuM"
+          "1GJwXtnYYNQ",
+          "kPpxBdc3mOE"
         ],
-        "disagreement": "One video argues that AI is significantly amplifying cyber threats, making attacks easier and more sophisticated, and that the 'bigger model wins' for defense, while another discusses specialized AI models for cybersecurity, including those for vulnerability hunting and offensive research, highlighting the critical role of human oversight and validation, suggesting a more nuanced view of AI's dual role."
+        "disagreement": "Will Francis's comparison of ChatGPT Images 2.0 and Gemini finds ChatGPT better for creative and text-heavy images, while Gemini excels at factual accuracy, and a separate video on the same tools suggests ChatGPT is better for text-based images but factual accuracy needs verification, while Gemini is better at generating factually accurate text within images, indicating a nuanced agreement on their strengths."
       }
     ],
     "cross_references": [
@@ -247,801 +850,543 @@
         "from_video_id": "mYhHzGOKU0s",
         "from_channel": "Better Stack",
         "references": "OpenAI",
-        "context": "The video mentions Nvidia's platform offers an OpenAI-compatible interface, allowing seamless integration with existing developer tools and frameworks, and contrasts Nvidia's free offering with rising costs from other providers."
+        "context": "The video notes that Nvidia's NIM platform offers an OpenAI-compatible interface, allowing seamless integration with existing developer tools and frameworks."
       },
       {
         "from_video_id": "9X8GRGcl5oA",
         "from_channel": "Better Stack",
         "references": "ChatGPT",
-        "context": "The video mentions Skybridge is an 'MCP app' for chatbots, and implicitly relates to interaction with LLMs like ChatGPT for enhanced user experiences."
+        "context": "The video mentions that MCP apps are built for both human and AI users, sharing a common interface, which implies integration with chatbots like ChatGPT."
       },
       {
         "from_video_id": "9X8GRGcl5oA",
         "from_channel": "Better Stack",
         "references": "Claude",
-        "context": "The video mentions Skybridge is an 'MCP app' for chatbots, and implicitly relates to interaction with LLMs like Claude for enhanced user experiences."
+        "context": "The video mentions that MCP apps are built for both human and AI users, sharing a common interface, which implies integration with chatbots like Claude."
       },
       {
-        "from_video_id": "1h6e5MFg9I0",
-        "from_channel": "IBM Technology",
-        "references": "Claude",
-        "context": "The video title mentions 'why Claude blackmails,' implying a discussion of potential negative behaviors or perceived issues with Claude."
+        "from_video_id": "tk9lt-9x8mE",
+        "from_channel": "Matthew Berman",
+        "references": "Sundar Pichai",
+        "context": "The creator interviewed the CEO of Alphabet (Sundar Pichai)."
+      },
+      {
+        "from_video_id": "tk9lt-9x8mE",
+        "from_channel": "Matthew Berman",
+        "references": "Google",
+        "context": "The creator interviewed the CEO of Alphabet, which is Google's parent company."
       },
       {
         "from_video_id": "tk9lt-9x8mE",
         "from_channel": "Matthew Berman",
         "references": "Gemini 3.5 Flash",
-        "context": "The video compares Gemini 3.5 Flash to other models like Opus 4.7 and GPT 5.5, discussing their performance and cost."
+        "context": "Gemini 3.5 Flash is mentioned as a contemporary model in the LLM landscape."
       },
       {
         "from_video_id": "tk9lt-9x8mE",
         "from_channel": "Matthew Berman",
         "references": "Opus 4.7",
-        "context": "The video compares Opus 4.7 to models like Gemini 3.5 Flash and GPT 5.5, discussing their performance and cost."
+        "context": "Opus 4.7 is mentioned as a frontier model for comparison."
       },
       {
         "from_video_id": "tk9lt-9x8mE",
         "from_channel": "Matthew Berman",
         "references": "GPT 5.5",
-        "context": "The video compares GPT 5.5 to models like Gemini 3.5 Flash and Opus 4.7, discussing their performance and cost."
+        "context": "GPT 5.5 is mentioned as a contemporary model in the LLM landscape."
       },
       {
         "from_video_id": "tk9lt-9x8mE",
         "from_channel": "Matthew Berman",
         "references": "Anthropic",
-        "context": "The video mentions Anthropic in relation to other major AI players and the broader competitive landscape."
+        "context": "Anthropic is mentioned as a competitor in the LLM space."
+      },
+      {
+        "from_video_id": "Td2TaMWNUtA",
+        "from_channel": "Matthew Berman",
+        "references": "Andre Karpathy",
+        "context": "The video discusses Andre Karpathy's decision to join Anthropic and its implications for AI outlook."
       },
       {
         "from_video_id": "Td2TaMWNUtA",
         "from_channel": "Matthew Berman",
         "references": "Anthropic",
-        "context": "The video discusses Andre Karpathy's decision to join Anthropic, signaling a validation of their AI outlook."
+        "context": "The video discusses Anthropic's AI outlook and its implications, especially in relation to Karpathy joining."
       },
       {
         "from_video_id": "Td2TaMWNUtA",
         "from_channel": "Matthew Berman",
         "references": "OpenAI",
-        "context": "The video mentions OpenAI in the context of the broader AI discourse and competition."
+        "context": "OpenAI is mentioned as a competitor in the LLM space and in relation to the AI narrative."
       },
       {
         "from_video_id": "Td2TaMWNUtA",
         "from_channel": "Matthew Berman",
-        "references": "Google",
-        "context": "The video mentions Google in the context of the broader AI discourse and competition."
+        "references": "Elon Musk",
+        "context": "Elon Musk is mentioned in the context of the AI narrative and competition."
+      },
+      {
+        "from_video_id": "Td2TaMWNUtA",
+        "from_channel": "Matthew Berman",
+        "references": "Sam Altman",
+        "context": "Sam Altman is mentioned in the context of the AI narrative and competition."
       },
       {
         "from_video_id": "B_RrXwDupIg",
         "from_channel": "IBM Technology",
         "references": "GPT-3",
-        "context": "The video mentions GPT-3 as an example of a model with a context window that can be filled with external documents."
+        "context": "GPT-3 is mentioned as a model that utilizes long context."
       },
       {
         "from_video_id": "B_RrXwDupIg",
         "from_channel": "IBM Technology",
         "references": "GPT-4 Turbo",
-        "context": "The video mentions GPT-4 Turbo as an example of a model with a long context window."
+        "context": "GPT-4 Turbo is mentioned as a model that utilizes long context."
       },
       {
         "from_video_id": "B_RrXwDupIg",
         "from_channel": "IBM Technology",
         "references": "Google Gemini 1.5 Pro",
-        "context": "The video mentions Google Gemini 1.5 Pro as an example of a model with a long context window."
+        "context": "Google Gemini 1.5 Pro is mentioned as a model that utilizes long context."
       },
       {
         "from_video_id": "Fl6QT86n1P4",
         "from_channel": "Better Stack",
         "references": "Anthropic",
-        "context": "The video title and content are primarily about Anthropic's policies regarding Claude and third-party tools."
+        "context": "The video's primary focus is on Anthropic's actions regarding Claude and third-party tools."
       },
       {
         "from_video_id": "Fl6QT86n1P4",
         "from_channel": "Better Stack",
         "references": "Claude",
-        "context": "The video title and content are primarily about Anthropic's policies regarding Claude and third-party tools."
+        "context": "The video discusses the new programmatic credit system and its impact on Claude users and third-party tools."
       },
       {
         "from_video_id": "Fl6QT86n1P4",
         "from_channel": "Better Stack",
         "references": "OpenAI",
-        "context": "The video contrasts Anthropic's restrictive approach with OpenAI's more open access for third-party tools."
+        "context": "OpenAI is presented as a contrast to Anthropic, offering more open access to its models for third-party tools."
       },
       {
         "from_video_id": "kEZfwKerT8g",
         "from_channel": "Will Francis",
         "references": "Claude",
-        "context": "The video demonstrates building AI agents within Claude's co-work feature."
+        "context": "The video demonstrates how to build AI agents within Claude's co-work feature."
       },
       {
         "from_video_id": "IB7IW6zX-H0",
         "from_channel": "Matthew Berman",
         "references": "Google",
-        "context": "The video discusses Sundar Pichai's views on AI agents, open source, and Google's AI strategy."
+        "context": "Sundar Pichai, CEO of Google, discusses AI agents, open source, and other AI-related topics."
       },
       {
         "from_video_id": "IB7IW6zX-H0",
         "from_channel": "Matthew Berman",
         "references": "Gemini",
-        "context": "The video mentions Google's Gemini models as part of their AI strategy."
+        "context": "Google's strategy includes both frontier and efficient 'flash' models like Gemini."
       },
       {
         "from_video_id": "IB7IW6zX-H0",
         "from_channel": "Matthew Berman",
         "references": "Gemma",
-        "context": "The video mentions Google's Gemma models as part of their AI strategy."
+        "context": "Google's strategy includes both frontier and efficient 'flash' models like Gemma."
       },
       {
         "from_video_id": "IB7IW6zX-H0",
         "from_channel": "Matthew Berman",
         "references": "Anthropic",
-        "context": "The video mentions Anthropic in the context of the AI competitive landscape."
+        "context": "Anthropic is mentioned as a competitor in the AI landscape."
       },
       {
         "from_video_id": "IB7IW6zX-H0",
         "from_channel": "Matthew Berman",
         "references": "OpenAI",
-        "context": "The video mentions OpenAI in the context of the AI competitive landscape."
+        "context": "OpenAI is mentioned as a competitor in the AI landscape."
       },
       {
         "from_video_id": "VmIUXVlt7_I",
         "from_channel": "Better Stack",
         "references": "Claude",
-        "context": "The video mentions Claude as one of the LLMs used by the 'Understand Anything' tool."
+        "context": "Understand Anything uses LLMs like Claude to create interactive knowledge graphs."
       },
       {
         "from_video_id": "VmIUXVlt7_I",
         "from_channel": "Better Stack",
         "references": "Cursor",
-        "context": "The video mentions Cursor as a tool that benefits from the codebase understanding provided by 'Understand Anything'."
+        "context": "Understand Anything is positioned as a tool that enhances the context provided to AI coding agents like Cursor."
       },
       {
         "from_video_id": "VmIUXVlt7_I",
         "from_channel": "Better Stack",
         "references": "Copilot",
-        "context": "The video mentions Copilot as a tool that could benefit from enhanced codebase understanding."
+        "context": "Understand Anything is positioned as a tool that enhances the context provided to AI coding agents like Copilot."
       },
       {
         "from_video_id": "VmIUXVlt7_I",
         "from_channel": "Better Stack",
         "references": "Gemini CLI",
-        "context": "The video mentions Gemini CLI as a tool that could benefit from enhanced codebase understanding."
+        "context": "Gemini CLI is mentioned as a tool that utilizes LLMs for coding."
       },
       {
         "from_video_id": "u2MFautDjuM",
         "from_channel": "IBM Technology",
         "references": "OpenAI",
-        "context": "The video discusses OpenAI's Daybreak and Mistral's Mythos as competitors in specialized AI for cybersecurity."
+        "context": "OpenAI's advancements in AI are discussed in the context of cybersecurity and specialized models."
       },
       {
         "from_video_id": "u2MFautDjuM",
         "from_channel": "IBM Technology",
         "references": "Mistral",
-        "context": "The video discusses Mistral's Mythos and its role as a competitor in specialized AI for cybersecurity."
+        "context": "Mistral is discussed as a competitor developing specialized AI models for cybersecurity."
       },
       {
         "from_video_id": "u2MFautDjuM",
         "from_channel": "IBM Technology",
         "references": "Microsoft",
-        "context": "The video mentions Microsoft in the context of AI advancements and competition."
+        "context": "Microsoft is mentioned as a significant player in the AI and cybersecurity landscape."
       },
       {
         "from_video_id": "u2MFautDjuM",
         "from_channel": "IBM Technology",
         "references": "Anthropic",
-        "context": "The video mentions Anthropic in the context of AI advancements and competition."
+        "context": "Anthropic is discussed as a key competitor in the AI space, including cybersecurity applications."
       },
       {
         "from_video_id": "u2MFautDjuM",
         "from_channel": "IBM Technology",
         "references": "IBM",
-        "context": "The video is from IBM Technology and discusses AI in cybersecurity, relevant to IBM's interests."
-      },
-      {
-        "from_video_id": "JegffwBtXJ0",
-        "from_channel": "Better Stack",
-        "references": "Claude Opus",
-        "context": "The video compares Gemini 3.5 Flash to Claude Opus, discussing their performance and cost."
-      },
-      {
-        "from_video_id": "JegffwBtXJ0",
-        "from_channel": "Better Stack",
-        "references": "OpenAI",
-        "context": "The video mentions OpenAI in the context of the LLM market and competition."
+        "context": "IBM is a key player in the cybersecurity and AI discussion, with the video being from IBM Technology."
       },
       {
         "from_video_id": "JegffwBtXJ0",
         "from_channel": "Better Stack",
         "references": "GPT 5.5",
-        "context": "The video mentions GPT 5.5 as a benchmark for comparison with Gemini 3.5 Flash."
+        "context": "GPT 5.5 is mentioned as a benchmark for comparison with Gemini 3.5 Flash."
       },
       {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
+        "from_video_id": "JegffwBtXJ0",
+        "from_channel": "Better Stack",
+        "references": "Claude Opus",
+        "context": "Claude Opus is mentioned as a benchmark for comparison with Gemini 3.5 Flash."
+      },
+      {
+        "from_video_id": "JegffwBtXJ0",
+        "from_channel": "Better Stack",
+        "references": "Kimiko 2.6",
+        "context": "Kimiko 2.6 is mentioned as a contemporary model in the LLM landscape."
+      },
+      {
+        "from_video_id": "JegffwBtXJ0",
+        "from_channel": "Better Stack",
+        "references": "Gemini 3.1 Pro",
+        "context": "Gemini 3.1 Pro is mentioned as a predecessor or related model to Gemini 3.5 Flash."
+      },
+      {
+        "from_video_id": "JegffwBtXJ0",
+        "from_channel": "Better Stack",
+        "references": "Gemini 3 Flash",
+        "context": "Gemini 3 Flash is mentioned as a predecessor or related model to Gemini 3.5 Flash."
+      },
+      {
+        "from_video_id": "JegffwBtXJ0",
+        "from_channel": "Better Stack",
+        "references": "Haiku",
+        "context": "Haiku is mentioned as a contemporary model in the LLM landscape."
+      },
+      {
+        "from_video_id": "JegffwBtXJ0",
+        "from_channel": "Better Stack",
         "references": "OpenAI",
-        "context": "The video discusses OpenAI's launch of a deployment company and its strategic implications."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Google",
-        "context": "The video mentions Google in the context of AI skills and enterprise integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Anthropic",
-        "context": "The video mentions Anthropic in the context of AI skills and enterprise integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "AWS",
-        "context": "The video mentions AWS in the context of enterprise AI integration providers."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Azure",
-        "context": "The video mentions Azure in the context of enterprise AI integration providers."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Snowflake",
-        "context": "The video mentions Snowflake in the context of enterprise AI integration providers."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "McKenzie",
-        "context": "The video mentions McKenzie in the context of AI consulting and integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Capgeemini",
-        "context": "The video mentions Capgemini in the context of AI consulting and integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Bannon company",
-        "context": "The video mentions the Bannon company in the context of enterprise AI integration."
-      },
-      {
-        "from_video_id": "ak6fQ2Yjwy0",
-        "from_channel": "Matthew Berman",
-        "references": "Anthropic",
-        "context": "The video critically analyzes Anthropic's essay on AI geopolitical competition and their proposed solutions."
-      },
-      {
-        "from_video_id": "ak6fQ2Yjwy0",
-        "from_channel": "Matthew Berman",
-        "references": "Nvidia (Jensen Huang)",
-        "context": "The video highlights Nvidia's role in the compute aspect of the US-China AI race."
-      },
-      {
-        "from_video_id": "ak6fQ2Yjwy0",
-        "from_channel": "Matthew Berman",
-        "references": "Deepseek",
-        "context": "The video mentions Deepseek in the context of China's AI capabilities."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "ChatGPT",
-        "context": "The video compares ChatGPT's research methodology with other LLMs."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Claude",
-        "context": "The video compares Claude's research methodology with other LLMs."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video compares Gemini's research methodology with other LLMs."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Perplexity",
-        "context": "The video mentions Perplexity as a tool for research, comparing its approach to others."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Consensus",
-        "context": "The video mentions Consensus as a tool for research, comparing its approach to others."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Anthropic",
-        "context": "The video discusses Anthropic's role in developing advanced AI models and their potential for cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "OpenAI",
-        "context": "The video discusses OpenAI's role in developing advanced AI models and their potential for cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Google",
-        "context": "The video discusses Google's role in developing advanced AI models and their potential for cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Nvidia",
-        "context": "The video mentions Nvidia in the context of the AI chip supply chain and its impact on cyber defense capabilities."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Jensen Huang",
-        "context": "The video mentions Jensen Huang in the context of Nvidia's role in the AI chip supply chain."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Marc Andreessen",
-        "context": "The video mentions Marc Andreessen in the context of discussions surrounding AI and its capabilities."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Guillermo Rauch",
-        "context": "The video mentions Guillermo Rauch in the context of discussions surrounding AI and its capabilities."
-      },
-      {
-        "from_video_id": "tCA-Rr4UwXM",
-        "from_channel": "Will Francis",
-        "references": "Claude",
-        "context": "The video mentions Claude as an alternative LLM for appealing fines."
-      },
-      {
-        "from_video_id": "tCA-Rr4UwXM",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video mentions Gemini as an alternative LLM for appealing fines."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "ChatGPT",
-        "context": "The video compares ChatGPT's image generation capabilities with other tools."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video compares Gemini's image generation capabilities with other tools."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Nano Banana Pro",
-        "context": "The video reviews Nano Banana Pro for its infographic and data visualization capabilities."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Recraft",
-        "context": "The video highlights Recraft for its ability to generate vector files."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Ideogram",
-        "context": "The video mentions Ideogram as one of the AI image generation tools reviewed."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Midjourney",
-        "context": "The video mentions Midjourney as one of the AI image generation tools reviewed."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Adobe Firefly",
-        "context": "The video mentions Adobe Firefly as one of the AI image generation tools reviewed."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Grok",
-        "context": "The video mentions Grok as a fallback option for refusal issues in image generation."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "Zapier",
-        "context": "The video compares Claude's routines feature to Zapier for automation."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "Make",
-        "context": "The video compares Claude's routines feature to Make for automation."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "n8n",
-        "context": "The video compares Claude's routines feature to n8n for automation."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "Apple Shortcuts",
-        "context": "The video compares Claude's routines feature to Apple Shortcuts for automation."
-      },
-      {
-        "from_video_id": "1GJwXtnYYNQ",
-        "from_channel": "Will Francis",
-        "references": "ChatGPT",
-        "context": "The video compares ChatGPT and Gemini for image generation."
-      },
-      {
-        "from_video_id": "1GJwXtnYYNQ",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video compares Gemini and ChatGPT for image generation."
-      },
-      {
-        "from_video_id": "NksViNo3n08",
-        "from_channel": "Matthew Berman",
-        "references": "OpenAI",
-        "context": "The video discusses the competitive landscape between OpenAI and Anthropic in enterprise LLM adoption."
-      },
-      {
-        "from_video_id": "NksViNo3n08",
-        "from_channel": "Matthew Berman",
-        "references": "Anthropic",
-        "context": "The video discusses the rapid growth and enterprise adoption of Anthropic compared to OpenAI."
-      },
-      {
-        "from_video_id": "NksViNo3n08",
-        "from_channel": "Matthew Berman",
-        "references": "Wall Street Journal",
-        "context": "The video mentions the Wall Street Journal in relation to data sources for AI market analysis."
-      },
-      {
-        "from_video_id": "5-7PJLCw8JA",
-        "from_channel": "Matthew Berman",
-        "references": "Claude",
-        "context": "The video highlights Claude's capabilities in solving a complex crypto password recovery problem."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "IBM",
-        "context": "The video is from IBM Technology and discusses advancements in generative computing and AI integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "OpenAI",
-        "context": "The video discusses OpenAI's strategic shift towards a deployment company."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Google",
-        "context": "The video mentions Google in the context of AI skills marketplace and enterprise integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Anthropic",
-        "context": "The video mentions Anthropic in the context of AI skills marketplace and enterprise integration."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "AWS",
-        "context": "The video mentions AWS as a major cloud provider for AI deployment."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Azure",
-        "context": "The video mentions Azure as a major cloud provider for AI deployment."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Snowflake",
-        "context": "The video mentions Snowflake in the context of AI data platforms."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "McKenzie",
-        "context": "The video mentions McKenzie in the context of AI strategy and consulting."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Capgeemini",
-        "context": "The video mentions Capgemini in the context of AI strategy and consulting."
-      },
-      {
-        "from_video_id": "YCWwh70FZtQ",
-        "from_channel": "IBM Technology",
-        "references": "Bannon company",
-        "context": "The video mentions the Bannon company in relation to AI deployment."
-      },
-      {
-        "from_video_id": "ak6fQ2Yjwy0",
-        "from_channel": "Matthew Berman",
-        "references": "Anthropic",
-        "context": "The video critically analyzes Anthropic's essay on AI geopolitical competition."
-      },
-      {
-        "from_video_id": "ak6fQ2Yjwy0",
-        "from_channel": "Matthew Berman",
-        "references": "Nvidia (Jensen Huang)",
-        "context": "The video discusses Nvidia's role in the AI compute race."
-      },
-      {
-        "from_video_id": "ak6fQ2Yjwy0",
-        "from_channel": "Matthew Berman",
-        "references": "Deepseek",
-        "context": "The video mentions Deepseek in the context of China's AI capabilities."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "ChatGPT",
-        "context": "The video compares ChatGPT's research methodology with other LLMs."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Claude",
-        "context": "The video compares Claude's research methodology with other LLMs."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video compares Gemini's research methodology with other LLMs."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Perplexity",
-        "context": "The video mentions Perplexity as a tool for research."
-      },
-      {
-        "from_video_id": "mQOVClrY-_s",
-        "from_channel": "Will Francis",
-        "references": "Consensus",
-        "context": "The video mentions Consensus as a tool for research."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Anthropic",
-        "context": "The video discusses Anthropic's role in developing advanced AI models for cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "OpenAI",
-        "context": "The video discusses OpenAI's role in developing advanced AI models for cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Google",
-        "context": "The video discusses Google's role in developing advanced AI models for cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Nvidia",
-        "context": "The video discusses Nvidia's role in the AI chip supply chain and its impact on cyber defense."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Jensen Huang",
-        "context": "The video mentions Jensen Huang in relation to Nvidia's role in AI."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Marc Andreessen",
-        "context": "The video references Marc Andreessen in a broader discussion about AI and its implications."
-      },
-      {
-        "from_video_id": "hAzhVloGkOw",
-        "from_channel": "Matthew Berman",
-        "references": "Guillermo Rauch",
-        "context": "The video references Guillermo Rauch in a broader discussion about AI and its implications."
-      },
-      {
-        "from_video_id": "tCA-Rr4UwXM",
-        "from_channel": "Will Francis",
-        "references": "Claude",
-        "context": "The video mentions Claude as an alternative LLM for appealing fines."
-      },
-      {
-        "from_video_id": "tCA-Rr4UwXM",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video mentions Gemini as an alternative LLM for appealing fines."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "ChatGPT",
-        "context": "The video compares ChatGPT's image generation capabilities with other tools, highlighting its new 2.0 version."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video compares Gemini's image generation capabilities with other tools."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Nano Banana Pro",
-        "context": "The video reviews Nano Banana Pro for its strengths in infographics and data visualization."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Recraft",
-        "context": "The video highlights Recraft's unique ability to generate vector files."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Ideogram",
-        "context": "The video mentions Ideogram as one of the AI image generation tools reviewed."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Midjourney",
-        "context": "The video mentions Midjourney as one of the AI image generation tools reviewed."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Adobe Firefly",
-        "context": "The video mentions Adobe Firefly as one of the AI image generation tools reviewed."
-      },
-      {
-        "from_video_id": "kPpxBdc3mOE",
-        "from_channel": "Will Francis",
-        "references": "Grok",
-        "context": "The video mentions Grok as a fallback option for refusal issues in image generation."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "Zapier",
-        "context": "The video compares Claude's routines feature to Zapier for automation capabilities."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "Make",
-        "context": "The video compares Claude's routines feature to Make for automation capabilities."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "n8n",
-        "context": "The video compares Claude's routines feature to n8n for automation capabilities."
-      },
-      {
-        "from_video_id": "gMD1GBGA_1s",
-        "from_channel": "Will Francis",
-        "references": "Apple Shortcuts",
-        "context": "The video compares Claude's routines feature to Apple Shortcuts for automation capabilities."
-      },
-      {
-        "from_video_id": "1GJwXtnYYNQ",
-        "from_channel": "Will Francis",
-        "references": "ChatGPT",
-        "context": "The video directly compares ChatGPT's image generation with Gemini's."
-      },
-      {
-        "from_video_id": "1GJwXtnYYNQ",
-        "from_channel": "Will Francis",
-        "references": "Gemini",
-        "context": "The video directly compares Gemini's image generation with ChatGPT's."
-      },
-      {
-        "from_video_id": "IMHqGNLLoxo",
-        "from_channel": "Matthew Berman",
-        "references": "Anthropic",
-        "context": "The video reports on Anthropic surpassing OpenAI in enterprise LLM usage and its rapid growth."
-      },
-      {
-        "from_video_id": "IMHqGNLLoxo",
-        "from_channel": "Matthew Berman",
-        "references": "OpenAI",
-        "context": "The video reports on Anthropic surpassing OpenAI in enterprise LLM usage and discusses their market position."
-      },
-      {
-        "from_video_id": "BedAaB1RKgE",
-        "from_channel": "IBM Technology",
-        "references": "Model Context Protocol (MCP)",
-        "context": "The video explains MCP as a protocol for how LLMs and agents connect to external tools and data."
-      },
-      {
-        "from_video_id": "BedAaB1RKgE",
-        "from_channel": "IBM Technology",
-        "references": "Agent Development Kit (ADK)",
-        "context": "The video explains ADK as a framework for building and orchestrating AI agents."
+        "context": "OpenAI is mentioned as a competitor whose models are used for comparison with Gemini 3.5 Flash."
       },
       {
         "from_video_id": "vVcH96qq3bA",
         "from_channel": "Will Francis",
         "references": "ChatGPT",
-        "context": "The video uses ChatGPT as an example for calculating the energy consumption of a single prompt."
+        "context": "ChatGPT usage is compared to other activities in terms of energy consumption."
       },
       {
         "from_video_id": "vVcH96qq3bA",
         "from_channel": "Will Francis",
         "references": "Claude CoWork",
-        "context": "The video mentions Claude CoWork in the context of AI tools with potential environmental impact."
+        "context": "Claude CoWork is mentioned in passing, possibly as an example of AI usage."
       },
       {
         "from_video_id": "vVcH96qq3bA",
         "from_channel": "Will Francis",
         "references": "Claude Code",
-        "context": "The video mentions Claude Code in the context of AI tools with potential environmental impact."
+        "context": "Claude Code is mentioned in passing, possibly as an example of AI usage."
       },
       {
         "from_video_id": "jKL2JJUiOHk",
         "from_channel": "Will Francis",
         "references": "GPT",
-        "context": "The video uses GPT as an example of an LLM model that can be rented and cannot be directly changed."
+        "context": "GPT models are mentioned as interchangeable 'brains' that users rent."
       },
       {
         "from_video_id": "jKL2JJUiOHk",
         "from_channel": "Will Francis",
         "references": "Claude",
-        "context": "The video uses Claude as an example of an LLM model that can be rented and cannot be directly changed."
+        "context": "Claude models are mentioned as interchangeable 'brains' that users rent."
+      },
+      {
+        "from_video_id": "NksViNo3n08",
+        "from_channel": "Matthew Berman",
+        "references": "Wall Street Journal",
+        "context": "The video references data from the Wall Street Journal regarding enterprise AI adoption."
       },
       {
         "from_video_id": "NksViNo3n08",
         "from_channel": "Matthew Berman",
         "references": "OpenAI",
-        "context": "The video analyzes the competitive spend data between OpenAI and Anthropic."
+        "context": "OpenAI's enterprise LLM adoption and revenue are analyzed and compared to Anthropic."
       },
       {
         "from_video_id": "NksViNo3n08",
         "from_channel": "Matthew Berman",
         "references": "Anthropic",
-        "context": "The video analyzes the competitive spend data between OpenAI and Anthropic, highlighting Anthropic's growth."
+        "context": "Anthropic's enterprise LLM adoption and revenue are analyzed and compared to OpenAI."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "IBM",
+        "context": "IBM is a key player in the generative computing and enterprise AI integration discussion."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "OpenAI",
+        "context": "OpenAI's launch of a deployment company is analyzed as a shift in the AI industry."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "Google",
+        "context": "Google is mentioned as a major player in AI integration and deployment."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "Anthropic",
+        "context": "Anthropic is mentioned as a major player in the AI landscape."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "AWS",
+        "context": "AWS is mentioned as a cloud provider relevant to enterprise AI integration."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "Azure",
+        "context": "Azure is mentioned as a cloud provider relevant to enterprise AI integration."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "Snowflake",
+        "context": "Snowflake is mentioned in the context of data platforms relevant to enterprise AI integration."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "McKenzie",
+        "context": "McKenzie is mentioned as a consulting firm relevant to enterprise AI integration."
+      },
+      {
+        "from_video_id": "YCWwh70FZtQ",
+        "from_channel": "IBM Technology",
+        "references": "Capgeemini",
+        "context": "Capgeemini is mentioned as a consulting firm relevant to enterprise AI integration."
+      },
+      {
+        "from_video_id": "ak6fQ2Yjwy0",
+        "from_channel": "Matthew Berman",
+        "references": "Anthropic",
+        "context": "The video critically analyzes an essay by Anthropic on AI geopolitical competition."
+      },
+      {
+        "from_video_id": "ak6fQ2Yjwy0",
+        "from_channel": "Matthew Berman",
+        "references": "Nvidia (Jensen Huang)",
+        "context": "Nvidia and Jensen Huang are discussed as critical players in the AI chip supply chain."
+      },
+      {
+        "from_video_id": "ak6fQ2Yjwy0",
+        "from_channel": "Matthew Berman",
+        "references": "Deepseek",
+        "context": "Deepseek is mentioned as an AI model provider in the context of China's AI progress."
+      },
+      {
+        "from_video_id": "mQOVClrY-_s",
+        "from_channel": "Will Francis",
+        "references": "ChatGPT",
+        "context": "ChatGPT is mentioned as an LLM that can be used for basic orientation in research."
+      },
+      {
+        "from_video_id": "mQOVClrY-_s",
+        "from_channel": "Will Francis",
+        "references": "Claude",
+        "context": "Claude is mentioned as an LLM that can be used for basic orientation in research."
+      },
+      {
+        "from_video_id": "mQOVClrY-_s",
+        "from_channel": "Will Francis",
+        "references": "Gemini",
+        "context": "Gemini is mentioned as an LLM that can be used for basic orientation in research."
+      },
+      {
+        "from_video_id": "mQOVClrY-_s",
+        "from_channel": "Will Francis",
+        "references": "Perplexity",
+        "context": "Perplexity is mentioned as a tool for research using LLMs."
+      },
+      {
+        "from_video_id": "mQOVClrY-_s",
+        "from_channel": "Will Francis",
+        "references": "Consensus",
+        "context": "Consensus is mentioned as a tool for research using LLMs."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "Anthropic",
+        "context": "Anthropic is mentioned as an AI developer in the context of cybersecurity advancements."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "OpenAI",
+        "context": "OpenAI is mentioned as an AI developer in the context of cybersecurity advancements."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "Google",
+        "context": "Google is mentioned as an AI developer in the context of cybersecurity advancements."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "Nvidia",
+        "context": "Nvidia is mentioned in the context of developing powerful AI models for cybersecurity."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "Jensen Huang",
+        "context": "Jensen Huang is mentioned in the context of Nvidia's role in AI development for cybersecurity."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "Marc Andreessen",
+        "context": "Marc Andreessen is mentioned in the context of discussions around AI and its implications."
+      },
+      {
+        "from_video_id": "hAzhVloGkOw",
+        "from_channel": "Matthew Berman",
+        "references": "Guillermo Rauch",
+        "context": "Guillermo Rauch is mentioned in the context of discussions around AI and its implications."
       },
       {
         "from_video_id": "tCA-Rr4UwXM",
         "from_channel": "Will Francis",
         "references": "Claude",
-        "context": "The video mentions Claude as an alternative LLM for appealing fines."
+        "context": "Claude is mentioned as an LLM that can be used for appealing fines."
       },
       {
         "from_video_id": "tCA-Rr4UwXM",
         "from_channel": "Will Francis",
         "references": "Gemini",
-        "context": "The video mentions Gemini as an alternative LLM for appealing fines."
+        "context": "Gemini is mentioned as an LLM that can be used for appealing fines."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "ChatGPT",
+        "context": "ChatGPT images 2.0 is reviewed for its image generation capabilities."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Gemini",
+        "context": "Gemini is reviewed for its image generation capabilities."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Nano Banana Pro",
+        "context": "Nano Banana Pro is reviewed for its image generation capabilities, particularly infographics."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Recraft",
+        "context": "Recraft is reviewed for its ability to generate vector files."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Ideogram",
+        "context": "Ideogram is reviewed for its image generation capabilities."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Midjourney",
+        "context": "Midjourney is reviewed for its image generation capabilities."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Adobe Firefly",
+        "context": "Adobe Firefly is reviewed for its image generation capabilities."
+      },
+      {
+        "from_video_id": "kPpxBdc3mOE",
+        "from_channel": "Will Francis",
+        "references": "Grok",
+        "context": "Grok is mentioned as a fallback for refusal issues in image generation."
+      },
+      {
+        "from_video_id": "gMD1GBGA_1s",
+        "from_channel": "Will Francis",
+        "references": "Zapier",
+        "context": "Claude's routines are compared to automation platforms like Zapier."
+      },
+      {
+        "from_video_id": "gMD1GBGA_1s",
+        "from_channel": "Will Francis",
+        "references": "Make",
+        "context": "Claude's routines are compared to automation platforms like Make."
+      },
+      {
+        "from_video_id": "gMD1GBGA_1s",
+        "from_channel": "Will Francis",
+        "references": "n8n",
+        "context": "Claude's routines are compared to automation platforms like n8n."
+      },
+      {
+        "from_video_id": "gMD1GBGA_1s",
+        "from_channel": "Will Francis",
+        "references": "Apple Shortcuts",
+        "context": "Claude's routines are compared to automation tools like Apple Shortcuts."
+      },
+      {
+        "from_video_id": "1GJwXtnYYNQ",
+        "from_channel": "Will Francis",
+        "references": "ChatGPT",
+        "context": "ChatGPT's image generation capabilities are compared to Gemini's."
+      },
+      {
+        "from_video_id": "1GJwXtnYYNQ",
+        "from_channel": "Will Francis",
+        "references": "Gemini",
+        "context": "Gemini's image generation capabilities are compared to ChatGPT's."
       }
     ]
   },
-  "last_updated": "2026-05-26T07:43:46.837881"
+  "last_updated": "2026-05-29T05:23:59.792334"
 }
