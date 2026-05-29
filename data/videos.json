@@ -1,6 +1,186 @@
 {
   "items": [
     {
+      "channel": "Matthew Berman",
+      "video_id": "t3uBGhpii6w",
+      "title": "Anthropic just dropped Opus 4.8... (WOAH)",
+      "url": "https://www.youtube.com/watch?v=t3uBGhpii6w",
+      "published": "2026-05-29T01:01:34+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLM performance",
+          "benchmarking",
+          "AI coding assistants",
+          "dynamic workflows",
+          "parallel processing",
+          "AI agents"
+        ],
+        "stance": "The creator is highly impressed with Claude Opus 4.8's advancements in speed, coding capabilities, and new features like dynamic workflows, while also acknowledging its potential cost implications.",
+        "key_claims": [
+          "Claude Opus 4.8 offers a substantial speed increase (2.5x) at a reduced cost (3x cheaper for fast mode), making it effectively cheaper and faster than previous versions.",
+          "Dynamic workflows in Claude Code allow for parallel processing of hundreds of sub-agents to tackle complex tasks like large migrations and bug hunts, representing a significant advancement in agentic capabilities.",
+          "While Opus 4.8 shows impressive gains in benchmarks like Swebench Pro and Humanity's Last Exam, GPT 5.5 still holds a lead in specific areas like agentic terminal coding, suggesting a nuanced performance landscape."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Gemini",
+          "XAI"
+        ],
+        "novelty": "The video introduces and deeply analyzes the 'dynamic workflows' feature in Claude Code, showcasing its potential for highly complex, parallelized agentic tasks, and discusses the strategic implications of Anthropic's increased compute capacity and deal-making."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "4n_pxHZfTC8",
+      "title": "OPUS 4.8!!! (also maybe GPT5.6??)",
+      "url": "https://www.youtube.com/watch?v=4n_pxHZfTC8",
+      "published": "2026-05-28T19:43:28+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "Claude Opus 4.8",
+          "Anthropic models",
+          "AI model releases",
+          "benchmarks",
+          "coding AI",
+          "dynamic workflows",
+          "parallel agents",
+          "computational cost"
+        ],
+        "stance": "The creator is impressed by the release of Claude Opus 4.8 and its new dynamic workflows feature, but also highlights potential cost concerns and compares its performance against competitors like GPT-5.5.",
+        "key_claims": [
+          "Claude Opus 4.8 offers improvements in coding performance and intelligence at the same price point as previous versions, effectively acting as a cost decrease.",
+          "The new 'dynamic workflows' feature allows for tens to hundreds of parallel sub-agents to tackle complex tasks, but is expected to be very expensive.",
+          "Despite Opus 4.8's strong performance in some benchmarks, GPT-5.5 still leads in agentic terminal coding, suggesting different models excel in different areas."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Google",
+          "Gemini"
+        ],
+        "novelty": "The video introduces and extensively discusses Anthropic's new 'dynamic workflows' feature, which utilizes parallel sub-agents for complex tasks, a concept not commonly detailed in typical LLM reviews. It also provides a hands-on, first-look analysis of a new model release shortly after its announcement, including initial testing and benchmark comparisons."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "kYkZI3oj2W4",
+      "title": "Multi AI Agent Systems: When One AI Brain Isn\u2019t Enough",
+      "url": "https://www.youtube.com/watch?v=kYkZI3oj2W4",
+      "published": "2026-05-28T11:00:10+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "multi-agent systems",
+          "hallucinations",
+          "verification",
+          "uncertainty"
+        ],
+        "stance": "The creator argues that single AI agents are inherently untrustworthy for high-stakes decisions due to their inability to express uncertainty and their tendency to hallucinate confidently, advocating for multi-agent systems to introduce verification and earned confidence.",
+        "key_claims": [
+          "Single AI agents lack an internal mechanism to express uncertainty or admit they don't know, leading to confident yet incorrect answers.",
+          "Multi-agent systems, inspired by human collaborative decision-making processes like NASA's Mission Control, can solve the trust problem by incorporating verification and redundancy.",
+          "The cost of implementing multi-agent architectures is justified in high-stakes environments where the consequences of AI errors are severe."
+        ],
+        "related_to": [],
+        "novelty": "The video's novelty lies in its historical analogy to NASA's Apollo 11 mission control as a prime example of a multi-agent system, and its framing of the AI hallucination problem as a fundamental issue of trust that can be solved by replicating human verification processes in AI architecture."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "6LwQ8RbU9as",
+      "title": "Finally a good benchmark (DeepSWE)",
+      "url": "https://www.youtube.com/watch?v=6LwQ8RbU9as",
+      "published": "2026-05-27T16:03:45+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "benchmarks",
+          "LLM evaluation",
+          "coding models",
+          "Deep Suite benchmark",
+          "SWEBench Pro",
+          "GPT-5.5",
+          "Opus 4.7",
+          "Gemini 3.5 Flash",
+          "AI agents"
+        ],
+        "stance": "The creator believes the new Deep Suite benchmark is a more realistic and valuable measure of LLM coding capabilities than existing benchmarks, and that it shows GPT-5.5 to be significantly superior.",
+        "key_claims": [
+          "Existing coding benchmarks like SWEBench Pro are flawed due to contamination, lack of diversity, and unreliable verification.",
+          "The new Deep Suite benchmark is contamination-free, diverse, handles real-world complexity with shorter prompts and more complex solutions, and has highly reliable verification.",
+          "Deep Suite results show GPT-5.5 as the top-performing model, significantly outperforming Opus 4.7 in both performance and cost-effectiveness."
+        ],
+        "related_to": [
+          "SWEBench Pro",
+          "Anthropic",
+          "OpenAI",
+          "Google",
+          "Claude models"
+        ],
+        "novelty": "This video introduces and analyzes a new, more realistic coding benchmark (Deep Suite) that the creator argues is a significant improvement over existing ones, offering a fresh perspective on LLM performance rankings."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "ftUlJzuzdU4",
+      "title": "First findings from Project Glasswing",
+      "url": "https://www.youtube.com/watch?v=ftUlJzuzdU4",
+      "published": "2026-05-27T10:00:24+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "AI agents",
+          "vulnerability discovery",
+          "Mythos",
+          "Glasswing",
+          "harnessing",
+          "purpose-built models"
+        ],
+        "stance": "The creators believe that while LLMs like Mythos offer powerful new capabilities for AI vulnerability discovery, their effective use still relies on established security principles and a structured approach, rather than being a completely novel paradigm shift.",
+        "key_claims": [
+          "The effectiveness of LLMs like Mythos in vulnerability discovery is significantly enhanced by a well-designed 'harness' that breaks down the process into discrete, orchestrated steps for specialized agents.",
+          "Many of the lessons learned from using advanced LLMs in cybersecurity echo timeless security principles, such as the importance of modular design (microservices vs. monolith) and the need for skilled operators.",
+          "While LLMs can accelerate vulnerability discovery, the focus should also be on architectural improvements that make exploitation harder, rather than solely on the speed of patching."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Cloudflare",
+          "IBM",
+          "X-Force"
+        ],
+        "novelty": "The video's novelty lies in its framing of cutting-edge AI security tools (like Mythos) not as entirely new inventions, but as applications of long-standing cybersecurity and software engineering principles, highlighting the cyclical nature of technological advancement and learning in the industry."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "BacJ6sEhqMo",
+      "title": "The Four Types of Memory Every AI Agent Needs",
+      "url": "https://www.youtube.com/watch?v=BacJ6sEhqMo",
+      "published": "2026-05-26T11:00:06+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "memory",
+          "working memory",
+          "semantic memory",
+          "procedural memory",
+          "episodic memory"
+        ],
+        "stance": "The creator argues that well-designed AI agents require a robust memory architecture, categorizing it into four distinct types (working, semantic, procedural, and episodic) to differentiate them from simple chatbots.",
+        "key_claims": [
+          "AI agents benefit from four distinct memory types: working memory (context window), semantic memory (knowledge base, e.g., Markdown files), procedural memory (skills, e.g., skill.md), and episodic memory (distilled past experiences).",
+          "While chatbots primarily rely on working memory (context window), agents leverage other memory types to provide responses shaped by persistent knowledge and accumulated experience.",
+          "The complexity of an AI agent dictates the necessity of each memory type; simple agents may only need working memory, while advanced agents like coding agents likely require all four."
+        ],
+        "related_to": [],
+        "novelty": "The video provides a structured framework (CoALA) for understanding AI agent memory by drawing analogies to human memory and detailing practical implementations of each memory type, such as using Markdown files for semantic memory and skill.md for procedural memory."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "jtHXi2ANgMY",
       "title": "Cracking Categorical Data The Power of Chi-Squared Tests",
@@ -1029,5 +1209,5 @@
       }
     }
   ],
-  "last_updated": "2026-05-29T05:23:19.476609"
+  "last_updated": "2026-05-29T07:43:08.791322"
 }
