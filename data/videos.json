@@ -1,6 +1,185 @@
 {
   "items": [
     {
+      "channel": "AI Engineering Topics",
+      "video_id": "_G4icCVa8j0",
+      "title": "Comparing Averages Unlocking Insights with T-Tests",
+      "url": "https://www.youtube.com/watch?v=_G4icCVa8j0",
+      "published": "2026-05-30T12:30:25+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "statistical significance",
+          "t-test",
+          "AI performance evaluation"
+        ],
+        "stance": "The creator argues that statistical significance testing, specifically the t-test, is crucial for accurately evaluating claims about AI performance and other data-driven initiatives, preventing costly mistakes based on statistical noise.",
+        "key_claims": [
+          "Most reported improvements in AI performance or business metrics are statistical noise, not genuine effects.",
+          "The t-test is an indispensable tool for distinguishing between real differences and random chance in data.",
+          "Understanding statistical significance is vital for making sound decisions in an era of rapid AI development and data saturation."
+        ],
+        "related_to": [],
+        "novelty": "The video applies the concept of statistical significance testing, traditionally discussed in academic contexts, to the contemporary landscape of AI development and claims, highlighting its practical importance for business and societal decision-making in the face of rapid technological change."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "GsrS0amiaIc",
+      "title": "Why Data Sampling Matters More Than Big Data",
+      "url": "https://www.youtube.com/watch?v=GsrS0amiaIc",
+      "published": "2026-05-30T11:30:17+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "data sampling",
+          "bias in AI",
+          "data quality"
+        ],
+        "stance": "The creator argues that while AI can revolutionize data sampling, the effectiveness of AI is fundamentally limited by the quality and representativeness of the data it is trained on, emphasizing the critical importance of mastering data sampling techniques.",
+        "key_claims": [
+          "Bad sampling is worse than no sampling, and flawed data can lead to disastrous AI predictions and geopolitical miscalculations.",
+          "AI can be used to improve data sampling by identifying optimal data points and cleaning contaminated data, but it is also susceptible to biases present in its training data.",
+          "Mastering data sampling is a critical skill for discerning valuable data from noise and is essential for understanding and influencing the future."
+        ],
+        "related_to": [],
+        "novelty": "The video uses an extended metaphor of gold prospecting to explain various data sampling techniques and their importance, applying these concepts to the context of AI and its reliance on data. It highlights the ethical dimensions of data extraction and the paradox of AI both aiding and being hindered by sampling quality."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "wC2QpP_A9-Y",
+      "title": "The Supabase Alternative Built Natively for AI (Powabase)",
+      "url": "https://www.youtube.com/watch?v=wC2QpP_A9-Y",
+      "published": "2026-05-29T23:02:38+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "RAG",
+          "AI agents",
+          "backend as a service",
+          "vector databases",
+          "agentic workflow builder",
+          "LLM"
+        ],
+        "stance": "The creator is highly impressed with Powerbase, viewing it as an excellent and seamless backend-as-a-service solution for rapidly developing AI-powered applications.",
+        "key_claims": [
+          "Powerbase unifies PostgreSQL, a RAG engine, and an agentic workflow builder into a single backend service, simplifying AI app development.",
+          "The platform integrates relational data and vector embeddings within the same PostgreSQL engine, ensuring transactional safety for both.",
+          "Powerbase enables the creation of AI chatbots that can dynamically call tools and reason through tasks while adhering to deterministic guardrails and business rules."
+        ],
+        "related_to": [
+          "Superbase"
+        ],
+        "novelty": "This video showcases a unified backend service that combines a database, RAG, and agentic workflow builder, presented as a streamlined solution for AI application development, differentiating itself from more fragmented approaches."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "IYN2jfJHJd4",
+      "title": "Self Improving AI actually solves everything",
+      "url": "https://www.youtube.com/shorts/IYN2jfJHJd4",
+      "published": "2026-05-29T19:09:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "small language models",
+          "fine-tuning",
+          "open-source models",
+          "autonomous self-improvement",
+          "AI agents"
+        ],
+        "stance": "The creator is highly impressed by the research demonstrating autonomous self-improvement and automated fine-tuning of small language models, presenting it as the future of AI customization.",
+        "key_claims": [
+          "A new system called Pioneer Agent can autonomously identify, optimize, and fine-tune small language models based on user interaction.",
+          "Automated fine-tuning makes it accessible for non-technical users to customize models for specific use cases without needing label data.",
+          "Fine-tuned small language models can outperform larger frontier models on specific tasks at a lower cost."
+        ],
+        "related_to": [
+          "Andre Karpathy"
+        ],
+        "novelty": "The novelty lies in the concept of an autonomous closed-loop system (Pioneer Agent) that handles the entire lifecycle of model optimization and fine-tuning, making it accessible to a broader audience and eliminating the need for manual intervention or label data."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "HoMvCjnpAJ8",
+      "title": "The Pope is into AI",
+      "url": "https://www.youtube.com/watch?v=HoMvCjnpAJ8",
+      "published": "2026-05-29T17:03:37+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI alignment",
+          "AI regulation",
+          "AI ethics",
+          "AI safety",
+          "LLM consciousness",
+          "AI companionship",
+          "AI market competition"
+        ],
+        "stance": "The creator is impressed by the Pope's nuanced and informed take on AI ethics and regulation but is highly critical of Anthropic's perceived manipulative alignment with religious and governmental authorities for self-serving regulatory capture.",
+        "key_claims": [
+          "The Pope's encyclical offers surprisingly nuanced and well-informed perspectives on AI, addressing its potential to both benefit and harm humanity.",
+          "Anthropic is strategically aligning itself with the Catholic Church and advocating for regulation to achieve regulatory capture, limiting competition and solidifying their own control over AI development.",
+          "AI's potential for anthropomorphism and simulated companionship poses a significant risk to genuine human connection, especially for younger generations."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Pope Francis"
+        ],
+        "novelty": "The video analyzes an official papal encyclical through the lens of contemporary AI development debates, specifically focusing on the alignment strategies and perceived hypocrisy of a major AI company (Anthropic) in relation to the Pope's pronouncements."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "Z4XBnHXYLhU",
+      "title": "Cybersecurity's Telephone Game Problem\ud83d\udcde",
+      "url": "https://www.youtube.com/shorts/Z4XBnHXYLhU",
+      "published": "2026-05-29T17:00:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents"
+        ],
+        "stance": "The creator uses the game of telephone as an analogy to explain how AI agents chaining tools together create more vulnerabilities in cybersecurity.",
+        "key_claims": [
+          "AI agents working together sans human operators create more gaps for attackers.",
+          "Vulnerabilities often exist in the gaps created by complex AI interactions.",
+          "The game of telephone illustrates how messages can be distorted, similar to how AI interactions can lead to unexpected flaws."
+        ],
+        "related_to": [],
+        "novelty": "The video uses the game of telephone as a novel analogy to explain cybersecurity vulnerabilities introduced by AI agents in a chain-of-thought or multi-agent setup."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "Wj_cOI_bLhE",
+      "title": "Claude Code Was Too Expensive for Microsoft #claude #ai #microsoft",
+      "url": "https://www.youtube.com/shorts/Wj_cOI_bLhE",
+      "published": "2026-05-29T11:00:37+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "coding agents",
+          "large language models"
+        ],
+        "stance": "The creator suggests that while powerful AI coding agents like Claude Code are impressive and beneficial for developers, their potential high cost for companies might lead to their removal in favor of proprietary, more controllable tools like GitHub Copilot.",
+        "key_claims": [
+          "Claude Code is more of a 'real' coding agent than a typical autocomplete tool because it can read code, edit files, and run commands.",
+          "The primary reason Microsoft might have pulled Claude Code is the significant cost associated with agentic tools burning through context tokens and long running sessions.",
+          "Developers should be cautious about relying too heavily on any single AI coding tool or stack, as company-provided tools can be changed or removed."
+        ],
+        "related_to": [
+          "Anthropic (Claude Code)",
+          "Microsoft (Experiences and Devices)",
+          "GitHub Copilot CLI"
+        ],
+        "novelty": "The video highlights the potential business and cost implications of deploying advanced, agentic AI tools within large organizations, framing the removal of a tool not by its performance but by its operational expense and the company's strategic alignment with proprietary solutions."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "t3uBGhpii6w",
       "title": "Anthropic just dropped Opus 4.8... (WOAH)",
@@ -1386,5 +1565,5 @@
       }
     }
   ],
-  "last_updated": "2026-05-30T08:47:33.946608"
+  "last_updated": "2026-05-30T14:49:07.958223"
 }
