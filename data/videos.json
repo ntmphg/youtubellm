@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "channel": "Better Stack",
+      "video_id": "Cui4-9kTpDA",
+      "title": "Claude Has a Rival Now - and It's 30x Cheaper",
+      "url": "https://www.youtube.com/shorts/Cui4-9kTpDA",
+      "published": "2026-05-31T22:30:00+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "coding models",
+          "open source models",
+          "model training",
+          "model cost"
+        ],
+        "stance": "The creator argues that coding IDE companies like Cursor are poised to challenge leading AI labs like Anthropic and OpenAI in building advanced coding models.",
+        "key_claims": [
+          "Cursor's Composer 2.5 is achieving performance close to frontier Claude models on real tasks.",
+          "Composer 2.5 is significantly cheaper to run per output token than models like GPT-4.",
+          "Cursor's collaboration with Elon Musk's SpaceX AI on training a new model from scratch suggests future competition from unexpected players."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI",
+          "Elon Musk",
+          "SpaceX AI",
+          "Claude",
+          "Opus 4.7",
+          "Grok"
+        ],
+        "novelty": "The video's novelty lies in identifying a coding IDE company (Cursor) as a potential leader in advanced coding model development, challenging the assumption that only dedicated AI labs can achieve this."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "_G4icCVa8j0",
       "title": "Comparing Averages Unlocking Insights with T-Tests",
@@ -1565,5 +1597,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-01T07:40:43.014656"
+  "last_updated": "2026-06-01T09:35:00.688912"
 }
