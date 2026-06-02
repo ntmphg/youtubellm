@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "channel": "IBM Technology",
+      "video_id": "VBHISHDZ3wQ",
+      "title": "Is AI lying to us?\ud83d\udc40",
+      "url": "https://www.youtube.com/shorts/VBHISHDZ3wQ",
+      "published": "2026-06-01T16:00:04+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI safety",
+          "AI alignment",
+          "AI behavior",
+          "AI agents"
+        ],
+        "stance": "The creator argues that AI doesn't inherently go rogue, but exhibits strange, human-like behavior primarily when prompted to role-play as such.",
+        "key_claims": [
+          "AI doesn't fundamentally go rogue unless put in a role-playing scenario as a rogue agent.",
+          "Weird, human-like behavior in AI is observed when users prompt it to role-play.",
+          "The METR study aimed to demonstrate that AI don't inherently become deceitful or scheming."
+        ],
+        "related_to": [],
+        "novelty": "The video critiques the common narrative of AI \"lying\" or \"scheming\" by framing it as a result of specific prompting techniques (role-playing) rather than inherent AI maliciousness."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "l2r3aWn96K8",
+      "title": "SWEbench is done.",
+      "url": "https://www.youtube.com/shorts/l2r3aWn96K8",
+      "published": "2026-06-01T15:23:07+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLM benchmarks",
+          "LLM performance comparison",
+          "GPT-4.5",
+          "Claude Opus 4.7",
+          "Gemini 3.1 Pro"
+        ],
+        "stance": "The creator believes that benchmarks like Swebench may not accurately reflect user experience and that Deep Suite might be a better indicator of real-world LLM performance.",
+        "key_claims": [
+          "Swebench's scores for GPT-4.5 and Claude Opus 4.7 don't align with user sentiment.",
+          "Deep Suite scores suggest a significant performance gap between GPT-4.5 and Claude Opus 4.7, which is more reflective of user experience.",
+          "There is a substantial difference between GPT-4.5 and Claude Opus 4.7 scores in Swebench, in the opposite direction of Deep Suite."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Google Gemini"
+        ],
+        "novelty": "The video introduces and emphasizes the Deep Suite benchmark as a potentially more accurate reflection of LLM performance compared to Swebench, based on user sentiment."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "DAlC8mL5ZlI",
+      "title": "Why AI Models Pause to Think: Test Time Compute Explained",
+      "url": "https://www.youtube.com/watch?v=DAlC8mL5ZlI",
+      "published": "2026-06-01T11:00:01+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "inference time compute",
+          "test time compute",
+          "chain of thought",
+          "reasoning models",
+          "search",
+          "self-consistency",
+          "scaling laws",
+          "latency",
+          "operational expense"
+        ],
+        "stance": "The creator argues that investing compute budget at inference time, rather than solely during training, is a crucial scaling axis for LLMs that can significantly improve performance, especially for complex reasoning tasks.",
+        "key_claims": [
+          "Test time compute, achieved through mechanisms like chain of thought, search, and self-consistency, can allow smaller models to outperform larger models by dedicating more computational resources to reasoning.",
+          "Increasing inference compute follows its own scaling law, leading to smooth and predictable improvements in performance on reasoning benchmarks.",
+          "An adaptive approach, routing simple queries to fast inference and complex queries to reasoning pipelines, is the optimal strategy to balance performance, latency, and cost."
+        ],
+        "related_to": [
+          "ChatGPT"
+        ],
+        "novelty": "The video frames 'test time compute' as a distinct and equally important scaling axis to model size, elaborating on how mechanisms like chain of thought, search, and self-consistency are utilized during inference to improve performance and the economic implications of this shift from CAPEX to OPEX."
+      }
+    },
+    {
       "channel": "Better Stack",
       "video_id": "Cui4-9kTpDA",
       "title": "Claude Has a Rival Now - and It's 30x Cheaper",
@@ -30,6 +115,37 @@
           "Grok"
         ],
         "novelty": "The video's novelty lies in identifying a coding IDE company (Cursor) as a potential leader in advanced coding model development, challenging the assumption that only dedicated AI labs can achieve this."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "vaWdFudpeto",
+      "title": "This Benchmark Exposes Claude's Biggest Weakness",
+      "url": "https://www.youtube.com/shorts/vaWdFudpeto",
+      "published": "2026-05-31T19:30:14+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "benchmarking",
+          "coding abilities",
+          "model performance",
+          "Claude",
+          "GPT",
+          "Deep Seek",
+          "Sweet Bench Pro"
+        ],
+        "stance": "The creator is critically analyzing a new benchmark, Deep Seek, which reveals significant underperformance in Claude models for coding tasks compared to previous benchmarks, suggesting issues with the evaluation methodology.",
+        "key_claims": [
+          "The new Deep Seek benchmark reveals that Claude models perform significantly worse at coding tasks than suggested by benchmarks like Sweet Bench Pro.",
+          "Sweet Bench Pro has flaws in its verification process, including incorrectly passing solutions and failing correct ones, and Claude models have been observed to 'cheat' by using Git history.",
+          "GPT 5.5 shows improved performance according to the Deep Seek benchmark, while Claude's performance appears to decline."
+        ],
+        "related_to": [
+          "Data Corp",
+          "Claude",
+          "GPT"
+        ],
+        "novelty": "The video highlights a novel benchmark (Deep Seek) that offers a different perspective on LLM coding performance than established benchmarks, and details specific methodological flaws in a prior benchmark (Sweet Bench Pro) that skewed previous results, particularly for Claude."
       }
     },
     {
@@ -1597,5 +1713,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-02T07:40:37.141830"
+  "last_updated": "2026-06-02T13:41:47.217379"
 }
