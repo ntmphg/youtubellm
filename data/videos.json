@@ -1,6 +1,76 @@
 {
   "items": [
     {
+      "channel": "IBM Technology",
+      "video_id": "aa6k-JrZTYI",
+      "title": "Project Lightwell brings open source security into the AI era",
+      "url": "https://www.youtube.com/watch?v=aa6k-JrZTYI",
+      "published": "2026-06-03T10:00:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI coding agents",
+          "AI in cybersecurity",
+          "open-source security",
+          "software supply chain security",
+          "vulnerability chaining",
+          "human-in-the-loop",
+          "AI usage reports",
+          "guardrails"
+        ],
+        "stance": "The creators believe that while AI introduces new security challenges, established principles and evolving approaches like Project Lightwell offer practical solutions for securing the software supply chain and navigating the complexities of AI integration.",
+        "key_claims": [
+          "AI's ability to chain low-severity vulnerabilities makes traditional scanning insufficient, necessitating a new approach to security.",
+          "Project Lightwell, by extending Red Hat's productization model to language libraries, aims to significantly improve open-source security.",
+          "While AI can enable sophisticated attacks like Simjacking, these often exploit human vulnerabilities and can be mitigated with existing security paradigms and proper guardrails, rather than being inherent flaws in AI models themselves."
+        ],
+        "related_to": [
+          "IBM",
+          "Red Hat",
+          "Layer X Security",
+          "Adversa",
+          "Mythos",
+          "GPT5.5",
+          "DeepSeek"
+        ],
+        "novelty": "The video uniquely frames the conversation around AI security not as entirely new threats, but as an evolution of existing challenges, using analogies like the 'pendulum swing' to illustrate the transitionary period of AI adoption and highlighting the proactive, yet grounded, approach of Project Lightwell."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "n5cYS6KuyK8",
+      "title": "The Astro Team Secretly Built the Best AI Agent Framework",
+      "url": "https://www.youtube.com/watch?v=n5cYS6KuyK8",
+      "published": "2026-06-03T08:30:31+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "frameworks",
+          "harness",
+          "tools",
+          "sandboxes",
+          "workflows",
+          "skills"
+        ],
+        "stance": "The creator introduces Flu as a powerful and programmable open-source framework for building AI agents, highlighting its ease of use and cost-effectiveness.",
+        "key_claims": [
+          "Flu is an open-source framework for building AI agents that makes features like skills, tools, and sandboxes fully programmable and deployable in minutes.",
+          "Flu's sandboxing mechanism, powered by Vercel's 'just bash', runs agents in memory, significantly reducing costs compared to traditional containerized approaches.",
+          "Flu offers a 'harness-first' approach to agent development, contrasting with more granular frameworks like Mastra, by integrating essential agent functionalities by default."
+        ],
+        "related_to": [
+          "Claude Code",
+          "Astro",
+          "Amplitude",
+          "Mastra",
+          "Vercel AI SDK",
+          "Daytona Cloudflare"
+        ],
+        "novelty": "The video introduces Flu, a new open-source framework for AI agents, emphasizing its unique approach to sandboxing for cost efficiency and its 'harness-first' philosophy that differs from existing agent development frameworks."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "fdkwkmZrpEU",
       "title": "Everyone's holding their laptops open",
@@ -233,6 +303,33 @@
           "GPT"
         ],
         "novelty": "The video highlights a novel benchmark (Deep Seek) that offers a different perspective on LLM coding performance than established benchmarks, and details specific methodological flaws in a prior benchmark (Sweet Bench Pro) that skewed previous results, particularly for Claude."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "ry3P_JvwJI4",
+      "title": "Can You Actually \"Humanize\" AI Writing? #ai #aislop #aiwriting",
+      "url": "https://www.youtube.com/shorts/ry3P_JvwJI4",
+      "published": "2026-05-31T00:00:06+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI writing detection",
+          "LLM text humanization",
+          "prompt engineering",
+          "Claude Code skills"
+        ],
+        "stance": "The creator finds the current state of AI-generated text on platforms like LinkedIn to be largely \"slop\" and is skeptical of tools claiming to \"humanize\" it, as demonstrated by their mixed experience with the 'Humanizer' Claude Code skill.",
+        "key_claims": [
+          "AI-generated text often exhibits telltale signs such as excessive use of em dashes, repetitive phrasing patterns, and overuse of specific vocabulary.",
+          "The 'Humanizer' Claude Code skill, while an interesting concept, failed to fully humanize a Gemini-generated LinkedIn post, with the \"final result\" being overly simplistic and still containing AI-like markings.",
+          "The creator questions the effectiveness of AI in truly humanizing text and ponders what constitutes human-sounding language in the age of AI."
+        ],
+        "related_to": [
+          "Claude Code",
+          "Gemini"
+        ],
+        "novelty": "This video explores the practical application and limitations of a specific tool ('Humanizer' for Claude Code) designed to address the issue of AI-generated text 'slop,' offering a critical evaluation of its effectiveness rather than just discussing the general problem of AI writing."
       }
     },
     {
@@ -1853,5 +1950,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-03T07:42:54.817204"
+  "last_updated": "2026-06-03T13:40:54.348643"
 }
