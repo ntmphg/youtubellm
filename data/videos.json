@@ -2,6 +2,120 @@
   "items": [
     {
       "channel": "Better Stack",
+      "video_id": "kRACHOx1p8s",
+      "title": "MemPalace: The Tool That Makes Claude Stop Forgetting",
+      "url": "https://www.youtube.com/watch?v=kRACHOx1p8s",
+      "published": "2026-06-04T12:00:39+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI memory",
+          "local LLM memory",
+          "LLM context windows",
+          "AI agents",
+          "RAG",
+          "prompt engineering"
+        ],
+        "stance": "The creator is enthusiastic about Mem Palace as a solution to LLM memory limitations, highlighting its local, verbatim storage and temporal awareness as key advantages over existing methods.",
+        "key_claims": [
+          "Mem Palace provides local, lossless, long-term memory for AI tools by storing conversations verbatim, unlike systems that summarize and lose details.",
+          "Mem Palace differs from standard context modes by offering permanent memory access across separate chats and days, enabling AI agents to recall past decisions and conversations.",
+          "The temporal knowledge graph in Mem Palace is crucial because software decisions expire, and a timeline-aware system can better understand what changed and when."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces Mem Palace, a novel approach to LLM memory that emphasizes storing original source text verbatim, building a compact index above it, and incorporating a temporal knowledge graph to track changes over time, contrasting it with existing summarization-based memory systems and productized SDKs."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "K0uy25V2jeU",
+      "title": "Trump's New 2026 AI Executive Order - Explained",
+      "url": "https://www.youtube.com/watch?v=K0uy25V2jeU",
+      "published": "2026-06-04T11:15:07+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI governance",
+          "AI safety",
+          "AI regulation",
+          "AI cybersecurity"
+        ],
+        "stance": "The creator discusses a 2026 executive order aimed at fostering responsible AI development and deployment through early access programs, cybersecurity initiatives, and critical infrastructure protection.",
+        "key_claims": [
+          "An executive order mandates a 30-day early access program for advanced AI models to allow for safety testing and threat mitigation.",
+          "A specialized AI cybersecurity clearinghouse will be created to centralize threat intelligence and research against AI-driven cyberattacks.",
+          "Critical infrastructure will be strengthened against AI-powered threats through sector-specific programs, AI-based defensive systems, and incident response teams."
+        ],
+        "related_to": [],
+        "novelty": "The video focuses on a specific future (2026) executive order and its detailed provisions for AI governance and national security, rather than a general discussion of AI capabilities or principles."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "7qZH3D7u-z8",
+      "title": "OpenClaw Security Risks: 6 Dangers of Autonomous AI Agents",
+      "url": "https://www.youtube.com/watch?v=7qZH3D7u-z8",
+      "published": "2026-06-04T11:00:02+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "OpenClaw",
+          "security risks",
+          "hallucinations",
+          "data poisoning",
+          "model infection",
+          "MCP (Model Context Protocol)",
+          "credential exposure",
+          "indirect prompt injection",
+          "persistent memory poisoning",
+          "autonomous action risk",
+          "host and workspace compromise",
+          "zero trust"
+        ],
+        "stance": "The creator believes AI agents and platforms like OpenClaw are powerful and beneficial but stresses the significant security risks that users must understand and mitigate through careful design and a zero-trust mindset.",
+        "key_claims": [
+          "AI agents, defined as a model using tools autonomously in a loop, introduce numerous security risks due to potential hallucinations, data poisoning, model infection, and vulnerabilities in tools and protocols like MCP.",
+          "OpenClaw, a self-hosted open-source agent platform, significantly expands the attack surface by allowing untrusted code execution via skills, enabling indirect prompt injections, and risking credential exposure and autonomous actions.",
+          "Despite being open-source, platforms like OpenClaw are not inherently trustworthy due to the possibility of long-hidden vulnerabilities, and they should be treated as untrusted code running with system-level privileges, necessitating strong isolation and a 'assume breach' security posture."
+        ],
+        "related_to": [],
+        "novelty": "The video uniquely focuses on the security risks of locally runnable AI agent platforms like OpenClaw, detailing specific attack vectors and vulnerabilities that arise from their autonomous, tool-using, and persistent credential capabilities, and frames this within a 'zero trust' security paradigm."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "ZAxc9IujEDg",
+      "title": "How does work Odysseus AI - The PewdiePie self-hosted AI workspace - A very visual explanation",
+      "url": "https://www.youtube.com/watch?v=ZAxc9IujEDg",
+      "published": "2026-06-03T23:39:09+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "self-hosted AI",
+          "language models",
+          "AI agents",
+          "local AI execution",
+          "privacy-focused AI",
+          "open-source AI platforms"
+        ],
+        "stance": "The creator presents Odysius AI as a revolutionary, privacy-focused, and user-controlled alternative to big tech's subscription-based AI services.",
+        "key_claims": [
+          "Odysius AI allows users to run advanced AI models locally on their own hardware, ensuring complete data privacy.",
+          "The platform features autonomous AI agents with built-in tools for complex task execution and problem-solving.",
+          "Odysius AI aims to democratize AI by offering a free, open-source, and self-hosted workspace as a challenge to established tech giants."
+        ],
+        "related_to": [
+          "PewDiePie",
+          "ChatGPT",
+          "Claude",
+          "OpenAI"
+        ],
+        "novelty": "The video highlights Odysius AI's unique combination of self-hosting capabilities, advanced AI agents with extensive toolkits, and productivity features like an email assistant and document editor, all within a user-controlled environment."
+      }
+    },
+    {
+      "channel": "Better Stack",
       "video_id": "q-uj7wk0LRI",
       "title": "Scrapling: The Web Scraper That Repairs Itself",
       "url": "https://www.youtube.com/watch?v=q-uj7wk0LRI",
@@ -1972,5 +2086,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-04T09:19:56.068293"
+  "last_updated": "2026-06-04T13:50:07.360759"
 }
