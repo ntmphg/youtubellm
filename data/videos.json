@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "channel": "Better Stack",
+      "video_id": "q-uj7wk0LRI",
+      "title": "Scrapling: The Web Scraper That Repairs Itself",
+      "url": "https://www.youtube.com/watch?v=q-uj7wk0LRI",
+      "published": "2026-06-03T16:30:37+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "RAG"
+        ],
+        "stance": "The creator advocates for Scrapling as a framework that reduces maintenance overhead for data pipelines, RAG jobs, and AI agents by making web scrapers more resilient to website changes.",
+        "key_claims": [
+          "Scrapling's adaptive parsing allows scrapers to survive website changes without rewriting selectors by using structural clues instead of brittle CSS selectors.",
+          "Scrapling unifies multiple scraping needs (adaptive parsing, stealth fetching, browser-based fetching, crawler workflows) into a single API, reducing the complexity of managing various scraping tools.",
+          "The primary benefit of Scrapling is reduced maintenance, making it particularly valuable for RAG jobs and AI agents that require continuous data pipelines."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces a web scraping framework that specifically addresses the problem of brittle selectors and high maintenance, positioning it as a solution for modern AI applications like RAG and AI agents that require robust, continuously running data pipelines."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "aa6k-JrZTYI",
       "title": "Project Lightwell brings open source security into the AI era",
@@ -1950,5 +1972,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-04T01:48:06.728166"
+  "last_updated": "2026-06-04T09:19:56.068293"
 }
