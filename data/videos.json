@@ -1,6 +1,146 @@
 {
   "items": [
     {
+      "channel": "AI Engineering Topics",
+      "video_id": "Spg_V6htpvI",
+      "title": "SpaceXs IPO Made Elon Musk the First Trillionaire",
+      "url": "https://www.youtube.com/watch?v=Spg_V6htpvI",
+      "published": "2026-06-13T00:09:04+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI",
+          "AI infrastructure",
+          "merger"
+        ],
+        "stance": "The creator is analyzing a hypothetical future scenario where SpaceX, by merging with an AI startup and undergoing an IPO, achieves an unprecedented valuation due to market belief in its future potential, particularly in AI and Starlink.",
+        "key_claims": [
+          "SpaceX's hypothetical $2.1 trillion valuation is driven by market belief in future potential, especially from Starlink and AI, despite current net losses.",
+          "Elon Musk's wealth from the IPO is a direct consequence of his ownership stake and enhanced control through a dual-class share structure.",
+          "The IPO's massive capital raising is earmarked for further R&D, AI infrastructure, and Starlink deployment, reflecting investors betting on high-risk, high-reward ventures."
+        ],
+        "related_to": [],
+        "novelty": "The video presents a hypothetical, near-future scenario of a SpaceX IPO and its implications for valuation and personal wealth, incorporating the company's AI endeavors as a significant factor. It is not a typical analysis of current LLM capabilities but rather a financial projection based on AI integration."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "zjFE-dBzP_E",
+      "title": "You NEED to try these open-source AI projects RIGHT NOW",
+      "url": "https://www.youtube.com/watch?v=zjFE-dBzP_E",
+      "published": "2026-06-12T23:47:25+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "prompt engineering",
+          "large language models",
+          "RAG",
+          "fine-tuning",
+          "LLM cost optimization"
+        ],
+        "stance": "The creator is enthusiastic about highlighting and showcasing valuable, free, and open-source GitHub projects related to AI, particularly those that enhance agentic workflows, reduce LLM costs, or offer local alternatives to hosted solutions.",
+        "key_claims": [
+          "'Last 30 Days' is a novel search engine that leverages human voting data from platforms like Reddit and X to surface trending information, offering a more curated and relevant alternative to traditional search engines.",
+          "'Open Notebook' provides a free, local, and open-source clone of Google's NotebookLM, allowing users to ingest documents and query them, even generating synthesized podcasts about the content.",
+          "Headroom can significantly reduce LLM token usage (up to 92% in some cases) by compressing context without sacrificing output quality, leading to substantial cost savings and quota efficiency."
+        ],
+        "related_to": [
+          "Gary Tan (GStack)",
+          "11 Labs"
+        ],
+        "novelty": "The video focuses on specific, under-the-radar open-source GitHub projects that offer practical solutions for AI agent development, information retrieval, and cost optimization, going beyond generic discussions of LLM capabilities."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "rtjP3xttJiU",
+      "title": "Claude Fable 5 is smarter\ud83d\udca1",
+      "url": "https://www.youtube.com/shorts/rtjP3xttJiU",
+      "published": "2026-06-12T18:15:22+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "model capabilities",
+          "long-term planning",
+          "context window",
+          "code analysis"
+        ],
+        "stance": "The creator expresses excitement and surprise about the significant step-up in capabilities of a new LLM model, particularly its long-term planning, contextual understanding, and surprising speed.",
+        "key_claims": [
+          "The new model demonstrates significantly superior long-term planning capabilities, especially for coding tasks.",
+          "The model's ability to understand nuances and identify subtle issues within context, such as bugs in code, is much improved compared to earlier models.",
+          "Despite its advanced capabilities, the model is paradoxically faster than previous ones, which the creator finds difficult to explain."
+        ],
+        "related_to": [],
+        "novelty": "The creator highlights specific, unexpected performance improvements in a new LLM, particularly in long-term planning, contextual analysis of code, and a counter-intuitive increase in speed."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "sV1B2_sFzU8",
+      "title": "So we're doing loops now",
+      "url": "https://www.youtube.com/shorts/sV1B2_sFzU8",
+      "published": "2026-06-12T18:14:58+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "loops",
+          "automation"
+        ],
+        "stance": "The creator explains how loops enable AI agents to autonomously work towards a goal until it's met, moving beyond simple prompt-response cycles.",
+        "key_claims": [
+          "Loops allow AI agents to continuously work towards a goal without constant human prompting.",
+          "A loop requires a trigger and a verifiable goal, which can be deterministic (e.g., tests passing) or non-deterministic.",
+          "The example of an automation in Cursor demonstrates an AI agent reviewing and fixing PRs autonomously until tests pass and CI is green."
+        ],
+        "related_to": [
+          "Cursor"
+        ],
+        "novelty": "The video demonstrates a practical application of AI agent loops within a code editor (Cursor) for automated code review and fixing, showcasing a more autonomous workflow."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "aByPOYCEH6I",
+      "title": "Claude Fable 5 & Apple\u2019s NVIDIA deal",
+      "url": "https://www.youtube.com/watch?v=aByPOYCEH6I",
+      "published": "2026-06-12T10:00:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "large language models",
+          "Anthropic Claude 3 Opus",
+          "Anthropic Claude 3",
+          "AI safety",
+          "AI ethics",
+          "AI model availability",
+          "AI model costs",
+          "AI hardware",
+          "Apple AI",
+          "Nvidia GPUs",
+          "Gemini",
+          "confidential computing",
+          "AI sarcasm"
+        ],
+        "stance": "The creators express a nuanced view, acknowledging the impressive capabilities of new LLMs like Claude 3 Opus while also highlighting significant concerns about their cost, ethical implications of tiered access and content filtering, and the evolving landscape of AI hardware and deployment strategies.",
+        "key_claims": [
+          "The real innovation in Claude 3 Opus isn't just the model's intelligence but the 'router' in front of it, which makes economic and safety-based decisions about which model to use.",
+          "The high cost and risk associated with running large frontier models mean the industry is shifting from a race for the smartest model to a race for the most trustworthy and affordable model.",
+          "Apple's move to use cloud-based AI processing with Nvidia GPUs, despite its on-device compute philosophy, reflects the fundamental hardware requirements for running frontier AI models and the increasing importance of confidential computing for trust."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Apple",
+          "Nvidia",
+          "Google (Gemini)"
+        ],
+        "novelty": "This video offers a deeper dive into the practical and economic implications of advanced LLMs, moving beyond benchmark scores to discuss the critical role of routing infrastructure, the ethical dilemmas of AI safety guardrails, and the hardware realities that are shaping the AI industry, particularly for companies like Apple."
+      }
+    },
+    {
       "channel": "Better Stack",
       "video_id": "kRACHOx1p8s",
       "title": "MemPalace: The Tool That Makes Claude Stop Forgetting",
@@ -2086,5 +2226,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-13T02:56:51.896762"
+  "last_updated": "2026-06-13T08:15:11.977153"
 }
