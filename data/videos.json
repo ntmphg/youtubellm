@@ -1,6 +1,200 @@
 {
   "items": [
     {
+      "channel": "IBM Technology",
+      "video_id": "10XtOi4Lbes",
+      "title": "Have we finally solved social engineering? Plus: World Cup fraud, AI IDs and an IBM/OpenAI collab",
+      "url": "https://www.youtube.com/watch?v=10XtOi4Lbes",
+      "published": "2026-06-24T10:00:05+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "social engineering",
+          "operating systems",
+          "authentication",
+          "identity management"
+        ],
+        "stance": "The panelists believe that while LLMs and AI agents have the potential to significantly improve defenses against social engineering and transform authentication, they also introduce new attack vectors that require further development and consideration.",
+        "key_claims": [
+          "LLM-integrated operating systems could provide a more comprehensive defense against social engineering by having context across all applications, unlike traditional spam filters.",
+          "Social engineering attacks will likely shift from targeting humans directly to targeting AI agents, requiring new strategies for \"interface attacks\" rather than person-to-person attacks.",
+          "Granting AI agents unique identities, as considered by Estonia, is crucial for accountability and permission scoping in enterprise AI deployments, pushing the limits of current identity and access management systems."
+        ],
+        "related_to": [
+          "Dark Reading",
+          "Arun Vishwanath",
+          "OpenAI",
+          "IBM",
+          "Cyble Research and Intelligence Labs",
+          "Nvidia (implicitly through Jensen Huang's GTC keynotes)"
+        ],
+        "novelty": "The discussion explores the novel concept of AI agents having their own identities for accountability and permission management, moving beyond the typical focus on LLMs as a singular entity. It also highlights the evolving nature of social engineering from human-centric to AI-agent-centric attacks and the potential for AI-driven behavioral authentication."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "2lmBj_XQq0I",
+      "title": "You NEED to try these 12 open-source AI projects RIGHT NOW",
+      "url": "https://www.youtube.com/watch?v=2lmBj_XQq0I",
+      "published": "2026-06-24T00:01:49+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "agent harnesses",
+          "skills",
+          "long-horizon tasks",
+          "cybersecurity",
+          "code intelligence",
+          "LLM models"
+        ],
+        "stance": "The creator is enthusiastic about showcasing a variety of cutting-edge open-source AI projects, particularly those that enhance AI agent capabilities.",
+        "key_claims": [
+          "Open Montage transforms AI coding assistants into full video production studios.",
+          "Dear Flow is an open-source super agent harness designed for long-horizon tasks by orchestrating sub-agents, memory, and sandboxes.",
+          "Codebase Memory MCP provides a highly efficient code intelligence engine for AI coding agents, indexing massive codebases in milliseconds."
+        ],
+        "related_to": [
+          "OpenClaw",
+          "Hermes",
+          "Claude",
+          "GitHub Copilot",
+          "Codex",
+          "Cursor",
+          "Gemini",
+          "3.js",
+          "11 Labs",
+          "WhisperFlow",
+          "Matt Pocock",
+          "Garry Tan",
+          "ByteDance",
+          "Anthropic",
+          "Nvidia"
+        ],
+        "novelty": "The video focuses on curating and presenting a diverse range of recently released or highly popular open-source AI projects that extend the functionality of AI agents, rather than discussing foundational LLM concepts or individual models."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "k5jYwyhDMxA",
+      "title": "5 AI Agent Terms You Need to Know",
+      "url": "https://www.youtube.com/watch?v=k5jYwyhDMxA",
+      "published": "2026-06-23T11:00:39+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "agents.md",
+          "agent skills",
+          "MCP (Model Context Protocol)",
+          "A2A (agent to agent)",
+          "subagents"
+        ],
+        "stance": "The creator presents a technical overview of the core components and standards enabling modern AI agents.",
+        "key_claims": [
+          "agents.md and agent skills are internal configurations that shape an agent's behavior and task execution.",
+          "MCP and A2A are open protocols facilitating agent interaction with external tools/data and other agents, respectively.",
+          "Subagents allow for managing complex or parallelizable tasks by spawning multiple child agents, each with its own context."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Google",
+          "Linux Foundation",
+          "Claude"
+        ],
+        "novelty": "The video provides a structured breakdown of five specific, often interconnected, technical components that underpin frontier AI agent capabilities, going beyond general discussions of AI agents."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "x49UvFHvjg4",
+      "title": "Claude Design is SO GOOD (Setup Guide) #claude #ai #design",
+      "url": "https://www.youtube.com/shorts/x49UvFHvjg4",
+      "published": "2026-06-22T20:05:45+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI design tools",
+          "generative design",
+          "design systems",
+          "prompt engineering for design"
+        ],
+        "stance": "The creator views Claude's new design features, especially the design system, as a powerful and user-friendly tool for creating on-brand visual content, emphasizing its ability to simplify the design process.",
+        "key_claims": [
+          "Creating a design system in Claude is essential for achieving on-brand and non-generic visual outputs.",
+          "Claude's design tool allows for flexible editing through both direct manipulation and natural language prompts, similar to tools like Canva or Figma.",
+          "The tool can leverage web search and document uploads to gather information and repurpose it into designs, demonstrating its integration with external data."
+        ],
+        "related_to": [
+          "Canva",
+          "Figma"
+        ],
+        "novelty": "This video is novel in its focus on the practical application of an AI tool (Claude's design features) for creating branded visual content by first establishing a design system, showcasing a workflow that integrates prompt engineering with visual design execution and editing."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "pXScpdGSCxw",
+      "title": "How the AI Economy Became Completely Circular #economy #AI",
+      "url": "https://www.youtube.com/shorts/pXScpdGSCxw",
+      "published": "2026-06-21T21:02:23+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI bubble",
+          "AI industry funding",
+          "circular economy in AI"
+        ],
+        "stance": "The creator argues that the AI industry is experiencing a bubble due to circular funding arrangements and unproven future revenue growth, rather than a lack of useful technology.",
+        "key_claims": [
+          "The AI industry's funding is characterized by circular commitments where companies invest in each other, often exchanging future chip purchases for equity or hardware.",
+          "The massive spending in AI is predicated on projected future revenue growth that is currently unsubstantiated, with companies like OpenAI incurring significant losses.",
+          "The AI bubble is a financial construct based on unrealized revenue, not a reflection of the technology's inherent lack of utility or functionality."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Nvidia",
+          "AMD",
+          "Google",
+          "Amazon",
+          "Anthropic",
+          "ChatGPT",
+          "Claude"
+        ],
+        "novelty": "The video offers a novel approach by visualizing the complex interdependencies and circular funding within the AI industry through an interactive website, making the abstract concept of an AI bubble more tangible."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "9uLWM5MNSmM",
+      "title": "Is ChatGPT Dying? #ai #technology",
+      "url": "https://www.youtube.com/shorts/9uLWM5MNSmM",
+      "published": "2026-06-20T20:23:04+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "market share",
+          "adoption",
+          "monetization"
+        ],
+        "stance": "Despite a perceived loss of market share, ChatGPT is still growing and Google is gaining ground due to superior distribution, while the real monetization opportunities may lie beyond chatbots.",
+        "key_claims": [
+          "ChatGPT is still growing in absolute user numbers, but its percentage market share is declining because the overall AI market is expanding faster.",
+          "Google's distribution advantage through its existing services (Search, Android, Gmail, etc.) is a key factor in Gemini's growth.",
+          "The primary challenge for AI companies is monetization, as most current usage is free and costly to maintain."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Google (Gemini)",
+          "Anthropic (Claude)"
+        ],
+        "novelty": "The video challenges the common narrative of ChatGPT's decline by highlighting absolute growth and focusing on distribution and monetization as the key differentiators in the LLM market, rather than just model performance."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "Spg_V6htpvI",
       "title": "SpaceXs IPO Made Elon Musk the First Trillionaire",
@@ -100,6 +294,30 @@
           "Cursor"
         ],
         "novelty": "The video demonstrates a practical application of AI agent loops within a code editor (Cursor) for automated code review and fixing, showcasing a more autonomous workflow."
+      }
+    },
+    {
+      "channel": "3Blue1Brown",
+      "video_id": "-7etvZSBxlk",
+      "title": "Measuring the entropy of English",
+      "url": "https://www.youtube.com/shorts/-7etvZSBxlk",
+      "published": "2026-06-12T13:22:02+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "information theory",
+          "Claude Shannon",
+          "prediction models",
+          "language compressibility"
+        ],
+        "stance": "The creator argues that Claude Shannon's early work on language compressibility and prediction laid foundational concepts relevant to modern AI's pursuit of intelligence through engineered models.",
+        "key_claims": [
+          "Shannon's experiments with human predictors, like his wife, were early attempts to understand language predictability beyond simple statistical analysis.",
+          "The concept of text compressibility is directly related to the predictability of language, which is a core challenge in AI language modeling.",
+          "Modern AI's ability to approach theoretical compression limits is achieved by engineering intelligence, rather than just data analysis."
+        ],
+        "related_to": [],
+        "novelty": "The video draws a direct historical and conceptual line from Claude Shannon's foundational work in information theory and human-based language prediction to the engineering of modern AI intelligence and compression techniques."
       }
     },
     {
@@ -2226,5 +2444,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-16T12:41:31.248047"
+  "last_updated": "2026-06-25T07:47:23.892493"
 }
