@@ -1,6 +1,175 @@
 {
   "items": [
     {
+      "channel": "Matthew Berman",
+      "video_id": "eEdOqSmkZy0",
+      "title": "I can't believe this happened...",
+      "url": "https://www.youtube.com/watch?v=eEdOqSmkZy0",
+      "published": "2026-06-26T21:26:32+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "frontier models",
+          "AI regulation",
+          "regulatory capture",
+          "model release strategy",
+          "open-source AI"
+        ],
+        "stance": "The creator believes that Anthropic's fear-based marketing and lobbying have led to detrimental AI regulation in the US, hindering the public's access to frontier models and concentrating power with a few large companies.",
+        "key_claims": [
+          "Anthropic's 'fear-based marketing' campaign successfully influenced the US government to implement aggressive regulation on frontier AI models.",
+          "The staggered release of models like GPT-5.6 and Fable, due to government requests, disadvantages smaller companies and individuals, creating a concentration of power.",
+          "Open-source AI is more critical than ever for democratizing access to intelligence, but it lags behind proprietary frontier models, potentially widening the gap."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI",
+          "Sam Altman",
+          "Dario Amodei",
+          "Bill Gurley",
+          "Peter H. Diamandis",
+          "Aaron Levy"
+        ],
+        "novelty": "The video focuses on the negative implications of regulatory capture in the AI industry, arguing that it stifles innovation and public access, a perspective that contrasts with the often optimistic or purely technical discussions surrounding LLMs."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "iG3lW8GslXs",
+      "title": "I AM SO MAD",
+      "url": "https://www.youtube.com/shorts/iG3lW8GslXs",
+      "published": "2026-06-26T20:04:33+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "GPT-5.6 release",
+          "AI regulation",
+          "staggered AI model release",
+          "AI competition"
+        ],
+        "stance": "The creator is extremely critical of the US government's decision to stagger the release of GPT-5.6, believing it will stifle innovation and benefit a select few while hindering the broader community.",
+        "key_claims": [
+          "The US government's request to stagger the release of GPT-5.6 is detrimental to all aspects of society.",
+          "This decision represents de facto AI regulation, giving an unfair advantage to early adopters like Google and Anthropic.",
+          "While the US government is slowing down access for most, major AI players like Google and Anthropic are continuing to accelerate their development."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Google",
+          "Anthropic"
+        ],
+        "novelty": "The video focuses on the socio-economic and regulatory implications of a staggered AI model release, specifically framing it as a form of 'de facto regulation' rather than a technical deep dive into AI capabilities."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "rg9oHMXzLl0",
+      "title": "GPT 5.6 is officially NOT BANNED (even worse)",
+      "url": "https://www.youtube.com/shorts/rg9oHMXzLl0",
+      "published": "2026-06-26T19:06:59+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "model releases",
+          "AI regulation"
+        ],
+        "stance": "The creator believes that Anthropic's 'fear campaign' about AI safety has negatively influenced government decisions, leading to a staggered release of GPT-5.6 which unfairly concentrates power in a few select companies.",
+        "key_claims": [
+          "Anthropic's marketing campaign about AI danger led the US government to ask OpenAI to stagger the release of GPT-5.6.",
+          "Staggering the release of advanced LLMs accelerates the concentration of power in AI companies and select government-approved users.",
+          "This practice creates an unfair advantage for a few companies, leaving the rest of the public behind."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI"
+        ],
+        "novelty": "The video critiques the real-world impact of AI safety discourse on government policy and LLM release strategies, arguing it leads to power consolidation rather than genuine safety benefits."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "ES3HhoYCtIc",
+      "title": "TEN Framework: Voice AI That Can Actually Be Interrupted",
+      "url": "https://www.youtube.com/watch?v=ES3HhoYCtIc",
+      "published": "2026-06-26T16:00:22+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "real-time voice AI",
+          "multimodal agents",
+          "speech-to-text",
+          "LLMs",
+          "text-to-speech",
+          "voice activity detection",
+          "turn detection"
+        ],
+        "stance": "The creator views the 10 framework as a promising, albeit complex, solution for building natural-sounding, multimodal real-time voice AI agents, particularly when dealing with interruptions and conversational messiness.",
+        "key_claims": [
+          "The 10 framework is designed for actual live conversations and is built for 'messy' interactions, unlike text-first frameworks with voice added on top.",
+          "The graph-based architecture of 10 allows for separated extensions (STT, LLM, TTS, etc.) to work together, enabling better handling of real-time conversational elements like interruptions and parallel tool calls.",
+          "While 10 offers a more robust architecture for complex voice agents and provides debugging benefits through its visual designer, its setup can be time-consuming and may be overkill for simple text-based agents."
+        ],
+        "related_to": [],
+        "novelty": "This video stands out by focusing on the real-time, conversational aspect of AI agents, specifically how a framework handles interruptions and messy audio streams, rather than just the text-based capabilities of LLMs. It also emphasizes the architectural benefits of a graph-based system for debugging and managing the complexity of voice AI."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "d-hJa-yDJmQ",
+      "title": "New AI models, token minimization and IBM\u2019s new sub-1nm chip",
+      "url": "https://www.youtube.com/watch?v=d-hJa-yDJmQ",
+      "published": "2026-06-26T10:00:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "large language models",
+          "model orchestration",
+          "open-source models",
+          "model capabilities"
+        ],
+        "stance": "The creator believes that the innovation in LLM development is shifting from creating novel models to sophisticated orchestration of existing models, and that this trend is democratizing advanced AI capabilities.",
+        "key_claims": [
+          "Sakana's Fugu model is not a fundamentally new model but rather an orchestration of existing frontier models, achieving impressive benchmarks through intelligent routing.",
+          "The trend is moving towards orchestration as the product, offering enterprise resilience and a simplified user experience, rather than solely focusing on proprietary model development.",
+          "The emergence of powerful, large open-source models like GLM 5.2 from China, despite compute restrictions, indicates a rapid catch-up and potential disruption to the dominant US-based labs."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI",
+          "Z.ai",
+          "DeepSeek",
+          "Qwen"
+        ],
+        "novelty": "The video highlights a shift in AI innovation from developing single, monolithic large language models to sophisticated orchestration systems that combine multiple models, effectively creating a 'virtual model endpoint' that can adapt and leverage the strengths of various underlying models."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "kr54bb_PhEU",
+      "title": "Which AI model should you use?\ud83e\udd16",
+      "url": "https://www.youtube.com/shorts/kr54bb_PhEU",
+      "published": "2026-06-25T17:00:19+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "cost optimization",
+          "model choice",
+          "commoditization"
+        ],
+        "stance": "The creator believes that increased model choice will ultimately drive down costs and benefit the overall LLM ecosystem, despite short-term compute constraints.",
+        "key_claims": [
+          "There are two main strategies for cost optimization with LLMs: using cheaper models first and escalating, or using a more expensive model for a one-shot attempt to save user time.",
+          "More available LLMs lead to greater choice and drive down costs through commoditization.",
+          "While compute constraints may temporarily impact ceiling prices, wider model selection will lead to overall cost reduction."
+        ],
+        "related_to": [],
+        "novelty": "The discussion focuses on the strategic trade-offs and philosophical approaches to cost optimization in LLMs, rather than just technical implementation."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "10XtOi4Lbes",
       "title": "Have we finally solved social engineering? Plus: World Cup fraud, AI IDs and an IBM/OpenAI collab",
@@ -195,6 +364,59 @@
       }
     },
     {
+      "channel": "Will Francis",
+      "video_id": "sxDAjWrXg9E",
+      "title": "Use Claude for free - tips & hacks #claude #ai",
+      "url": "https://www.youtube.com/shorts/sxDAjWrXg9E",
+      "published": "2026-06-14T21:14:56+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "Claude",
+          "LLM usage limits",
+          "LLM model tiers",
+          "LLM efficiency",
+          "LLM prompt engineering",
+          "LLM document analysis",
+          "LLM data analysis"
+        ],
+        "stance": "The creator provides practical strategies and hacks for maximizing the free usage of the Claude LLM, emphasizing efficiency and understanding its limitations.",
+        "key_claims": [
+          "Claude's free tier (Sonic 4.6) is sufficient for most everyday tasks, despite not being the most advanced model (Opus).",
+          "Utilizing projects for caching uploaded documents significantly reduces token consumption for repeated queries on the same data.",
+          "Being efficient with prompts (e.g., specifying relevant document sections) and outputs (e.g., word count) is crucial for conserving message limits."
+        ],
+        "related_to": [],
+        "novelty": "The video offers specific, actionable 'hacks' and strategies for users to overcome the usage limitations of a free LLM tier, focusing on efficient interaction and leveraging features like projects for caching."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "HFjH2Qcf17A",
+      "title": "Claude Fable 5 Suspended!",
+      "url": "https://www.youtube.com/shorts/HFjH2Qcf17A",
+      "published": "2026-06-13T10:52:26+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI model regulation",
+          "national security concerns for AI",
+          "export controls for AI"
+        ],
+        "stance": "The creator views the government's suspension of Anthropic's Fable 5 model as a significant precedent that raises questions about AI sovereignty and control, potentially impacting future commercial AI products.",
+        "key_claims": [
+          "The US government forced Anthropic to suspend its Fable 5 model due to national security concerns and export control regulations.",
+          "The incident sets a precedent where a government can now switch off a commercial AI product overnight.",
+          "This event highlights the vulnerability of businesses relying on AI models from foreign entities and suggests a need for localized AI development and offline, open-source solutions."
+        ],
+        "related_to": [
+          "Anthropic",
+          "ChatGPT"
+        ],
+        "novelty": "The video discusses a unique event where a government directly intervened to suspend a commercial LLM for national security reasons, highlighting the novel geopolitical and regulatory implications for AI technology rather than focusing on technical aspects or typical AI use cases."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "Spg_V6htpvI",
       "title": "SpaceXs IPO Made Elon Musk the First Trillionaire",
@@ -356,6 +578,74 @@
           "Google (Gemini)"
         ],
         "novelty": "This video offers a deeper dive into the practical and economic implications of advanced LLMs, moving beyond benchmark scores to discuss the critical role of routing infrastructure, the ethical dilemmas of AI safety guardrails, and the hardware realities that are shaping the AI industry, particularly for companies like Apple."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "eDuUCJfbS8U",
+      "title": "Massive Claude Update! Fable 5 Just Released!",
+      "url": "https://www.youtube.com/shorts/eDuUCJfbS8U",
+      "published": "2026-06-09T22:18:09+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "large language models",
+          "model safety",
+          "model release",
+          "benchmarks",
+          "AI model capabilities",
+          "AI model pricing",
+          "AI model usage limits"
+        ],
+        "stance": "The creator views Anthropic's new model, Fable 5, as a powerful advancement, but cautions against overstating its safety concerns and highlights its current limitations and cost for general use.",
+        "key_claims": [
+          "Fable 5 represents a significant leap in capabilities compared to previous models, outperforming them on complex tasks and benchmarks.",
+          "While Anthropic claims Fable 5 was held back due to safety concerns, the creator suggests taking these claims with a grain of salt, referencing past OpenAI announcements.",
+          "Fable 5 is positioned as a tool for power users, particularly in coding and knowledge work, offering substantial speedups but is too expensive and resource-intensive for simpler tasks."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Claude",
+          "Opus 4.8",
+          "Sonnet",
+          "OpenAI",
+          "GPT2",
+          "Gemini",
+          "Microsoft",
+          "Google",
+          "Every (channel/creator)"
+        ],
+        "novelty": "The video provides a practical, user-focused analysis of a newly released, high-capability LLM, including its limited-time access, cost implications, and specific use cases, framed against a backdrop of historical AI release strategies."
+      }
+    },
+    {
+      "channel": "3Blue1Brown",
+      "video_id": "l6DKRf-fAAM",
+      "title": "Reinventing Entropy | Compression is Intelligence Part 1",
+      "url": "https://www.youtube.com/watch?v=l6DKRf-fAAM",
+      "published": "2026-06-07T11:49:51+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "information theory",
+          "compression",
+          "entropy",
+          "language models",
+          "next token prediction",
+          "cross-entropy loss",
+          "prefix codes",
+          "Shannon's noiseless coding theorem"
+        ],
+        "stance": "The creator argues that the mathematical principles of information theory, particularly compression and entropy, are fundamental to understanding the pre-training objective of large language models and have a profound, albeit sometimes counter-intuitive, relationship with intelligence.",
+        "key_claims": [
+          "Prediction and compression are mathematically equivalent, meaning the pre-training objective of LLMs can be reframed as creating the most efficient text compressor.",
+          "The concept of 'information' in information theory, defined as negative log base 2 of probability, provides a lower bound on the compressibility of data and is a core concept underlying LLM training.",
+          "Shannon's work on information theory, predating modern AI, laid the mathematical groundwork for understanding language compression and, by extension, the fundamental workings of models like LLMs."
+        ],
+        "related_to": [
+          "Claude Shannon"
+        ],
+        "novelty": "The video's novelty lies in its pedagogical approach, aiming to guide the viewer through rediscovering the core concepts of information theory (information, entropy) from first principles by framing them as answers to the problem of text compression, and then drawing explicit parallels to the mechanics of LLM pre-training (next token prediction via cross-entropy loss)."
       }
     },
     {
@@ -2444,5 +2734,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-26T03:40:12.564886"
+  "last_updated": "2026-06-27T06:38:34.966007"
 }
