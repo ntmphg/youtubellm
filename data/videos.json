@@ -116,6 +116,33 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "DOfwOVDKSSk",
+      "title": "Claude got attacked",
+      "url": "https://www.youtube.com/shorts/DOfwOVDKSSk",
+      "published": "2026-06-26T14:18:02+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "distillation attacks",
+          "model security",
+          "regulatory responses to AI"
+        ],
+        "stance": "The creator views Alibaba's actions as a brazen attack and suggests that governmental regulation, similar to 'know your customer' in banking, is a likely future for accessing powerful AI models.",
+        "key_claims": [
+          "Alibaba conducted a large-scale distillation attack on Anthropic's Claude model.",
+          "Government intervention, like requests for model releases to slow down, is influenced by such security breaches.",
+          "Future access to frontier AI models may require user identification, analogous to KYC in banking."
+        ],
+        "related_to": [
+          "Anthropic",
+          "Alibaba",
+          "OpenAI"
+        ],
+        "novelty": "The video frames a specific security incident (distillation attack) as a direct cause for governmental pressure on AI companies and predicts a 'KYC-like' regulatory future for powerful AI models."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "d-hJa-yDJmQ",
       "title": "New AI models, token minimization and IBM\u2019s new sub-1nm chip",
@@ -144,6 +171,63 @@
           "Qwen"
         ],
         "novelty": "The video highlights a shift in AI innovation from developing single, monolithic large language models to sophisticated orchestration systems that combine multiple models, effectively creating a 'virtual model endpoint' that can adapt and leverage the strengths of various underlying models."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "oQ_aqiSTLQc",
+      "title": "GPT 5.6 is officially BANNED",
+      "url": "https://www.youtube.com/shorts/oQ_aqiSTLQc",
+      "published": "2026-06-26T02:24:09+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "model release scheduling",
+          "AI regulation"
+        ],
+        "stance": "The creator is frustrated by government intervention delaying AI model releases, particularly for OpenAI's GPT 5.6, and wants the previously banned 'Fable' to return to accelerate new model development.",
+        "key_claims": [
+          "The Trump administration requested OpenAI stagger the release of GPT 5.6.",
+          "The release of new AI models is now being dictated by the government.",
+          "The return of 'Fable' is seen as a prerequisite for the release of the next OpenAI model."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Sam Altman"
+        ],
+        "novelty": "This video highlights a specific instance of alleged government interference in the release schedule of a major AI model, connecting it to broader concerns about the pace of AI development and the impact of regulatory decisions."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "IwKuv4LrCVk",
+      "title": "Anthropic is coming for EVERYTHING",
+      "url": "https://www.youtube.com/watch?v=IwKuv4LrCVk",
+      "published": "2026-06-25T23:33:11+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "AI agents",
+          "prompt engineering",
+          "context lock-in",
+          "AI native companies",
+          "LLM UI/UX paradigms"
+        ],
+        "stance": "The creator views Anthropic's Claude Tag as a potentially dangerous step towards a single company owning all knowledge work, but also acknowledges it as the future of AI integration into business.",
+        "key_claims": [
+          "Claude Tag represents Anthropic's ambition to control all knowledge work by integrating deeply into company workflows and Slack conversations.",
+          "The \"context lock-in\" created by Claude Tag is a more significant risk than traditional model lock-in, as companies become dependent on Anthropic for interpreting and executing work.",
+          "This shift represents the third major paradigm for LLM UI/UX, moving from websites and apps to persistent, context-aware entities embedded within existing workflows."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI",
+          "Andre Karpathy",
+          "Y Combinator",
+          "Ashwin Goel Penath"
+        ],
+        "novelty": "The video uniquely frames Anthropic's Claude Tag not just as a new feature, but as a strategic move to 'own all knowledge work,' highlighting the concept of 'context lock-in' and its societal implications beyond typical AI discussions."
       }
     },
     {
@@ -361,6 +445,76 @@
           "Anthropic (Claude)"
         ],
         "novelty": "The video challenges the common narrative of ChatGPT's decline by highlighting absolute growth and focusing on distribution and monetization as the key differentiators in the LLM market, rather than just model performance."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "nODxez6nZEU",
+      "title": "GLM 5.2 is my new favorite model...",
+      "url": "https://www.youtube.com/watch?v=nODxez6nZEU",
+      "published": "2026-06-20T15:00:24+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "open source LLMs",
+          "model benchmarking",
+          "code generation",
+          "web design generation",
+          "3D game generation",
+          "full-stack application generation",
+          "LLM cost",
+          "LLM speed",
+          "LLM token usage"
+        ],
+        "stance": "The creator believes GLM 5.2 is a highly impressive and capable open-source LLM that rivals proprietary models in many aspects, particularly in its ability to generate functional code and creative outputs.",
+        "key_claims": [
+          "GLM 5.2 is the best open-source model currently available, matching or exceeding proprietary models like GPT-4.5 and Gemini 3.5 Flash on various benchmarks.",
+          "GLM 5.2 excels in code generation and web design tasks, producing impressive results that are often superior to other open-source models and competitive with frontier models.",
+          "Despite being token-hungry, GLM 5.2 offers excellent value in terms of cost versus intelligence, making it a highly competitive option in the open-source LLM landscape."
+        ],
+        "related_to": [
+          "OpenAI",
+          "ZAI",
+          "Anthropic",
+          "Claude Opus",
+          "GPT-4.5",
+          "Gemini 3.5 Flash",
+          "Gemini 3.1 Pro",
+          "Kimmy K2.7 Code",
+          "Minimax M3",
+          "Deepseek V4",
+          "Sonic 4.6"
+        ],
+        "novelty": "The video provides a detailed, hands-on comparison of GLM 5.2 against several leading proprietary and open-source LLMs across a wide range of practical generation tasks, including complex full-stack applications and interactive 3D games, offering insights into its real-world performance beyond standard benchmarks."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "FwJC0BD3yqM",
+      "title": "OpenAI Just Made Rust Impossible to Ignore #openai #rust #programming",
+      "url": "https://www.youtube.com/shorts/FwJC0BD3yqM",
+      "published": "2026-06-20T13:00:33+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI infrastructure",
+          "systems programming"
+        ],
+        "stance": "The creator argues that OpenAI's significant investment in Rust indicates a growing trend of using Rust for critical AI infrastructure due to its performance, reliability, and memory safety.",
+        "key_claims": [
+          "OpenAI has joined the Rust Foundation as a platinum member, investing $600,000.",
+          "OpenAI is betting on Rust as the future of systems programming for AI.",
+          "Rust's combination of high performance, strong reliability, and memory safety makes it ideal for AI systems like Codex."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Rust Foundation",
+          "Charlie Marsh",
+          "UV",
+          "Ruff",
+          "Better Stack channel"
+        ],
+        "novelty": "The video highlights the shift from Python-centric AI development to the underlying infrastructure being increasingly built with languages like Rust, specifically mentioning OpenAI's strategic adoption for performance and safety in tools like Codex."
       }
     },
     {
@@ -646,6 +800,35 @@
           "Claude Shannon"
         ],
         "novelty": "The video's novelty lies in its pedagogical approach, aiming to guide the viewer through rediscovering the core concepts of information theory (information, entropy) from first principles by framing them as answers to the problem of text compression, and then drawing explicit parallels to the mechanics of LLM pre-training (next token prediction via cross-entropy loss)."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "N851xRuhqWE",
+      "title": "ChatGPT's secret nighttime routine #chatgpt #openai #technology",
+      "url": "https://www.youtube.com/shorts/N851xRuhqWE",
+      "published": "2026-06-06T22:33:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "memory systems",
+          "AI agents",
+          "user retention",
+          "autonomous self-improvement"
+        ],
+        "stance": "The creator views OpenAI's new 'dreaming' feature for ChatGPT as an innovative advancement in AI memory systems that mimics human cognition and enhances user retention, while also noting similar capabilities in other AI models.",
+        "key_claims": [
+          "ChatGPT's new memory system synthesizes conversations nightly to create a fleshed-out understanding of the user, overcoming the staleness of previous fact recall.",
+          "This 'dreaming' process improves memory relevance and efficiency, potentially saving compute resources for OpenAI.",
+          "The feature serves as a user retention tactic by making users feel deeply understood by the AI, and is analogous to how human brains process information during sleep."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Claude",
+          "Hermes",
+          "Open Claw"
+        ],
+        "novelty": "The video highlights a new 'dreaming' memory synthesis feature in ChatGPT that mimics human sleep for memory consolidation, a novel approach to AI memory management and user personalization, contrasting it with existing memory systems in other models like Claude."
       }
     },
     {
@@ -2734,5 +2917,5 @@
       }
     }
   ],
-  "last_updated": "2026-06-27T06:38:34.966007"
+  "last_updated": "2026-06-27T07:49:09.508857"
 }
