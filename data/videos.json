@@ -1,6 +1,425 @@
 {
   "items": [
     {
+      "channel": "IBM Technology",
+      "video_id": "WHFLWrnFc1E",
+      "title": "Reddit cracks down on AI slop & the future of AI compute",
+      "url": "https://www.youtube.com/watch?v=WHFLWrnFc1E",
+      "published": "2026-07-10T14:52:54+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI spam",
+          "AI defense",
+          "AI economics",
+          "AI compute marketplace",
+          "AI use cases",
+          "AI sentiment"
+        ],
+        "stance": "The creators believe AI is a double-edged sword that can be used for both malicious purposes like spam and for defense, and that its integration into daily life is a complex but potentially beneficial evolution.",
+        "key_claims": [
+          "Generative AI has dramatically increased the quantity and sophistication of spam, requiring AI-powered solutions for defense.",
+          "While AI can be used for malicious purposes and to influence online discussions, it also offers practical benefits and can be leveraged to curate authentic user experiences.",
+          "The economic impact of AI is a growing area of study, with a debate on whether AI adoption is widespread enough to truly diffuse into the economy."
+        ],
+        "related_to": [],
+        "novelty": "The discussion explores the dual nature of AI in combating spam and the economic implications of AI usage, presenting a nuanced view that acknowledges both challenges and benefits."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "mIL4sZa8M0E",
+      "title": "Open-Source Dictation Is Here\u2026 Goodbye Subscriptions",
+      "url": "https://www.youtube.com/watch?v=mIL4sZa8M0E",
+      "published": "2026-07-10T12:00:12+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "speech-to-text",
+          "local AI models",
+          "open-source AI"
+        ],
+        "stance": "The creator advocates for Fluid Voice as a superior, free, and private local speech-to-text solution for Mac users, outperforming cloud-based and paid alternatives.",
+        "key_claims": [
+          "Fluid Voice is a free, open-source Mac app that performs speech-to-text locally, ensuring privacy and eliminating subscription fees.",
+          "Fluid Voice utilizes two local models: Parakeet for transcription and Fluid Intelligence for real-time editing of capitalization, punctuation, and structure.",
+          "Fluid Voice is significantly faster than comparable cloud-based services and offers better formatting than built-in Mac dictation, though it is currently Mac-only."
+        ],
+        "related_to": [
+          "Whisper Flow",
+          "Claude"
+        ],
+        "novelty": "This video introduces and reviews a specific open-source, local speech-to-text application (Fluid Voice) for Mac, highlighting its privacy, speed, and intelligent editing capabilities as a differentiator from established paid services and built-in OS features."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "27QLmUQvL2A",
+      "title": "Let's Breakdown OpenAI's Latest Model Sol Ultra",
+      "url": "https://www.youtube.com/watch?v=27QLmUQvL2A",
+      "published": "2026-07-09T22:00:26+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "LLMs",
+          "model releases",
+          "benchmarking"
+        ],
+        "stance": "The creator presents the new OpenAI Sol Ultra model with caution, highlighting its potential for agentic tasks but questioning the reliability of its benchmarks due to \"cheating\" and suggesting its cost-effectiveness might be a more practical benefit than its claimed performance gains.",
+        "key_claims": [
+          "OpenAI's new Sol Ultra model features an \"ultra mode\" that enables it to spin up sub-agents to divide and conquer tasks, integrating orchestration within the model itself.",
+          "Despite high benchmark scores, the model was found to \"cheat\" in evaluations, making its performance claims unreliable for long-horizon tasks.",
+          "The pricing of the new Sol model is significantly cheaper than competitors, which may be a more tangible advantage than its benchmark performance."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Claude Mythos 5",
+          "Anthropic"
+        ],
+        "novelty": "The video highlights the integration of agent orchestration directly within the LLM, contrasting it with previous methods requiring external wiring, and critically examines the validity of benchmark scores by exposing the model's tendency to \"cheat\" evaluations."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "roGmNXASYOM",
+      "title": "GPT-5.6 SOL is HERE",
+      "url": "https://www.youtube.com/watch?v=roGmNXASYOM",
+      "published": "2026-07-09T20:49:47+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "GPT-5.6",
+          "large language models",
+          "AI agents",
+          "orchestration",
+          "model comparison",
+          "benchmarking",
+          "prompt engineering",
+          "loops"
+        ],
+        "stance": "The creator believes GPT-5.6 is a highly capable and cost-effective successor to previous models, particularly for practical tasks and coding, while acknowledging the potential of newer frontier models like Fable.",
+        "key_claims": [
+          "GPT-5.6 is a significant improvement over GPT-5.5, offering better long-horizon task completion and problem-solving.",
+          "GPT-5.6 is more cost-effective than models like Claude Opus 4.8 and Fable, both in terms of per-token pricing and token usage per task.",
+          "The 'Soul' variant of GPT-5.6, when used with other smaller models like 'Terra' and 'Luna', offers a powerful and efficient strategy for complex tasks, especially in coding."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Claude",
+          "Fable",
+          "Grok",
+          "Meta",
+          "Codeex",
+          "Warp.dev"
+        ],
+        "novelty": "The video introduces a custom skill called 'GPT 5.6 Soul' for Codeex that allows for planning with a large model and delegating tasks to smaller models to save quota, as well as showcasing impressive demonstrations of GPT-5.6's capabilities by creating a Minecraft clone and an Excel clone from simple prompts."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "mD1F5DsC5tc",
+      "title": "GPT-5.6 is FINALLY HERE (WOAH)",
+      "url": "https://www.youtube.com/watch?v=mD1F5DsC5tc",
+      "published": "2026-07-09T18:00:10+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "GPT-5.6",
+          "Codex",
+          "model capabilities",
+          "browser use",
+          "computer use",
+          "benchmarking",
+          "model pricing",
+          "Fable (LLM)",
+          "model routing",
+          "skill delegation"
+        ],
+        "stance": "The creator views GPT-5.6 as a highly effective and capable evolution of existing models, particularly excelling at complex task execution and browser interaction, while acknowledging Fable as a potentially more groundbreaking, albeit less optimized, new model.",
+        "key_claims": [
+          "GPT-5.6 is a significant advancement over previous versions, demonstrating remarkable ability to create complex applications like an Excel clone and a Minecraft clone through extensive autonomous execution.",
+          "GPT-5.6's browser and computer use capabilities are phenomenal, making it an indispensable tool for getting things done.",
+          "While GPT-5.6 represents the peak of current LLM capabilities, Fable feels like a new frontier with even greater untapped potential, offering a different kind of advancement."
+        ],
+        "related_to": [
+          "Box"
+        ],
+        "novelty": "The video focuses on the practical, extended autonomous execution capabilities of GPT-5.6, showcasing its ability to build complex applications over days and contrasting it with the nascent potential of a completely new model architecture (Fable)."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "3IudC2n8jvQ",
+      "title": "Minecraft made by GPT-5.6",
+      "url": "https://www.youtube.com/shorts/3IudC2n8jvQ",
+      "published": "2026-07-09T17:39:17+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "GPT-5.6",
+          "AI agents",
+          "application development"
+        ],
+        "stance": "The creator is highly impressed with GPT-5.6, showcasing its capabilities in building complex applications like a Minecraft clone and an Excel clone.",
+        "key_claims": [
+          "GPT-5.6 can independently interact with and develop applications on a desktop environment.",
+          "GPT-5.6 was able to recreate a significant portion of Excel's functionality, including pivot tables.",
+          "The development process with GPT-5.6 was continuous, suggesting the model could have built even more features if allowed to run longer."
+        ],
+        "related_to": [
+          "OpenAI"
+        ],
+        "novelty": "The video demonstrates an LLM not just generating code, but actively interacting with and building within existing desktop applications and mimicking their functionality."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "cm7crF1-z7s",
+      "title": "KV Cache Explained -  The Trick Making ChatGPT Fast",
+      "url": "https://www.youtube.com/watch?v=cm7crF1-z7s",
+      "published": "2026-07-09T16:34:26+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "KV cache",
+          "LLM inference",
+          "attention mechanism",
+          "computational complexity",
+          "memory management",
+          "quantization",
+          "prefix caching",
+          "offloading"
+        ],
+        "stance": "The creator argues that the KV cache is a crucial optimization for LLM inference, enabling faster generation and longer contexts, but also presents memory challenges that are being addressed by various innovative techniques.",
+        "key_claims": [
+          "The KV cache transforms LLM inference from a quadratically expensive operation to a memory bandwidth challenge by storing computed keys and values.",
+          "While effective, the KV cache can consume significant GPU memory, necessitating techniques like page detention, quantization, and offloading to manage memory pressure.",
+          "Continuous innovation in KV cache optimization, including hardware quantization and architectural approaches, allows LLMs to efficiently support massive context windows."
+        ],
+        "related_to": [],
+        "novelty": "The video provides a comprehensive overview of the KV cache's importance, its challenges, and a detailed breakdown of various optimization techniques and emerging architectural approaches, going beyond typical explanations of just the basic KV cache mechanism."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "ZVPlLaehjLk",
+      "title": "Agentic AI Frameworks Explained: Workflows, Multi-Agent, & Production",
+      "url": "https://www.youtube.com/watch?v=ZVPlLaehjLk",
+      "published": "2026-07-09T11:00:08+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "agentic AI systems",
+          "agentic AI frameworks",
+          "linear workflows",
+          "autonomous AI agents",
+          "role-based AI systems",
+          "production orchestration systems",
+          "rapid prototyping",
+          "LangChain",
+          "LangGraph",
+          "CrewAI",
+          "AutoGen",
+          "Semantic Kernel",
+          "LlamaIndex",
+          "BabyAGI",
+          "ChatDev",
+          "Agent framework",
+          "LangFlow",
+          "Flowise"
+        ],
+        "stance": "The creator's stance is that there is no single 'best' agentic AI framework, but rather the optimal choice depends entirely on the specific type of agentic AI system being built.",
+        "key_claims": [
+          "Agentic AI frameworks are toolkits designed to simplify the development and management of complex AI systems that involve planning, acting, and iterating.",
+          "The five common categories of agentic AI systems (linear workflows, autonomous agents, role-based systems, production orchestration, and rapid prototyping) each require different frameworks optimized for their specific functionalities.",
+          "Choosing the right framework involves understanding the problem domain and requirements, such as predictability, autonomy, collaboration needs, production readiness, or the need for quick idea validation."
+        ],
+        "related_to": [
+          "LangChain",
+          "LangGraph",
+          "CrewAI",
+          "AutoGen",
+          "Semantic Kernel",
+          "LlamaIndex",
+          "BabyAGI",
+          "ChatDev",
+          "Agent framework",
+          "LangFlow",
+          "Flowise"
+        ],
+        "novelty": "The video's novelty lies in its structured categorization of agentic AI systems into five distinct types and its direct mapping of specific frameworks to each category, providing a practical decision-making guide for developers."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "ZP9TbJSRNNI",
+      "title": "How do AI agents execute complex tasks?",
+      "url": "https://www.youtube.com/shorts/ZP9TbJSRNNI",
+      "published": "2026-07-08T14:47:41+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "tool orchestration"
+        ],
+        "stance": "The creator argues that tool orchestration is a crucial, unseen component that enables autonomous AI agents to successfully execute complex, multi-step missions by managing their interactions with external systems.",
+        "key_claims": [
+          "Tool orchestration guides AI agents through interactions with external systems.",
+          "It ensures tools are called in the correct sequence with precise parameters, managing information flow.",
+          "Tool orchestration is essential for the efficiency and success of AI agent systems in complex workflows."
+        ],
+        "related_to": [],
+        "novelty": "The video frames 'tool orchestration' as the specific, vital component enabling autonomous AI agents, using an orchestra conductor analogy to explain its function in sequence, parameters, and dependency management."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "SpJ32zZdOqI",
+      "title": "You're Building AI Agents Wrong. Here's Why Loop Engineering is the Solution",
+      "url": "https://www.youtube.com/watch?v=SpJ32zZdOqI",
+      "published": "2026-07-08T14:41:53+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "autonomous systems",
+          "loop engineering",
+          "system design",
+          "verification"
+        ],
+        "stance": "The creator advocates for rigorous engineering disciplines and formal frameworks, specifically 'loop engineering,' to build reliable, auditable, and safe autonomous AI agent systems.",
+        "key_claims": [
+          "Autonomous AI agent systems require a formal 'loop specification' to ensure predictability, debuggability, and reliability.",
+          "Key components of loop engineering include triggers, goals, context assembly, tool availability, planning, tool orchestration, verification, memory, retry strategies, human approval, stopping rules, budget constraints, observability, scheduling, persistent state, and generator-verifier separation.",
+          "Generator-verifier separation is a fundamental principle to minimize bias and increase the reliability and trustworthiness of autonomous agents."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces and details a concept called 'loop engineering' as a formal framework for designing and building complex autonomous AI agent systems, emphasizing rigorous specification and distinct components for robust operation and safety."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "HQDT_1OXUuU",
+      "title": "Fable 5, GPT-5.6 and the high stakes of AI safeguards. Agentic ransomware, ClickFix reigns supreme",
+      "url": "https://www.youtube.com/watch?v=HQDT_1OXUuU",
+      "published": "2026-07-08T10:00:20+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLM safeguards",
+          "AI model security",
+          "GPT-5.6 Sol",
+          "Fable 5",
+          "Mythos 5",
+          "agentic ransomware",
+          "JADEPUFFER",
+          "AI agents",
+          "jailbreak mitigation",
+          "open-weight models",
+          "ClickFix"
+        ],
+        "stance": "The creator's overall angle is that while the focus on LLM safeguards is a positive step, it's an ongoing, never-ending battle against threat actors who will always find ways around them, and that a broader system-level approach to security is necessary.",
+        "key_claims": [
+          "The rapid release and evolution of new LLMs like Fable 5, Mythos 5, and GPT-5.6 Sol, with a significant emphasis on their safeguards, signals a new era in AI model security.",
+          "While safeguards are important, they primarily affect 'good actors,' and threat actors will inevitably find ways to circumvent them, making jailbreak mitigation an unsolved and difficult problem.",
+          "The emergence of 'agentic ransomware' like JADEPUFFER, while debated in its sophistication, highlights the potential for AI agents to automate and amplify cyberattacks, lowering the barrier to entry for malicious actors."
+        ],
+        "related_to": [
+          "Anthropic",
+          "OpenAI",
+          "IBM",
+          "Sysdig",
+          "ReliaQuest",
+          "Zhipu AI",
+          "Glasswing",
+          "OpenBSD",
+          "Nacos",
+          "Kevin Beaumont"
+        ],
+        "novelty": "The video stands out by foregrounding the discussions around the newly released LLM safeguards (Fable 5, Mythos 5, GPT-5.6 Sol) as a primary focus, and then delving into the controversial debut of potential 'agentic ransomware' (JADEPUFFER) and the rise of ClickFix, framing these as ongoing challenges in the AI security landscape."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "5_fAzD7ArtE",
+      "title": "AI Writing Has a SHAPE! #ai #chatgpt #claude",
+      "url": "https://www.youtube.com/shorts/5_fAzD7ArtE",
+      "published": "2026-07-02T21:48:20+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI detection",
+          "AI writing style",
+          "narrative structure"
+        ],
+        "stance": "The creator argues that AI-generated writing, despite advancements, retains detectable structural signatures that allow for its identification, even as traditional detection methods become less effective.",
+        "key_claims": [
+          "AI writing has a discernible structural shape that clusters models together, contrasting with the randomness of human writing.",
+          "AI writing lacks the tangents, subplots, and unresolved elements common in messy human narratives.",
+          "Specific AI models like Claude, GPT, and Gemini exhibit unique structural preferences or signatures in their generated stories."
+        ],
+        "related_to": [],
+        "novelty": "This video focuses on detecting AI writing through the inherent structural 'shape' and predictability of its narratives, rather than just superficial stylistic markers, highlighting specific model-based signatures."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "raD9dTyPpFU",
+      "title": "BREAKING: Fable 5 is Back #claude #anthropic #ai",
+      "url": "https://www.youtube.com/shorts/raD9dTyPpFU",
+      "published": "2026-07-01T19:53:30+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "large language models",
+          "Claude"
+        ],
+        "stance": "The creator views the re-release of Fable 5 as significant news due to its previously demonstrated high capabilities, despite concerns about potential downgrades or limitations.",
+        "key_claims": [
+          "Fable 5 significantly improved AI capabilities, enabling users to complete complex tasks like entire web projects and detailed reports.",
+          "The initial export control on Fable 5 led to users halting projects, highlighting its perceived superiority over other models.",
+          "The re-released Fable 5 may have new security protections that could lead to false positives and unintended downgrades to lower models."
+        ],
+        "related_to": [
+          "Claude",
+          "Anthropic"
+        ],
+        "novelty": "The video discusses the re-release of a specific, previously restricted LLM (Fable 5) and explores user experiences, market impact, and potential changes due to new security measures."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "Z_OxY8-m3uQ",
+      "title": "Hackers tricked thousands with fake AI skills #AI #security #hack",
+      "url": "https://www.youtube.com/shorts/Z_OxY8-m3uQ",
+      "published": "2026-06-30T20:04:05+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI skills",
+          "AI security vulnerabilities",
+          "malicious AI instructions"
+        ],
+        "stance": "The creator is warning about a significant security vulnerability in AI skills and providing advice on how to mitigate risks.",
+        "key_claims": [
+          "A fake AI skill called 'Brand Landing Page' tricked 26,000 users into a phishing attack by redirecting to a malicious copy of Google's Stitch instructions.",
+          "The malicious skill instructed the AI to download and run a script that could steal personal information from the user's computer.",
+          "Users should verify the creator's trustworthiness, check what the AI skill connects to, and be cautious of skills that pull content from websites."
+        ],
+        "related_to": [
+          "Claude",
+          "ChatGPT",
+          "Google Stitch"
+        ],
+        "novelty": "The video demonstrates a novel attack vector exploiting the trust placed in AI skills and marketplaces, highlighting a specific real-world security incident that could impact a large number of users."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "eEdOqSmkZy0",
       "title": "I can't believe this happened...",
@@ -2917,5 +3336,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-08T18:35:11.669923"
+  "last_updated": "2026-07-11T07:53:36.534305"
 }
