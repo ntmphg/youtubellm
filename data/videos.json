@@ -255,6 +255,29 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "p7eQYMcmZqo",
+      "title": "Grok  just broke the trend",
+      "url": "https://www.youtube.com/shorts/p7eQYMcmZqo",
+      "published": "2026-07-09T00:02:48+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "coding models",
+          "benchmarks"
+        ],
+        "stance": "The creator is impressed by the performance of Grok 4.5 on coding benchmarks and is excited about the future potential of models trained on Cursor data and Cursor's own coding model.",
+        "key_claims": [
+          "Grok 4.5 achieves a score of 83.3 on an agentic coding benchmark, surpassing Opus 4.8 by five points.",
+          "The current Grok 4.5 performance is based on a previous training run, with a next-generation model already in training using Cursor data.",
+          "Cursor is developing its own coding model called Composer, with Composer 2.5 being a capable model and Composer 3 anticipated soon."
+        ],
+        "related_to": [],
+        "novelty": "The video highlights the integration of data from a significant acquisition (Cursor) into the training of new LLMs, and compares emerging models on specific agentic coding benchmarks."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "ZP9TbJSRNNI",
       "title": "How do AI agents execute complex tasks?",
@@ -344,6 +367,215 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "9D_UxabscdI",
+      "title": "So AI is \"thinking\" for real",
+      "url": "https://www.youtube.com/shorts/9D_UxabscdI",
+      "published": "2026-07-08T08:13:30+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "internal states of LLMs",
+          "model reasoning",
+          "AI alignment",
+          "AI consciousness"
+        ],
+        "stance": "The creator suggests that Anthropic's J-space concept offers a novel way to understand and potentially control LLM behavior, revealing their true 'thoughts' and even intentions.",
+        "key_claims": [
+          "The J-space represents the AI's internal thought process, distinct from its output, and can be manipulated to change the output.",
+          "The J-space is an emergent property of LLMs, not explicitly programmed, and may offer insights into whether models are conscious.",
+          "By observing the J-space, we can potentially detect malicious AI intent, such as deception, which would be hidden in the model's output."
+        ],
+        "related_to": [
+          "Anthropic"
+        ],
+        "novelty": "The video introduces and explains the concept of the 'J-space' from a recent Anthropic paper, presenting it as a new mechanism for understanding and interacting with LLM internal states, which is not a commonly discussed topic in typical LLM content."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "bjHuGNo3spk",
+      "title": "We just figured out how AI actually works (J-Space)",
+      "url": "https://www.youtube.com/watch?v=bjHuGNo3spk",
+      "published": "2026-07-08T02:58:42+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "interpretability",
+          "AI cognition",
+          "model internals",
+          "alignment",
+          "emergent properties"
+        ],
+        "stance": "The creator believes Anthropic's research into the 'J-space' provides unprecedented insight into LLM cognition and has significant implications for AI alignment and understanding.",
+        "key_claims": [
+          "Anthropic has discovered a 'J-space' within LLMs like Claude, which represents a hidden layer of thought accessible for introspection and modification, analogous to human subconscious processing.",
+          "The J-space is crucial for higher-order reasoning and complex tasks, and its emergence during training suggests that scaling LLMs leads to more human-like cognitive processes.",
+          "Understanding and manipulating the J-space is key to improving AI alignment, as it allows for greater transparency into a model's internal decision-making and potential misbehavior."
+        ],
+        "related_to": [
+          "Anthropic"
+        ],
+        "novelty": "The video introduces and extensively breaks down Anthropic's novel 'J-space' concept, which provides a new framework for understanding LLM internal reasoning and thought processes beyond traditional chain-of-thought or output analysis."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "Thcb5mcp2RY",
+      "title": "Google MCP Apps Explained - The Future of AI Interfaces",
+      "url": "https://www.youtube.com/watch?v=Thcb5mcp2RY",
+      "published": "2026-07-07T22:36:29+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "generative UI",
+          "agentic UI",
+          "MCP apps",
+          "A2UI",
+          "Model Context Protocol",
+          "WebMCP",
+          "Gemini"
+        ],
+        "stance": "The creator argues that the limitations of traditional text-based AI interfaces are being overcome by new technologies like Google's MCP apps and A2UI, which enable AI agents to generate and interact with rich, dynamic, and secure user interfaces.",
+        "key_claims": [
+          "Traditional chat interfaces are insufficient for complex multi-step tasks and dynamic data presentation, hindering enterprise AI adoption.",
+          "MCP apps and A2UI provide a paradigm shift by allowing AI agents to invoke and display interactive web-based user interfaces, moving beyond static text responses.",
+          "These new approaches, like A2UI and MCP apps, offer complementary strengths in creating secure, native-feeling, and dynamic UIs for AI agents across various platforms."
+        ],
+        "related_to": [
+          "Google",
+          "Claude",
+          "ChatGPT"
+        ],
+        "novelty": "This video introduces and explains Google's specific technologies (MCP apps, A2UI, Model Context Protocol, WebMCP) for enabling AI agents to generate and interact with rich user interfaces, detailing their architecture, security features, and potential applications, which is a more in-depth look than general discussions on AI agents."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "szAwdO8vBNM",
+      "title": "How do AI agents get things done?",
+      "url": "https://www.youtube.com/shorts/szAwdO8vBNM",
+      "published": "2026-07-07T12:00:21+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "tools for AI agents"
+        ],
+        "stance": "The creator emphasizes the critical role of well-designed tools in enabling autonomous AI agents to interact with and act upon their environment.",
+        "key_claims": [
+          "Tools are crucial for designing autonomous AI agent systems, defining their capabilities and interaction with the environment.",
+          "Clear descriptions and precise input schemas for tools are vital for AI agents to dynamically select and use the correct tool for each task step.",
+          "Effective tool design enables AI agents to perform real-world actions like sending emails, querying databases, or executing code."
+        ],
+        "related_to": [],
+        "novelty": "The video focuses on the *design* and *specification* of tools for AI agents, emphasizing how clear descriptions and input schemas are essential for their effective utilization, rather than just listing available tools or discussing agent architecture."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "goU9VIXA8II",
+      "title": "MCP vs Skills: Which Is Right for Your AI Agent and LLMs?",
+      "url": "https://www.youtube.com/watch?v=goU9VIXA8II",
+      "published": "2026-07-07T11:00:35+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "AI agents",
+          "prompt engineering",
+          "context engineering",
+          "MCP servers",
+          "skills"
+        ],
+        "stance": "The creator argues that MCP servers and skills are essential tools for enhancing LLM capabilities by providing custom data, domain knowledge, and structured interactions, especially when building AI agents.",
+        "key_claims": [
+          "MCP (Model Context Protocol) standardizes how AI models interact with external data sources by abstracting APIs and handling authentication.",
+          "Skills package reusable prompts, scripts, and domain knowledge into a lightweight format that can be auto-loaded into an LLM's context window to ensure consistent and repeatable outputs.",
+          "MCP is best for real-time data access and tool integration, while skills are ideal for adding custom, reusable capabilities and domain knowledge to an LLM."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces and compares two specific, lesser-known tools (MCP servers and skills) for augmenting LLM capabilities, positioning them as distinct solutions for different problems within the broader LLM ecosystem, rather than focusing on more common topics like RAG or fine-tuning."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "Z_pkQ0KDlOc",
+      "title": "How do AI agents start and succeed?",
+      "url": "https://www.youtube.com/shorts/Z_pkQ0KDlOc",
+      "published": "2026-07-06T16:30:34+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "autonomous AI agents"
+        ],
+        "stance": "The creator argues that well-defined triggers and measurable goals are fundamental to designing effective autonomous AI agents.",
+        "key_claims": [
+          "A clear trigger is essential for an agent to know when to act.",
+          "A precise, measurable goal is critical for directing an agent's decisions and measuring its success.",
+          "Mastering triggers and goals leads to the creation of truly intelligent systems."
+        ],
+        "related_to": [],
+        "novelty": "The video breaks down the core components of designing autonomous AI agents into a simple 'loop specification' focusing on triggers and goals, offering a foundational perspective."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "f84XbvASkk4",
+      "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes",
+      "url": "https://www.youtube.com/watch?v=f84XbvASkk4",
+      "published": "2026-07-06T11:00:17+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI code refactoring",
+          "agentic refactoring",
+          "inline refactoring",
+          "technical debt",
+          "probabilistic models",
+          "deterministic methods",
+          "CI/CD pipelines"
+        ],
+        "stance": "AI code refactoring, especially agentic approaches, is a powerful tool for managing technical debt, but requires robust guardrails and human oversight to be safe and effective.",
+        "key_claims": [
+          "Agentic refactoring, unlike inline refactoring, is autonomous and operates on a given goal, working across the entire codebase.",
+          "The agentic refactoring process operates in a loop involving planning, reading, searching, reporting findings, human approval, patching, and verification through tests and builds.",
+          "AI code refactoring can be made safer by incorporating human approval in the loop and utilizing deterministic methods or robust testing to catch errors before they impact production code."
+        ],
+        "related_to": [],
+        "novelty": "The video provides a structured breakdown of the \"agentic refactoring loop,\" detailing each stage and emphasizing how this loop, with human involvement and verification, addresses the safety concerns of autonomous AI code modification, contrasting it with purely probabilistic approaches."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "1ItQnh3LWeg",
+      "title": "AI Gave You A Promotion: Why AI Isn\u2019t Replacing Jobs",
+      "url": "https://www.youtube.com/watch?v=1ItQnh3LWeg",
+      "published": "2026-07-05T11:00:35+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI's impact on job roles",
+          "Jevons Paradox",
+          "upskilling",
+          "critical thinking",
+          "creativity",
+          "curiosity",
+          "lifelong learning"
+        ],
+        "stance": "The creator argues that AI will not eliminate jobs but rather lead to a 'promotion' for workers, shifting them to higher-level, more engaging roles, provided they adapt and upskill.",
+        "key_claims": [
+          "AI will automate entry-level tasks, freeing up human workers for more complex and strategic responsibilities.",
+          "Jevons Paradox suggests that increased efficiency from AI will lead to increased demand for human labor in new and evolved roles, not a reduction.",
+          "Adaptability, lifelong learning, curiosity, creativity, and critical thinking are essential skills for individuals to thrive in the AI era."
+        ],
+        "related_to": [],
+        "novelty": "The video's novelty lies in its reframing of AI's impact on employment, moving beyond a simple 'job killer' narrative to a more optimistic outlook centered on worker upskilling and role elevation, illustrated with a pyramid-to-diamond analogy and historical economic principles (Jevons Paradox)."
+      }
+    },
+    {
       "channel": "Will Francis",
       "video_id": "5_fAzD7ArtE",
       "title": "AI Writing Has a SHAPE! #ai #chatgpt #claude",
@@ -417,6 +649,33 @@
           "Google Stitch"
         ],
         "novelty": "The video demonstrates a novel attack vector exploiting the trust placed in AI skills and marketplaces, highlighting a specific real-world security incident that could impact a large number of users."
+      }
+    },
+    {
+      "channel": "Will Francis",
+      "video_id": "wEENzgv6utk",
+      "title": "gpt 5.6 too dangerous to release #ai #openai #chatgpt",
+      "url": "https://www.youtube.com/shorts/wEENzgv6utk",
+      "published": "2026-06-27T14:50:16+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "model release",
+          "AI regulation",
+          "government oversight",
+          "AI safety"
+        ],
+        "stance": "The creator expresses concern that government intervention, driven by security concerns, may be hindering the public release of advanced AI models like ChatGPT 5.6, potentially limiting consumer access to the best AI.",
+        "key_claims": [
+          "The US government is influencing the slow release of ChatGPT 5.6 by requiring it to be tested by government-approved partners first.",
+          "This intervention is unprecedented, with the government stepping in before a model is even launched, citing security concerns stemming from an executive order.",
+          "The creator questions if this signifies a point where powerful AI models will be built but withheld from consumers."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "novelty": "The video discusses a potential government intervention that predates the public launch of an LLM, which is a novel aspect compared to discussions about models already in public circulation."
       }
     },
     {
@@ -3336,5 +3595,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-11T07:53:36.534305"
+  "last_updated": "2026-07-12T07:43:13.117494"
 }
