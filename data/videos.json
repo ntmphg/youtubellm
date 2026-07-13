@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "channel": "Matthew Berman",
+      "video_id": "mlc9JSTQoxc",
+      "title": "Codex is GONE",
+      "url": "https://www.youtube.com/shorts/mlc9JSTQoxc",
+      "published": "2026-07-13T07:20:20+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "AI for knowledge work",
+          "ChatGPT",
+          "Claude"
+        ],
+        "stance": "LLM providers like OpenAI and Anthropic are shifting their focus towards integrating AI tools into real-world knowledge work, deemphasizing general Q&A functionalities.",
+        "key_claims": [
+          "OpenAI has merged ChatGPT and Codex, rebranding it as ChatGPT Coder and de-emphasizing the original ChatGPT interface.",
+          "Companies like OpenAI and Anthropic are prioritizing the use of LLMs for knowledge work such as coding, document analysis, and content creation over simple question-answering.",
+          "The future of LLM adoption lies in their integration into daily professional tasks and workflows."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "ChatGPT",
+          "Claude"
+        ],
+        "novelty": "The video highlights a strategic shift by major AI companies to reorient their flagship products towards professional knowledge work applications, a move that is presented as a significant change in user experience and product strategy."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "SVAwzodyFUo",
+      "title": "How to Manage Your AI Before It Makes the Wrong Decision",
+      "url": "https://www.youtube.com/watch?v=SVAwzodyFUo",
+      "published": "2026-07-12T11:00:09+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI governance",
+          "AI management systems",
+          "AI risk management",
+          "ISO 42001",
+          "NIST AI Risk Management Framework",
+          "EU AI Act"
+        ],
+        "stance": "The creator strongly advocates for robust AI management systems and governance, emphasizing that standards like ISO 42001 are crucial for safe and scalable AI adoption, rather than treating AI governance as a mere compliance checkbox.",
+        "key_claims": [
+          "ISO 42001 provides a comprehensive, auditable, and certifiable AI management system for governing AI across its lifecycle, similar to how ISO 27001 governs information security.",
+          "Organizations need to actively manage AI risk through a continuous improvement cycle (Plan-Do-Check-Act) considering data, model, system, and usage risks.",
+          "While NIST's framework offers guidance and the EU AI Act provides legal constraints, ISO 42001 offers a practical system for governance, auditability, and certification, creating complementary layers for strong AI systems."
+        ],
+        "related_to": [
+          "International Standards Organization (ISO)",
+          "National Institute of Standards and Technology (NIST)",
+          "European Union (EU)"
+        ],
+        "novelty": "This video uniquely positions ISO 42001 as a formal, certifiable AI management system, contrasting it with the guidance-focused NIST framework and the legally binding EU AI Act, and argues for their complementary nature in building robust AI governance."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "WHFLWrnFc1E",
       "title": "Reddit cracks down on AI slop & the future of AI compute",
@@ -452,6 +511,30 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "3g4JBjNSbio",
+      "title": "Fable 5 EXTENDED",
+      "url": "https://www.youtube.com/shorts/3g4JBjNSbio",
+      "published": "2026-07-07T21:05:01+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "Claude",
+          "Fable"
+        ],
+        "stance": "The creator is informing viewers about a limited-time extension of Anthropic's Fable feature within Claude subscriptions and encouraging users to utilize their quotas before the deadline.",
+        "key_claims": [
+          "Anthropic has extended Fable access in Claude subscriptions until July 12th.",
+          "Users who have already used their Fable quota will not have it reset.",
+          "Viewers should use their remaining Fable quota quickly due to the upcoming deadline."
+        ],
+        "related_to": [
+          "Anthropic"
+        ],
+        "novelty": "The novelty lies in the specific announcement of the Fable feature's extended availability within Claude subscriptions and the practical advice given to users about their quotas."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "szAwdO8vBNM",
       "title": "How do AI agents get things done?",
@@ -500,6 +583,31 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "zHWco8xg7ME",
+      "title": "Cheap tricks for AI",
+      "url": "https://www.youtube.com/shorts/zHWco8xg7ME",
+      "published": "2026-07-07T10:16:48+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "model routing",
+          "cost optimization",
+          "frontier models",
+          "coding models",
+          "AI bill"
+        ],
+        "stance": "The creator argues that model routing is a dead-simple technique to drastically reduce AI costs by leveraging cheaper coding models for execution after a more capable frontier model handles planning.",
+        "key_claims": [
+          "Model routing can save over 90% on AI bills.",
+          "A frontier model can be used for planning and spec generation, with a cheaper coding model executing the plan.",
+          "The plan can be passed back to the frontier model for a final review, completing the cost-saving workflow."
+        ],
+        "related_to": [],
+        "novelty": "The video presents a specific, actionable strategy (model routing) for cost reduction in LLM usage that goes beyond general advice, focusing on the delegation of tasks between different tiers of models."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "Z_pkQ0KDlOc",
       "title": "How do AI agents start and succeed?",
@@ -519,6 +627,29 @@
         ],
         "related_to": [],
         "novelty": "The video breaks down the core components of designing autonomous AI agents into a simple 'loop specification' focusing on triggers and goals, offering a foundational perspective."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "W7Recc0u9qc",
+      "title": "Can AI agents truly adapt and verify?",
+      "url": "https://www.youtube.com/shorts/W7Recc0u9qc",
+      "published": "2026-07-06T11:30:04+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "autonomous AI agents",
+          "operational reliability"
+        ],
+        "stance": "The creator argues that the operational reliability of autonomous AI agents is a critical challenge that needs to be addressed through robust engineering for adaptation and self-verification.",
+        "key_claims": [
+          "Systems designed with singular prompts often fail in dynamic, real-world environments.",
+          "The fragility of current AI agent systems leads to costs, disruptions, and a trust deficit.",
+          "Robust AI agent systems require continuous adaptation, learning, and self-verification."
+        ],
+        "related_to": [],
+        "novelty": "The video emphasizes the need for continuous self-verification and adaptation loops in AI agents, framing it as the key to overcoming fragility and building trust, rather than focusing on specific LLM architectures or training methods."
       }
     },
     {
@@ -628,6 +759,35 @@
         ],
         "related_to": [],
         "novelty": "The video's novelty lies in its reframing of AI's impact on employment, moving beyond a simple 'job killer' narrative to a more optimistic outlook centered on worker upskilling and role elevation, illustrated with a pyramid-to-diamond analogy and historical economic principles (Jevons Paradox)."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "g2MbWR4mGPM",
+      "title": "What Is Google's WebMCP and Why It Is the Future of the Internet",
+      "url": "https://www.youtube.com/watch?v=g2MbWR4mGPM",
+      "published": "2026-07-04T11:30:12+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "browser-native standards",
+          "programmable interfaces"
+        ],
+        "stance": "The creator argues that the new Web Model Context Protocol (WebMCP) is a necessary evolution of the web to enable reliable and efficient interaction with AI agents.",
+        "key_claims": [
+          "WebMCP provides a machine-readable layer for websites, exposing functional capabilities as structured tools to AI agents, moving beyond brittle screen-scraping methods.",
+          "Implementation of WebMCP significantly improves reliability, reduces computational overhead and token usage for AI agents, and leads to faster task completion and higher accuracy.",
+          "Websites adopting WebMCP will gain an advantage in agent-referred traffic and conversions, becoming more discoverable and actionable in an agent-driven web ecosystem."
+        ],
+        "related_to": [
+          "Google",
+          "Microsoft",
+          "World Wide Web Consortium",
+          "Gemini",
+          "ChatGPT"
+        ],
+        "novelty": "The video introduces and explains WebMCP, a new browser-native standard designed to create a structured, machine-readable interface for websites specifically for AI agents, contrasting it with existing methods and traditional model context protocols."
       }
     },
     {
@@ -3650,5 +3810,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-13T05:26:05.465967"
+  "last_updated": "2026-07-13T07:45:37.968009"
 }
