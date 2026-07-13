@@ -549,6 +549,61 @@
       }
     },
     {
+      "channel": "AI Engineering Topics",
+      "video_id": "xeScwJxqyGI",
+      "title": "Context Engineering Explained: Why Prompt Engineering Is Gone",
+      "url": "https://www.youtube.com/watch?v=xeScwJxqyGI",
+      "published": "2026-07-06T10:30:22+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "context engineering",
+          "prompt engineering",
+          "retrieval augmented generation (RAG)",
+          "AI agents",
+          "tool calling",
+          "memory systems",
+          "multimodal context",
+          "multi-agent systems",
+          "context security",
+          "context observability",
+          "automated context optimization",
+          "agentic context engineering (ACE)"
+        ],
+        "stance": "The creator argues that the field of AI interaction is moving beyond prompt engineering to a more sophisticated discipline called context engineering, which is essential for building reliable and scalable AI systems.",
+        "key_claims": [
+          "Prompt engineering is no longer sufficient for reliable and scalable AI outcomes due to limitations in modern LLMs and systemic issues that prompt tweaking cannot solve.",
+          "Context engineering, which involves architecting the entire information space an AI model operates within, is the future, encompassing elements like RAG, tool integration, memory systems, and multimodal input.",
+          "Advanced concepts like automated context optimization and agentic context engineering (ACE) represent the next frontier, enabling AI systems to autonomously refine their own context."
+        ],
+        "related_to": [],
+        "novelty": "This video introduces and extensively elaborates on the concept of 'context engineering' as a successor to prompt engineering, detailing its various components and future implications, which is a more specific and forward-looking framing than typical discussions of RAG or AI agents."
+      }
+    },
+    {
+      "channel": "AI Engineering Topics",
+      "video_id": "kIplOWq70ls",
+      "title": "Can AI agents make smart decisions without context?",
+      "url": "https://www.youtube.com/shorts/kIplOWq70ls",
+      "published": "2026-07-05T23:30:20+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "context assembly",
+          "context engineering"
+        ],
+        "stance": "The creator argues that context assembly and engineering are the critical factors for building effective AI agents.",
+        "key_claims": [
+          "Context assembly dynamically gathers relevant internal, external, and historical information for AI agents.",
+          "Without comprehensive context, AI agents risk making uninformed decisions and taking incorrect actions.",
+          "By 2026, context engineering will focus on shaping and refining information for strategic intelligence, not just data volume."
+        ],
+        "related_to": [],
+        "novelty": "The video emphasizes 'context assembly' and 'context engineering' as the core, strategic components for effective AI agents, moving beyond just data collection to refined information shaping."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "1ItQnh3LWeg",
       "title": "AI Gave You A Promotion: Why AI Isn\u2019t Replacing Jobs",
@@ -3595,5 +3650,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-12T07:43:13.117494"
+  "last_updated": "2026-07-13T05:26:05.465967"
 }
