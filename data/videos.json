@@ -2,6 +2,72 @@
   "items": [
     {
       "channel": "Matthew Berman",
+      "video_id": "R2kkm87o_XM",
+      "title": "China's making their own chips now",
+      "url": "https://www.youtube.com/shorts/R2kkm87o_XM",
+      "published": "2026-07-15T03:05:45+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "open-source AI models",
+          "AI hardware",
+          "AI chip manufacturing"
+        ],
+        "stance": "The creator highlights the strategic imperative for Chinese AI companies to develop their own AI chips to avoid dependency on foreign hardware providers like Nvidia and achieve full control over their AI stack.",
+        "key_claims": [
+          "Chinese AI companies like DeepSeek and the creators of GLM 5.2 are reportedly planning to develop their own AI chips.",
+          "Developing in-house AI chips is a logical step for these companies to gain independence from US-based hardware manufacturers.",
+          "This move indicates a broader trend of AI companies seeking to control their entire AI technology stack."
+        ],
+        "related_to": [
+          "DeepSeek",
+          "GLM 5.2",
+          "Nvidia"
+        ],
+        "novelty": "The video focuses on the specific strategic implications of major Chinese AI companies developing their own hardware, moving beyond the general discussion of AI model development to the critical underlying infrastructure."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "etduwo9Lu3M",
+      "title": "You aren't using Codex like me...",
+      "url": "https://www.youtube.com/watch?v=etduwo9Lu3M",
+      "published": "2026-07-14T16:15:00+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "Codex",
+          "GPT-5.6",
+          "model selection",
+          "AI agents",
+          "thread management",
+          "plugins",
+          "browser integration",
+          "skills",
+          "loops",
+          "remote control",
+          "security",
+          "hooks"
+        ],
+        "stance": "The creator provides a comprehensive guide to advanced usage and safety features of Codex, emphasizing its potential for complex tasks and automation.",
+        "key_claims": [
+          "Choosing the right GPT-5.6 model (Soul, Terra, Luna) and thinking effort level is crucial for efficient task execution.",
+          "Codex's multi-threading and agent capabilities allow for delegation and management of complex workflows.",
+          "Implementing security hooks and cautious approval settings is essential to prevent catastrophic data loss when using powerful AI tools like Codex."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Claude",
+          "Zapier",
+          "Matt Pocock",
+          "Matt Schumer"
+        ],
+        "novelty": "The video delves into lesser-known features of Codex such as inter-thread communication, advanced agent configuration via files, and robust security hooks, going beyond basic prompt engineering to explore sophisticated workflow automation and risk mitigation."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
       "video_id": "mlc9JSTQoxc",
       "title": "Codex is GONE",
       "url": "https://www.youtube.com/shorts/mlc9JSTQoxc",
@@ -605,6 +671,44 @@
         ],
         "related_to": [],
         "novelty": "The video presents a specific, actionable strategy (model routing) for cost reduction in LLM usage that goes beyond general advice, focusing on the delegation of tasks between different tiers of models."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "1KKB_UiW6ls",
+      "title": "Cut your AI cost IN HALF (EASY)",
+      "url": "https://www.youtube.com/watch?v=1KKB_UiW6ls",
+      "published": "2026-07-07T00:29:07+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "model routing",
+          "LLM cost optimization",
+          "AI agents",
+          "AI development workflow"
+        ],
+        "stance": "The creator advocates for a cost-saving strategy called model routing, which involves using cheaper, less capable models for execution tasks and more powerful, expensive models for planning and review, significantly reducing AI bills.",
+        "key_claims": [
+          "Using a 'good enough' model for code execution can save over 60% on AI costs compared to using a frontier model for all tasks.",
+          "Differentiating between planning (requiring high model quality) and execution (where good enough is sufficient) is key to optimizing LLM spend.",
+          "Third-party AI platforms and custom agents are more likely to implement model routing effectively than the frontier model providers themselves."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Codex",
+          "Claude",
+          "Fable",
+          "GPT-5.5",
+          "Composer 2.5",
+          "Cursor",
+          "Factory",
+          "Devin",
+          "Not Diamond",
+          "Brian Armstrong",
+          "Coinbase"
+        ],
+        "novelty": "The video provides a detailed, practical breakdown of implementing model routing, including specific examples of token costs and manual workflow strategies, moving beyond the theoretical concept to actionable steps for developers. It also highlights the differentiating role of third-party tools and custom agents in this optimization strategy."
       }
     },
     {
@@ -3810,5 +3914,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-13T07:45:37.968009"
+  "last_updated": "2026-07-15T06:35:06.990974"
 }
