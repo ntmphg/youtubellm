@@ -1,6 +1,154 @@
 {
   "items": [
     {
+      "channel": "3Blue1Brown",
+      "video_id": "GlYgs6v2YfU",
+      "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
+      "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+      "published": "2026-07-16T11:56:04+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "cross-entropy",
+          "language model training",
+          "compression",
+          "information theory",
+          "Shannon entropy",
+          "distillation",
+          "pre-training",
+          "loss functions"
+        ],
+        "stance": "The creator argues that understanding cross-entropy through the lens of compression fundamentals reveals a deeper, more intuitive understanding of how large language models are trained.",
+        "key_claims": [
+          "The core idea behind compressing files is mathematically related to how language models are trained, specifically through the concept of cross-entropy.",
+          "Cross-entropy, when viewed as a measure of how well a code optimized for one distribution performs on another, naturally arises as the optimal loss function for training language models when minimizing it forces the model's output distribution to match the training data distribution.",
+          "The concept of cross-entropy can be motivated by the information gained from observing data, which directly connects to the idea of how many bits are needed to encode information, a fundamental aspect of compression."
+        ],
+        "related_to": [],
+        "novelty": "The video's novelty lies in reframing LLM training not as next-token prediction but as a compression problem, using the historical example of language trees and compression to build intuition for the role of cross-entropy in modern LLM training."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "3G6AVkp4Rf0",
+      "title": "Why Risk Should Determine Your AI Architecture",
+      "url": "https://www.youtube.com/watch?v=3G6AVkp4Rf0",
+      "published": "2026-07-16T11:00:18+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI architecture",
+          "explainability",
+          "risk management in AI",
+          "data vs information vs knowledge",
+          "AI governance",
+          "AI principles",
+          "operationalization of AI principles",
+          "risk-calibrated requirements"
+        ],
+        "stance": "The creator argues that AI systems should be built with risk as the primary driver for architectural decisions and explainability, rather than simply focusing on ease of construction or theoretical principles.",
+        "key_claims": [
+          "Risk should inform AI requirements and architecture, not the other way around.",
+          "Data plus context equals information, and data plus context plus relationships equals knowledge; many AI systems operate at the data level and fail to achieve true knowledge.",
+          "Explainability in AI is not a single concept but exists on a spectrum (baseline, enhanced, vigilant) determined by the risk level of the use case, and this requires specific architectural considerations."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces a tiered approach to explainability (baseline, enhanced, vigilant) directly tied to the risk level of AI use cases, arguing that this risk-based approach should dictate architectural design and implementation requirements, offering a more nuanced perspective than typical discussions on AI explainability."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "5HTqWgt6ctk",
+      "title": "AI NEWS LIVE",
+      "url": "https://www.youtube.com/watch?v=5HTqWgt6ctk",
+      "published": "2026-07-15T19:56:29+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI hardware",
+          "large language models",
+          "open source models",
+          "model performance",
+          "model pricing",
+          "AI company strategy",
+          "AI capabilities"
+        ],
+        "stance": "The creators discuss new AI developments, particularly hardware and models, with a focus on their practical implications, cost-effectiveness, and competitive landscape.",
+        "key_claims": [
+          "The OpenAI Codeex keyboard is a novel hardware accessory for AI interaction, but its utility is questioned.",
+          "Open-source models are crucial for enterprise fine-tuning and pushing the industry forward, offering cost and data privacy benefits.",
+          "OpenAI's strategic bets on accelerating AI demand, despite initial risks, appear to be paying off compared to Anthropic's more cautious approach, leading to better value for consumers."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Meta",
+          "Microsoft Copilot",
+          "Cursor",
+          "Claude",
+          "GPT",
+          "Fable",
+          "Grock"
+        ],
+        "novelty": "The discussion integrates analysis of AI hardware alongside model releases and company strategies, offering a broad perspective on the current state and future direction of the LLM landscape, including a comparison of strategic business decisions between major AI players."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "WMiylHobhBM",
+      "title": "AI NEWS LIVE",
+      "url": "https://www.youtube.com/watch?v=WMiylHobhBM",
+      "published": "2026-07-15T18:43:18+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "OpenAI hardware"
+        ],
+        "stance": "The creator is excited about the first hardware device from OpenAI.",
+        "key_claims": [
+          "OpenAI has released its first hardware device.",
+          "The team is live and discussing new developments."
+        ],
+        "related_to": [
+          "OpenAI"
+        ],
+        "novelty": "This video announces the release of OpenAI's first hardware device, which is a significant product launch for the company."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "nxr20lcqagg",
+      "title": "OpenAI vs Anthropic",
+      "url": "https://www.youtube.com/watch?v=nxr20lcqagg",
+      "published": "2026-07-15T17:31:52+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "language models",
+          "model comparison",
+          "compute infrastructure",
+          "API pricing",
+          "subscription models",
+          "recursive self-improvement"
+        ],
+        "stance": "The creator argues that while Anthropic currently has the technically superior model (Fable 5), OpenAI is winning the developer market and potentially the AI race due to strategic decisions regarding compute investment, API pricing, and generous user quotas.",
+        "key_claims": [
+          "Anthropic's past mistake of underinvesting in compute infrastructure is causing them to struggle with making their best model (Fable 5) accessible and affordable via subscriptions, which OpenAI is exploiting.",
+          "OpenAI's strategy of frequent quota resets and more affordable API pricing makes their subscription offerings significantly more attractive to developers than Anthropic's current model.",
+          "While Anthropic has the best model, OpenAI's user-centric approach and potential for future advancements through recursive self-improvement position them strongly for long-term dominance."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Sam Altman",
+          "Daario",
+          "Tibo"
+        ],
+        "novelty": "The video provides a comparative analysis of Anthropic and OpenAI through the lens of business strategy and developer experience, focusing on how compute limitations and past investment decisions impact current market positioning, rather than solely on model performance metrics."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "R2kkm87o_XM",
       "title": "China's making their own chips now",
@@ -64,6 +212,70 @@
           "Matt Schumer"
         ],
         "novelty": "The video delves into lesser-known features of Codex such as inter-thread communication, advanced agent configuration via files, and robust security hooks, going beyond basic prompt engineering to explore sophisticated workflow automation and risk mitigation."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "OWPRU_Pc4Ng",
+      "title": "5 AI Myths & The Truth Behind Them: ML, Context, Agents & More",
+      "url": "https://www.youtube.com/watch?v=OWPRU_Pc4Ng",
+      "published": "2026-07-14T11:00:26+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "hallucinations",
+          "tool use",
+          "refusal calibration",
+          "reasoning models",
+          "chain of thought",
+          "faithfulness",
+          "post hoc rationalization",
+          "training costs",
+          "inference costs",
+          "large context windows",
+          "AI agents",
+          "agentic loop",
+          "compounding errors",
+          "human in the loop"
+        ],
+        "stance": "The creator argues that many commonly held beliefs about LLMs are myths, either because they were true of older models but are now greatly reduced due to advancements, or because they represent future possibilities rather than current realities.",
+        "key_claims": [
+          "Modern frontier LLMs have significantly reduced hallucinations through features like tool use and refusal calibration.",
+          "The 'chain of thought' reasoning shown by LLMs is often 'post hoc rationalization' and not a direct reflection of internal computation.",
+          "Inference costs are becoming a larger share of total AI compute than training costs, partly due to the computational demands of reasoning traces in models."
+        ],
+        "related_to": [],
+        "novelty": "The video focuses on debunking specific, commonly held myths about LLMs by providing current data and technical explanations, rather than just describing the capabilities of LLMs or providing general commentary."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "oanQrXEiCy4",
+      "title": "What is an AI Code Generator? LLM Coding, Productivity, & Risk",
+      "url": "https://www.youtube.com/watch?v=oanQrXEiCy4",
+      "published": "2026-07-13T11:00:00+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI code generators",
+          "large language models (LLMs)",
+          "translation metaphor",
+          "code generation",
+          "code security vulnerabilities",
+          "AI code tool adoption",
+          "production-grade AI code generators",
+          "provenance",
+          "governance",
+          "on-prem deployment"
+        ],
+        "stance": "AI code generators are a natural evolution of programming tools, offering significant productivity gains, but their adoption requires careful consideration of security and trust, especially for production environments.",
+        "key_claims": [
+          "AI code generators function as translators, converting natural language into code based on patterns learned from vast datasets, rather than true understanding.",
+          "While AI code generators offer substantial productivity increases, they also introduce security vulnerabilities and the 'illusion of correctness', necessitating human review.",
+          "The distinction between general-purpose AI code assistants and production-grade generators hinges on trust, defined by data provenance, code security, and auditability."
+        ],
+        "related_to": [],
+        "novelty": "The video frames AI code generation not as a magical creative act, but as a sophisticated translation process analogous to historical programming tools, and emphasizes the critical distinction between general-purpose AI tools and enterprise-grade solutions based on trust and specific enterprise requirements like provenance and governance."
       }
     },
     {
@@ -839,6 +1051,29 @@
       }
     },
     {
+      "channel": "AI Engineering Topics",
+      "video_id": "CSCapB2IgwE",
+      "title": "How do AI agents truly correct themselves?",
+      "url": "https://www.youtube.com/shorts/CSCapB2IgwE",
+      "published": "2026-07-05T23:11:01+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "self-correcting AI",
+          "autonomous AI systems"
+        ],
+        "stance": "The creator presents Loop Engineering as a revolutionary discipline for building advanced, self-sufficient AI agents.",
+        "key_claims": [
+          "Loop Engineering focuses on designing autonomous, self-correcting AI agent systems.",
+          "These agents build context, use tools, verify results, and manage memory without constant human oversight.",
+          "The Loop Specification is presented as the blueprint for creating these intelligent, self-healing systems."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces and defines 'Loop Engineering' as a specific discipline for creating self-correcting AI agents, emphasizing the 'Loop Specification' as a key component."
+      }
+    },
+    {
       "channel": "IBM Technology",
       "video_id": "1ItQnh3LWeg",
       "title": "AI Gave You A Promotion: Why AI Isn\u2019t Replacing Jobs",
@@ -968,6 +1203,64 @@
           "Google Stitch"
         ],
         "novelty": "The video demonstrates a novel attack vector exploiting the trust placed in AI skills and marketplaces, highlighting a specific real-world security incident that could impact a large number of users."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "H0QHtVxH5BM",
+      "title": "Telling my chickens that Dario won",
+      "url": "https://www.youtube.com/shorts/H0QHtVxH5BM",
+      "published": "2026-06-30T19:11:57+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI regulation",
+          "AI model access",
+          "AI innovation"
+        ],
+        "stance": "The creator views recent regulatory capture of AI models as a negative development that will stifle innovation and hinder startups.",
+        "key_claims": [
+          "Dario's campaign of fear-based marketing led to regulatory capture of AI models.",
+          "Governmental approval will delay public access to advanced AI, negatively impacting innovation and startups.",
+          "This regulatory approach will allow China to catch up in AI development due to the US slowing down."
+        ],
+        "related_to": [],
+        "novelty": "The video expresses a strong, opinionated stance on the negative consequences of AI regulation for innovation and competition, framing it as a setback for the public and startups."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "TML-0HmxWCE",
+      "title": "\"The best thing since OpenClaw\" (Hermes Tutorial)",
+      "url": "https://www.youtube.com/watch?v=TML-0HmxWCE",
+      "published": "2026-06-28T14:00:35+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "LLM hosting",
+          "skills",
+          "self-healing",
+          "tasks",
+          "memory",
+          "profiles",
+          "plugins",
+          "gateway setup",
+          "model routing"
+        ],
+        "stance": "The creator is highly enthusiastic about Hermes, highlighting its ease of use, extensive features, and configurability for both technical and non-technical users.",
+        "key_claims": [
+          "Hermes can be installed and configured in under 2 minutes, making AI agents accessible to a wider audience.",
+          "Hermes differentiates itself with numerous pre-configured skills, self-healing capabilities, and robust memory management.",
+          "Hermes offers extensive customization options for inference providers, model routing, and plugin integration, alongside easy setup for chat application gateways."
+        ],
+        "related_to": [
+          "OpenClaw",
+          "OpenAI",
+          "Hostinger",
+          "LM Studio"
+        ],
+        "novelty": "The video focuses on the user-friendly setup and broad feature set of Hermes, emphasizing its ability to democratize AI agent usage through pre-built skills, self-healing, and intuitive configuration, rather than just theoretical LLM concepts."
       }
     },
     {
@@ -3914,5 +4207,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-15T06:35:06.990974"
+  "last_updated": "2026-07-16T14:46:57.508833"
 }
