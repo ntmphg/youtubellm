@@ -2,6 +2,105 @@
   "items": [
     {
       "channel": "Better Stack",
+      "video_id": "zj48xrUJCx0",
+      "title": "27 Billion Parameter AI Just Ran on a Phone (No Cloud Needed) #ai #aitools #bonsai",
+      "url": "https://www.youtube.com/shorts/zj48xrUJCx0",
+      "published": "2026-07-17T13:30:15+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "on-device AI",
+          "model compression",
+          "parameter efficiency",
+          "AI privacy"
+        ],
+        "stance": "The creator believes AI is moving towards smaller, on-device, and private models, exemplified by a new efficient architecture.",
+        "key_claims": [
+          "A 27 billion parameter AI model can run entirely on a smartphone without cloud connectivity.",
+          "Model compression techniques allow large models to fit into mobile device memory.",
+          "On-device AI offers enhanced privacy as data never leaves the user's device."
+        ],
+        "related_to": [],
+        "novelty": "The video highlights a specific, large-scale AI model (Bonzai) successfully running on a mobile phone, emphasizing the feasibility of powerful on-device AI and its privacy implications, contrasting with the trend of solely focusing on ever-larger cloud-based models."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "WvfacC0FtbE",
+      "title": "Postgres was rewritten in Rust\u2026 and somehow passed every test",
+      "url": "https://www.youtube.com/watch?v=WvfacC0FtbE",
+      "published": "2026-07-17T12:00:16+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "rewrites"
+        ],
+        "stance": "The creator views the use of AI agents in large software rewrites, like the PG-Rust project, as a potentially transformative development that makes ambitious architectural experiments more feasible.",
+        "key_claims": [
+          "AI coding agents significantly sped up the rewrite of Postgres in Rust, enabling developers to rethink underlying architecture.",
+          "The use of AI agents could drastically reduce the cost of large infrastructure experiments, making previously too-expensive ideas attemptable.",
+          "While the released version of PG-Rust is not production-ready, the speed of its rewrite suggests a paradigm shift in software development costs due to AI."
+        ],
+        "related_to": [],
+        "novelty": "This video explores the impact of AI agents on the feasibility and cost of large-scale software rewrites and architectural changes, moving beyond typical discussions of LLMs for text generation or analysis to their application in core software engineering for complex systems."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "8rGYGFmytQs",
+      "title": "Thinking Machines Lab drops Inkling & Meta\u2019s Muse Spark 1.1",
+      "url": "https://www.youtube.com/watch?v=8rGYGFmytQs",
+      "published": "2026-07-17T10:00:37+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "open source models",
+          "multimodal models",
+          "fine-tuning platforms",
+          "benchmarking",
+          "AGI"
+        ],
+        "stance": "The creators believe that while frontier models are impressive, the future of AI lies in customizable, efficient, and open-source models that can be fine-tuned for specific needs, rather than solely focusing on raw benchmark performance.",
+        "key_claims": [
+          "The current debate in AI is shifting from raw benchmark scores to the effectiveness of open-source models combined with fine-tuning platforms.",
+          "Thinking Machines' 'Inkling' model is notable for its focus on true multimodality and its open-source approach, offering a different path than closed-source frontier models.",
+          "Meta's Muse Spark 1.1, while performing well on benchmarks, is viewed as a 'meh' release by some due to its closed nature and comparison to older benchmarks, highlighting a preference for open-weight models."
+        ],
+        "related_to": [],
+        "novelty": "The video introduces and discusses a new open-source model from 'Thinking Machines' called 'Inkling,' highlighting its architectural choices, multimodal approach, and fine-tuning platform as a novel direction in the LLM space. It also contrasts this with Meta's Muse Spark 1.1, framing the discussion around the evolving landscape of open-source vs. proprietary models and the diminishing relevance of benchmarks alone."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "jsR_2hMPewY",
+      "title": "Kimi K3 just beat FABLE.",
+      "url": "https://www.youtube.com/shorts/jsR_2hMPewY",
+      "published": "2026-07-17T09:09:19+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "open source LLMs",
+          "large parameter models",
+          "long context windows",
+          "LLM leaderboards"
+        ],
+        "stance": "The creator is impressed and excited by a new, powerful open-source LLM from China, highlighting its performance and accessibility.",
+        "key_claims": [
+          "Chinese open-source LLMs have potentially caught up to leading proprietary models.",
+          "The new model, with 2.8 trillion parameters and a million token context window, is frontier-class.",
+          "This powerful model is being given away for free by Moonshot."
+        ],
+        "related_to": [
+          "Moonshot",
+          "Fable",
+          "GPT 5.6 Soul"
+        ],
+        "novelty": "The video highlights a specific, high-performing open-source LLM that is outperforming well-known proprietary models on leaderboards and offers an exceptionally large context window."
+      }
+    },
+    {
+      "channel": "Better Stack",
       "video_id": "QfCpRTLSOB4",
       "title": "Kimi K3 Is Fable Level... (they should be worried)",
       "url": "https://www.youtube.com/watch?v=QfCpRTLSOB4",
@@ -61,6 +160,41 @@
         ],
         "related_to": [],
         "novelty": "The video's novelty lies in reframing LLM training not as next-token prediction but as a compression problem, using the historical example of language trees and compression to build intuition for the role of cross-entropy in modern LLM training."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "LPDWUWP9SCk",
+      "title": "Run Claude Code with Ollama for 99% Cheaper AI",
+      "url": "https://www.youtube.com/watch?v=LPDWUWP9SCk",
+      "published": "2026-07-16T11:00:34+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLM servers",
+          "local LLM deployment",
+          "open-source models",
+          "model integration with tools",
+          "image detection with LLMs",
+          "LLM performance on Apple Silicon"
+        ],
+        "stance": "The creator argues that Ollama is a powerful and versatile tool for running a wide variety of open-source LLMs locally and integrating them with existing applications, offering a compelling alternative to proprietary models and other LLM serving solutions.",
+        "key_claims": [
+          "Ollama allows users to run numerous open-source LLMs, including Gemma and Qwen, through various tools like Claude Code and Open Code, by simply changing environment variables or pointing tools to its server.",
+          "Ollama's integration with Apple Silicon via MLX significantly improves LLM performance on Mac OS by leveraging unified memory and GPU neural accelerators.",
+          "While vLLM is better suited for hosted services and LM Studio offers a GUI, Ollama provides a strong option for local LLM workflows with its CLI and the availability of an official GUI."
+        ],
+        "related_to": [
+          "Claude Code",
+          "Open Code",
+          "Gemma",
+          "Qwen",
+          "Deep Seek",
+          "vLLM",
+          "LM Studio",
+          "Everything LLM"
+        ],
+        "novelty": "The video highlights Ollama's ability to act as a universal LLM server, allowing existing applications (like Claude Code) to seamlessly switch to local or diverse open-source models without code changes, and details its performance optimizations on Apple Silicon."
       }
     },
     {
@@ -4316,5 +4450,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-17T08:41:39.817314"
+  "last_updated": "2026-07-17T14:43:07.059182"
 }
