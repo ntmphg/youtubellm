@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "channel": "Better Stack",
+      "video_id": "QfCpRTLSOB4",
+      "title": "Kimi K3 Is Fable Level... (they should be worried)",
+      "url": "https://www.youtube.com/watch?v=QfCpRTLSOB4",
+      "published": "2026-07-17T01:00:17+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "benchmarks",
+          "coding",
+          "AI agents",
+          "large context window models",
+          "open source models"
+        ],
+        "stance": "The creator is impressed by the KimiK3 model's performance, noting it challenges frontier closed models and demonstrates significant advancements in open-source LLMs.",
+        "key_claims": [
+          "KimiK3, a 2.8 trillion parameter open model, performs comparably to or better than leading closed models like Fable and GPT-5.6 on various benchmarks.",
+          "KimiK3 demonstrates impressive capabilities in complex tasks such as generating a 3.js Formula 1 racing game and a full-stack personal finance management dashboard.",
+          "While powerful, KimiK3 is noted to be expensive to run via API and not intended for local execution by typical users."
+        ],
+        "related_to": [
+          "Fable",
+          "GPT-5.6",
+          "Opus",
+          "GPT-5.5",
+          "Claude code",
+          "GLM 5.2",
+          "Sonic 5",
+          "Terror"
+        ],
+        "novelty": "The video highlights KimiK3's leap in performance as an open-source model, directly comparing its practical coding generation abilities against top-tier proprietary models and providing detailed cost-per-task analysis."
+      }
+    },
+    {
       "channel": "3Blue1Brown",
       "video_id": "GlYgs6v2YfU",
       "title": "But what is cross-entropy? | Compression is Intelligence Part 2",
@@ -146,6 +181,57 @@
           "Tibo"
         ],
         "novelty": "The video provides a comparative analysis of Anthropic and OpenAI through the lens of business strategy and developer experience, focusing on how compute limitations and past investment decisions impact current market positioning, rather than solely on model performance metrics."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "M2WtYYR_Dk0",
+      "title": "Deepseek ban?",
+      "url": "https://www.youtube.com/shorts/M2WtYYR_Dk0",
+      "published": "2026-07-15T13:00:27+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "open-source models",
+          "AI model export controls"
+        ],
+        "stance": "The creator questions the strategic sense of China potentially banning the export of its open-source AI models, contrasting it with their previous market-subsidizing playbook and the alternative of complete isolation.",
+        "key_claims": [
+          "China may ban the export of its open-source AI models in response to US export controls.",
+          "China's previous strategy was to subsidize technology and dominate the global market.",
+          "A potential alternative for China is to isolate its AI market, similar to its social media approach."
+        ],
+        "related_to": [],
+        "novelty": "The video offers a geopolitical and strategic analysis of potential Chinese AI export policies, framing it within China's historical economic strategies rather than a purely technical AI discussion."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "qXGJ7pi-XOo",
+      "title": "GLM-5.2: The real security risk? Plus: Vibe hunting, the end of CVSS and updates on Lightwell",
+      "url": "https://www.youtube.com/watch?v=qXGJ7pi-XOo",
+      "published": "2026-07-15T10:00:00+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "open-weight models",
+          "LLM capabilities",
+          "AI security",
+          "AI agents",
+          "vulnerability prioritization",
+          "threat hunting"
+        ],
+        "stance": "The creators and guests are concerned about the rapid advancement of open-weight LLMs and their potential misuse in cybersecurity, while also acknowledging the benefits and emerging applications of AI in defense and threat detection.",
+        "key_claims": [
+          "Open-weight models like GLM 5.2 are reaching capabilities previously associated with proprietary models, creating a security imbalance as attackers gain access to these unlocked tools.",
+          "The cybersecurity industry is facing a dynamic shift where AI is increasingly being leveraged for both offensive and defensive purposes, necessitating new approaches to vulnerability management and threat hunting.",
+          "While AI agents (like 'vibe hunting') offer potential for accelerating threat hunting and automating tasks, their effectiveness is highly dependent on human expertise and the ability to provide proper context and direction."
+        ],
+        "related_to": [
+          "Joshua Saxe (Meta)",
+          "Jeff (previous episode guest)"
+        ],
+        "novelty": "The video discusses the intersection of cutting-edge LLM capabilities (specifically open-weight models) with practical cybersecurity concerns, exploring the implications of these advancements for both attackers and defenders and questioning the efficacy of new vulnerability prioritization models in the face of AI-driven exploitation and automation."
       }
     },
     {
@@ -1150,6 +1236,29 @@
         ],
         "related_to": [],
         "novelty": "This video focuses on detecting AI writing through the inherent structural 'shape' and predictability of its narratives, rather than just superficial stylistic markers, highlighting specific model-based signatures."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "Qw8qVSZEWBc",
+      "title": "What Is an API? Types, Uses, & AI Integration",
+      "url": "https://www.youtube.com/watch?v=Qw8qVSZEWBc",
+      "published": "2026-07-02T11:00:05+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "APIs",
+          "AI",
+          "machine learning"
+        ],
+        "stance": "APIs are fundamental to the modern digital world and will continue to drive innovation in areas like AI and machine learning by enabling seamless communication and integration between systems.",
+        "key_claims": [
+          "APIs act as the invisible digital glue holding the modern world together, allowing different software applications to communicate and interact.",
+          "APIs enable AI models to go beyond just talking and act on behalf of users, such as booking flights or sending emails.",
+          "APIs simplify development, foster innovation, and facilitate collaboration by allowing developers to incorporate existing services rather than build duplicate functions."
+        ],
+        "related_to": [],
+        "novelty": "The video uniquely positions APIs as a crucial enabler for AI, explaining how they can feed private information into AI models and allow AI to perform actions, thereby enhancing AI's capabilities beyond mere conversational interaction."
       }
     },
     {
@@ -4207,5 +4316,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-17T05:08:57.784388"
+  "last_updated": "2026-07-17T08:41:39.817314"
 }
