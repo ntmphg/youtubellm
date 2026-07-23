@@ -1,6 +1,77 @@
 {
   "items": [
     {
+      "channel": "Better Stack",
+      "video_id": "ucl5oPCFi9g",
+      "title": "AI Just Designed the Chip That Runs AI #openai #ai #programming",
+      "url": "https://www.youtube.com/shorts/ucl5oPCFi9g",
+      "published": "2026-07-23T12:00:09+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI hardware",
+          "inference chips",
+          "custom silicon",
+          "ASIC design"
+        ],
+        "stance": "The creator views OpenAI's development of its own inference chip, designed with AI, as a significant shift in the AI industry where AI labs are becoming hardware creators themselves.",
+        "key_claims": [
+          "OpenAI, in partnership with Broadcom, has developed its own custom inference chip named 'jalapeno'.",
+          "This chip is designed to run AI models at roughly half the cost compared to previous solutions.",
+          "OpenAI's own AI models were instrumental in the design process of the chip, marking a milestone in AI-assisted hardware development."
+        ],
+        "related_to": [],
+        "novelty": "The novelty lies in the detail that OpenAI utilized its own AI models to assist in the design of the custom inference chip, a step towards AI labs becoming hardware developers rather than just consumers."
+      }
+    },
+    {
+      "channel": "IBM Technology",
+      "video_id": "_ZqSFVi6UDY",
+      "title": "Knowing When Not to Use AI: AI Agents vs Rules vs ML",
+      "url": "https://www.youtube.com/watch?v=_ZqSFVi6UDY",
+      "published": "2026-07-23T11:00:00+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "AI agents",
+          "generative AI",
+          "LLMs",
+          "RAG"
+        ],
+        "stance": "The creator advocates for a strategic and disciplined approach to integrating AI, emphasizing that it's not a universal solution and that choosing the right system (humans, rules, ML, or generative AI) for the specific problem is paramount.",
+        "key_claims": [
+          "AI agents and LLMs are best suited for unstructured inputs, interpretation, generation, reasoning, and when flexibility is more important than precision.",
+          "The most successful AI systems will likely be those that judiciously combine humans, rules, machine learning, and generative AI, rather than those that simply use the most AI.",
+          "A primary reason for system failures in production is choosing the wrong system for the task, not necessarily bad models."
+        ],
+        "related_to": [],
+        "novelty": "This video provides a framework for systematically choosing between humans, rule-based systems, traditional machine learning, and generative AI (including LLMs and AI agents) by detailing the strengths, weaknesses, and use cases of each, which goes beyond typical content that often focuses on just the capabilities of LLMs themselves."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "Bf-f2XK4Qv0",
+      "title": "Negotiated my ENTIRE return",
+      "url": "https://www.youtube.com/shorts/Bf-f2XK4Qv0",
+      "published": "2026-07-23T09:31:18+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "ChatGPT",
+          "AI agents",
+          "prompt engineering"
+        ],
+        "stance": "The creator is enthusiastic about using ChatGPT as an AI agent to automate tasks like negotiating returns and refunds, demonstrating its practical value.",
+        "key_claims": [
+          "ChatGPT can successfully negotiate returns and refunds, even when outside the standard return window.",
+          "ChatGPT can act as an AI agent to interact with websites, access customer service, and manage subscriptions.",
+          "Using ChatGPT for these tasks can save significant amounts of time."
+        ],
+        "related_to": [],
+        "novelty": "The video showcases a specific, practical application of LLMs as autonomous agents performing complex, multi-step interactions with external services like e-commerce sites and subscription platforms, going beyond typical content generation or simple Q&A."
+      }
+    },
+    {
       "channel": "Matthew Berman",
       "video_id": "_X0kRfqGsx8",
       "title": "WORST AI Mistakes by Companies",
@@ -366,6 +437,41 @@
         ],
         "related_to": [],
         "novelty": "The video emphasizes the human-like complexity and contradictions within datasets as a primary challenge for RAG, and offers practical solutions like improved document management and clarification loops rather than focusing solely on the LLM's internal mechanisms."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "JrVPIy9AdfQ",
+      "title": "This model just changed everything...",
+      "url": "https://www.youtube.com/watch?v=JrVPIy9AdfQ",
+      "published": "2026-07-18T06:14:32+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "large language models",
+          "open-source AI",
+          "model benchmarking",
+          "AI development"
+        ],
+        "stance": "The creator views the release of Kimmy K3 as a significant advancement in open-source AI, particularly from China, which is challenging established US-based proprietary models.",
+        "key_claims": [
+          "Kimmy K3 is the best open-source model currently available, outperforming proprietary models like Fable 5 and GPT 5.6 on certain benchmarks, especially in front-end development.",
+          "Despite its strong performance, Kimmy K3's size and a million-token context window suggest it requires data center-level infrastructure, not home computer use.",
+          "While Kimmy K3's open-source nature is beneficial for the AI ecosystem, there are potential geopolitical risks for the US if its enterprise AI becomes dependent on Chinese-developed models and, consequently, Chinese hardware."
+        ],
+        "related_to": [
+          "Moonshot AI",
+          "DeepSeek",
+          "Fable",
+          "GPT",
+          "Anthropic",
+          "OpenAI",
+          "Thinking Machines",
+          "David Sachs",
+          "GMO Roush",
+          "Verscell"
+        ],
+        "novelty": "The video highlights a Chinese open-source model challenging the perceived frontier of AI development, contrasting it with US-based proprietary models and discussing the geopolitical implications of this shift."
       }
     },
     {
@@ -4818,5 +4924,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-23T08:41:31.515290"
+  "last_updated": "2026-07-23T14:43:57.837820"
 }
