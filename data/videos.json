@@ -380,6 +380,34 @@
       }
     },
     {
+      "channel": "Matthew Berman",
+      "video_id": "6ugVjmFsDmc",
+      "title": "Anthropic messed up",
+      "url": "https://www.youtube.com/shorts/6ugVjmFsDmc",
+      "published": "2026-07-19T23:48:45+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "LLMs",
+          "model performance",
+          "compute capacity",
+          "AI race"
+        ],
+        "stance": "The creator believes Anthropic made a significant mistake by underinvesting in compute capacity two years ago, which is now allowing OpenAI to exploit this weakness and potentially win the AI race, despite Anthropic having a superior model.",
+        "key_claims": [
+          "Anthropic's underinvestment in compute capacity is a critical mistake that is currently limiting their ability to serve their best model.",
+          "OpenAI is leveraging generous quotas and a strong model (GPT-5.6 Soul) to attract users and gain an advantage in the AI race.",
+          "Despite current disadvantages, Anthropic's best model could still lead to recursive self-improvement and maintain their lead."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Sam Altman"
+        ],
+        "novelty": "The video focuses on a specific historical strategic error (compute investment) as the primary reason for a current competitive disadvantage in the LLM space, rather than solely on model architecture or features."
+      }
+    },
+    {
       "channel": "AI Engineering Topics",
       "video_id": "AmIYccUjXgw",
       "title": "NVIDIA Blackwell B200 vs. OpenAI Jalape\u00f1o: The Future of LLM Inference",
@@ -4924,5 +4952,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-23T14:43:57.837820"
+  "last_updated": "2026-07-24T06:27:43.156334"
 }
