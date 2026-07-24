@@ -1,6 +1,110 @@
 {
   "items": [
     {
+      "channel": "Will Francis",
+      "video_id": "k_sIUmMTl8Y",
+      "title": "Train Claude to write like humans actually do #claude #ai #prompt",
+      "url": "https://www.youtube.com/shorts/k_sIUmMTl8Y",
+      "published": "2026-07-23T22:05:20+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "fine-tuning",
+          "prompt engineering",
+          "AI writing detection"
+        ],
+        "stance": "The creator demonstrates how to fine-tune an LLM (Claude) to reduce AI-like writing by training it on Wikipedia's guide to spotting AI writing.",
+        "key_claims": [
+          "You can train Claude to write more human-like by using its 'skill' feature and feeding it Wikipedia's guide on AI writing.",
+          "The process of training an LLM to sound more human involves stripping out common AI clich\u00e9s identified by human editors.",
+          "The principles of this training method can be applied to other LLMs like ChatGPT and Gemini, even without a paid plan or specific features."
+        ],
+        "related_to": [
+          "Claude",
+          "ChatGPT",
+          "Gemini"
+        ],
+        "novelty": "The video presents a practical, user-friendly method for fine-tuning an LLM to mimic human writing by leveraging Wikipedia's publicly available guide on AI writing patterns, and offers this technique even for users without paid plans or advanced features."
+      }
+    },
+    {
+      "channel": "Matthew Berman",
+      "video_id": "QNEo_tl-nhw",
+      "title": "You NEED to do this (HUGE AI SAVINGS)",
+      "url": "https://www.youtube.com/watch?v=QNEo_tl-nhw",
+      "published": "2026-07-23T21:01:48+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "tokens",
+          "token cost",
+          "token density",
+          "model comparison",
+          "cost optimization",
+          "multi-model workflows",
+          "open-source vs closed-source AI models",
+          "AI economics"
+        ],
+        "stance": "The creator argues that optimizing AI usage involves understanding token economics and strategically combining different models, rather than solely focusing on prompt engineering, to achieve both high quality and cost-efficiency, with open-source models poised to drive down costs.",
+        "key_claims": [
+          "Not all tokens are created equal; their 'intelligence density' and cost significantly impact overall task completion cost.",
+          "A hybrid approach using different models for planning, execution, and review can deliver superior results at a lower cost than using a single frontier model.",
+          "The rise of open-source models like Kimmy is creating a competitive landscape that will drive down token prices and shift AI profits towards other parts of the tech stack."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Claude",
+          "GPT-5.6",
+          "Kimmy K3",
+          "Grock 4.5",
+          "Nvidia",
+          "Mittlifi",
+          "Posthog",
+          "Zapier",
+          "Substack"
+        ],
+        "novelty": "The video introduces the concept of 'token density' and its crucial role in determining the true cost-effectiveness of AI models, moving beyond simple price-per-token metrics and emphasizing strategic multi-model workflows for optimization."
+      }
+    },
+    {
+      "channel": "Better Stack",
+      "video_id": "YAcIUCjsRnU",
+      "title": "Inkling: This Open-Weight Model Wants To Be Fine Tuned",
+      "url": "https://www.youtube.com/watch?v=YAcIUCjsRnU",
+      "published": "2026-07-23T16:34:35+00:00",
+      "summary": {
+        "is_llm_related": true,
+        "topics": [
+          "language models",
+          "fine-tuning",
+          "multimodal models",
+          "mixture of experts",
+          "LoRA",
+          "prompt engineering"
+        ],
+        "stance": "The creator presents a new, multimodal, open-source model (Inkling) as a strong candidate for fine-tuning on specific tasks, especially those involving audio, due to its unique architecture and processing capabilities.",
+        "key_claims": [
+          "Inkling processes audio and visual data directly as spectrograms and pixel patches, respectively, bypassing transcription or encoding steps to potentially reduce data loss compared to traditional multimodal models.",
+          "Fine-tuning is most beneficial for teaching a model 'how to answer' (e.g., tone, structured output) rather than 'what to know', and can be more cost-effective and efficient than using large generalist models for narrow, high-volume tasks.",
+          "Inkling's architecture (Mixture of Experts) and its platform Tinker, which supports LoRA for efficient fine-tuning, make it a compelling option for specialized applications, particularly when raw audio input is required."
+        ],
+        "related_to": [
+          "OpenAI",
+          "Anthropic",
+          "Hugging Face",
+          "GLM-130B",
+          "GPT-4.0",
+          "Queen",
+          "Kimmy",
+          "Deep Seek",
+          "Nvidia",
+          "Chimera 3"
+        ],
+        "novelty": "The video highlights Inkling's novel approach to multimodal processing by directly integrating audio and visual data into the same token space as text, without intermediate transcription or encoding steps, which is presented as a significant differentiator. The demonstration of self-fine-tuning via prompt engineering for specific constraints (like avoiding the letter 'e') is also a unique feature showcased."
+      }
+    },
+    {
       "channel": "Better Stack",
       "video_id": "ucl5oPCFi9g",
       "title": "AI Just Designed the Chip That Runs AI #openai #ai #programming",
@@ -4952,5 +5056,5 @@
       }
     }
   ],
-  "last_updated": "2026-07-24T06:27:43.156334"
+  "last_updated": "2026-07-24T08:41:26.562832"
 }
